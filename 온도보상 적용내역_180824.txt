@@ -1,0 +1,31 @@
+
+* preprocessingParameter() 호출지점
+     0. updateLoadDataToModuleArray()
+        : preprocessingParameter(mModuleArray.Count + 1, mo, ch, arrayInitialData[mo, ch], arrayHeatedData[mo, ch]);
+
+적용1. updateModuleResultData() --> 실시간 업데이트용 -> 모듈별 업데이트됨
+                                 --> arrayInitialData[mo,ch], arrayHeatedData[mo,ch]에 값이 저장
+                                 --> 모든 모듈 측정완료시 updateDataBase() 호출되어 여기서 업데이트
+                                        mModuleArray는 업데이트 되지 않은 상태라 Count가 하나 작음: mModuleArray.Count + 1
+        : preprocessingParameter(mModuleArray.Count + 1, mo, ch, valueMin, valueMax);
+
+적용2. UpdateChartWithRawData()
+        : preprocessingParameter(index + 1, mo, ch, min, max);
+
+적용 3. UpdateMultiChartWithRawData()
+        : preprocessingParameter(index + 1, mo, ch, min, max);
+
+
+<적용2, 3 공통> N-1번째 SF값을 재 업데이트
+if (cbTCompensation.Checked == true)
+{
+  float compensatedSFValue;
+  if (index > 1)
+  {
+    compensatedSFValue = preprocessingParameterCompensation(currentDate, index + 1, mo, ch, min, max);
+    chart.Series["SF"].Points[chart.Series["SF"].Points.Count - 2].YValues[0] = compensatedSFValue;
+  }
+}
+
+양액제어는 N번째 기준으로 적산이 되어, N-1번째를 업데이트하기때문에 불가능
+

@@ -1,0 +1,72 @@
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+c:\users\hyunj\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LCR_Test.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.LCR_Test.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySerialData\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SF_Test.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SF_Test.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmChart.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMultiChart.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSFmodule.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSubChannelChart.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmChart.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSfModule.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSubChannelChart.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SF_Test.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSetup.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmChart.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSetup.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSfModule.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmMultiChart.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSubChannelChart.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SF_Test.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmCalibration.resources
+C:\Users\hyunj\Documents\Visual Studio 2015\Projects\DisplaySFTest_MDI_cmd\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmSoilMoisture.resources

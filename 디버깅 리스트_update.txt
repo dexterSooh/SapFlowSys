@@ -1,0 +1,487 @@
+디버깅 문제
+ - VC변경시 실시간 로그가 2번 세팅됨 --> 9/13일자 0.917수정
+ - VC Channel변경시 변경 채널만 로그가 세팅됨--> 9/5일자 이후 개선됨
+ - Setup내용이 VC에 반영되지 않아 강제 종료됨
+ - Control Lock시 VC STOP, data버튼 비활성화할것
+     --> 동작하지 않도록 막음(부모창 컨트롤을 반영하기 쉽지 않음)
+ - 모듈수가 작은경우, Export SF버튼 오류발생 --> v0.922수정
+
+ - 3/16 하루종일 관수가 되지 않는경우(2회이하) 마감시간 기준으로 추가적인 비상관수 입력시킴(v1.137적용)
+ - 3/19 하루종일 관수가 되지 않는경우오전 12시기준 강제관수 알고리즘
+ - 4/02 백업파일에 Ratio값이 0으로 채워짐(v1.142수정)
+ - 4/02 양액제어그래프가 load시에는 스케일이 움직이지 않음
+ - 5/01 백업 Window를 Full을 default로 수정필요 -> v1.147
+ - 5/01 데이터 로딩시 MO1, CH01이 disable되는 문제 수정필요
+ - 5/01 Multichart에 대한 Compact Data옵션이 Release Mode시 Factory에서 풀리지 않음 -> VC체크를 풀면 풀림
+ - 5/01 Release Mode시 Factory에서 VC On시 multichart 창의 크기를 줄이지 않음
+ - 5/08 서버 직접 업로드시 ms단위 세분화 되어 이중 업데이트 됨
+        -> 기준시간의 최소단위를 초단위로 한정(ms = 000ms), v1.147s
+18/08/24 v 1.154
+  - 온도보상 루틴 추가(Extend Screen후 오른쪽 하단의 Temp. Compensation체크박스로 Enable)
+
+18/08/02 v.1.153
+  - Message Box with Auto Close Form 제작후 MessageBox 함수를 대체, 5초이후 자동 닫히도록 수정
+  - Lock 체크시 Backup(term)버튼이 계속 활성화된 문제 수정
+  - 양액제어 창내의 setup버튼 비활성화(메인창에서 호출가능)
+  - Command 처리도중 팝업되는 창에 대해 Timer가 멈추는 증상개선을 위해,
+    Command처리도중에는 하기의 버튼이 동작하지 않도록 수정
+    버튼동작을 하지 않는 경우 메시지 창에 "Prohibited during Communication in Progress." 표시
+ 	1. btGraphOpen_Click
+	2. button3_Click
+	3. btBackupLog_Click
+	4. btBackupLogCPT_Click
+	5. ParaSet_Click
+	6. btParaSetAll_Click
+	7. subParaSetTm
+	8. setParaSetTmAll
+	9. btTmAdjust_Click
+	10. btTmAdpative_Click
+	11. btSavePreset_Click
+	12. btLoadPreset_Click
+	13. button1_Click
+	14. button5_Click
+	15. button6_Click
+	16. button7_Click
+	17. btMultiViewOpen_Click
+	18. btTmAdjustLast_Click
+	19. btTmAdjustAll_Click
+	20. btExportSF_Click
+	21. SF_Test_FormClosing
+	22. btParaSet_Offset_Click
+	23. btParaReset_Offset_Click
+	24. btMinMaxtoVC_Click
+	25. btMinMaxfrimVC_Click
+   
+18/08/01
+  - 모듈과 통신동작 시점에서, Close등의 버튼을 눌러 경고 창/메시지가 팝업되면, 
+   측정동작이 멈춤(7/30 19시 ~8/11 11시)
+     --> 실시간 쓰레드(타이머) 처리 도중 셋업창이 팝업되면 멈추는 증상
+
+
+18/07/27 
+  - 통신이 끊겨 측정이 안되는 상황의 예외처리 구현: SF=0, RT=0으로 처리
+  - 측정시작시 변수를 clear하여 기존변수값이 사용되지 않도록 함
+
+18/07/09 
+  - 동작중 VC관련 log 세분화하여 저장
+  - Back Log Reading 시 VC관련 data log write skip
+  - Sub Form ICON 추가
+  - Multichar가 taskbar에 표시되지 않는 문제 수정(Form.ShowInTaskbar = true)
+  - Module 번호 변경 아이콘 크기 늘림 [<<, >>]
+  - Multi Chart의 창 개수 Width, Height가 재로드시 유지되도록 수정
+  - Multi Chart의 그래픽관련 버튼 설정이 재로드시 유지되도록 수정
+  - Setup동작이후 MultiChart를 Close/ReOpen처리(Enable 모듈이 변경되는 경우 오류발생)
+
+18/0705q
+  - 측정시간의 뒷자리 ms =000으로 설정
+  - Source Consistency를 위해 server구현용 소스 일부 포함시킴
+
+18/06/25 v.1.151
+  - 파라메터 튜닝시 가열시간을, 실제 측정시 사용하는 값으로 설정(20초)후 재 튜닝
+     a,b,c, tm, 초기값 수정: a=3.5391, b=1.4672, c=0.000522, Tm=1.8265
+        // 변경전(18/6/21)
+        public static paraSapFlow Default_Const_SFParameter = new paraSapFlow(2.9749f, 1.8121f, c=0.000522f, 2.1041f);
+        // 변경후(18/06/25 변경, v1.151이후)
+        public static paraSapFlow Default_Const_SFParameter = new paraSapFlow(3.5391f, 1.4672f, 0.000522f, 1.8265f);
+
+18/06/21 v.1.150
+  - a,b,c, tm, 초기값 수정: a=2.9749, b=1.8121, c=0.000522, Tm=2.1041
+         // 변경전
+        //public static paraSapFlow Default_Const_SFParameter = new paraSapFlow(5.16031f, 1.01271f, 0.000396f, 1.8f);
+        // 변경후 :
+        public static paraSapFlow Default_Const_SFParameter = new paraSapFlow(2.9749f, 1.8121f, c=0.000522f, 2.1041f);
+         
+  - ini파일옵션에 따라 Valve Control관련 메뉴항목 : Setup항목 
+18/06/11 v.1.149
+  - INI파일에 "Valve Control: ON" 옵션 추가
+  - ini파일옵션에 따라 Valve Control관련 메뉴항목 On/Off전환
+  - Debug용 Log표시창을 Release모드시 숨김(Release모드창의 변경됨)
+  - 윈도우 시작시 자동 부팅기능은 Debug Test용으로 전환(debug옵션, "autostart" 입력시 활성화)
+  - 초기 "입력문자열의 값이 잘못되었습니다" 문구 표시되는 증상 없앰
+    : 값이 65535인경우 "--"표시하는 부분이 이후 추가된 문자열 확인중에 경고 발생
+  - 모듈 Max.값을 40 -> 32로 수정
+
+18/06/07
+  - 센서교체시 필요한 Reset버튼 기능 추가
+    .- Min, Max초기화
+    .- Tm값을 초기값으로 복귀(Tm=1.8)
+       : a,b,c는 setup설정을 참조, Tm= 1.8(상수값)을 사용, Setup의 tm은 조정후 변경됨.
+  - Graph의 Position Display기능이 최초에 표시 안되는 문제 수정
+  - 양액제어관련 Log File("VC18__.log")파일이 양액제어 안하는 경우 생성하지 않도록 함
+
+18/06/04 
+  - 윈도우 시작시 자동 부팅 테스트(Registry입력)
+     레지스트리의 Name은 "프로그램명.exe"로 관리함
+      --> 실행 프로그램 이름이 같은경우 하나의 프로그램으로 취급
+          즉, 시작 경로가 다르더라도 동일 프로그램으로 보아, 해당 옵션의 값을 받아옴
+   
+     Case 1. 레지스트리의 Name과 경로가 Not Defined --> Checkbox Disable상태로 시작
+     Case 2. 레지스트리에 Name과 경로가 Defined
+         Case2-1. 레지스트리 Name과 프로그램 Name이 불일치하는경우 --> 서로 다른 프로그램 취급,  Checkbox Disable 상태로 시작
+         Case2-2. 레지스트리 Name과 프로그램 Name이 일치하고, Path가 동일한 경우 --> Checkbox Enable 상태로 시작
+         Case2-2. 레지스트리 Name과 프로그램 Name이 일치하고, Path가 다른 경우 --> 레지스트의 Path를 업데이트하고, Checkbox Enable 상태로 시작
+
+18/05/29 v1.148
+  - 저장위치가 영문시 틀어짐(yy/mm/dd 설정시 sub folder생성됨)
+    --> yy-mm-dd로 수정
+           1. log : 실시간저장위치
+           2. log_SF : SF값 저장위치
+           3. log_daily: Backup 위치
+  - Tm변경시 결과 표시 메시지를 영문으로 변경
+  - 한글 표시 메시지 영문 변경
+  - Multichar의 버튼 Text가 잘리는 문제 수정
+
+
+18/05/15 v1.147
+  - Calibration이후 바로 Start시 Start가 되지 않는 문제 수정
+  - Backup Term 초기값을 Full로 변경
+  - positionInfoToolStripMenuItem초기값을 true로 변경
+  - 멀티창 ch이 18개인경우 3*6배치, 24개인경우 4*6 배치
+
+11/05/08 v1.147-server
+  - 측정시간 기준시간의 최소단위를 초단위로 한정(ms = 000ms)  
+
+11/05/04 v1.146-server
+  - 서버통신관련 소스코드 모듈화 및 최종 프로그램에 적용
+  - Client.Connection이후 계속 유지되어, Server주소를 바꾸어도 업데이트
+    안되는 문제 수정
+
+
+11/04/11 v1.146(R)
+  - 릴리즈 배포용 프로그램 준비
+  - COM port연결전에는 Calibration버튼 비활성화 시킴
+  - Extend Screen버튼을 추가하여 TM값을 유저가 조정가능하도록 함
+  - Factory Mode유무에 따른 Extend Screen기능 차별화
+  - Calibration시 통신이 원할하지 않는경우 에러문구 표시후 동작 정지시킴
+  - DEBUG모드/RELEASE모드시 활성창의 크기를 구별
+  - COM포트 복구시 List의 Selection값이 0로 리셋되어 표기되는 문제 수정
+
+11/04/09 v1.145
+  - Multichart재로드시 Max.값 원복(Min, Mix체크가 된경우에 한함)
+  - Backup용 Log 날짜선택
+  - SF용용 Log 날짜선택
+
+11/04/04 v1.144
+  - 양액제어그래프가 OFF된경우에 COLOR표시 안되는 문제 수정
+  - 양액제어 세팅창에 Enable체크의 업데이트 선택 유무 Flag추가
+  - 양액제어창이 실수로 닫히는것을 방지하기 위해,
+    Close유무를 메시지로 한번더 물어보도록 함
+
+11/04/03 
+   - 멀티창 색변경
+      .- Mask On(배경흰색, 그래프칼라)/Off(배경회색, 그래프 회색)
+      .- 양액제어 ON(그래프 칼라)/ OFF(그래프 회색)
+      .- Mask OFF(죽은센서)된 신호가 양액제어에 사용되는경우,
+         예외적으로 Mask버튼과 무관하게 (배경RED)로 화면에 표시
+
+11/04/02 v1.142, v1.143
+   - SF시작/정지 버튼에 녹색, 오랜지색을 설정하여 시작확인(시작되면 녹색, 정지되면 오랜지색)
+   - Tm설정(Auto, All모듈/채널, Daily) 기능 추가
+   - v1.143 양액제어 스케일 조절 안되는 버그 수정, VC그래프 Enable에 따라 표시 ON/OFF
+18/03/30
+   - 양액제어 표시 Frame정비(버튼위치, 그래프위치, 미사용 Tab패널 삭
+   - Com Port가 잠시 끊긴경우에 대해 Comport Update로 재복구하는 기  능 구현 시작
+   - 포트연결시 버튼 표시를 ("연결"-->"Connected" 대체), 버튼 위치 수정
+   - 양액제어 Start/Stop버튼에 색으로 표시(Start시 녹색, Stop시 오랜지색)
+
+18/03/29 v1.141
+   - 양액제어를 위한 Initialize 부분 검증진행
+   - Multi Chart 시간데이터 표시가 중첩되어 걸리는 Load줄임
+   - VC to Min/Max시 fg를 강제로 켜서 Min, Max값이 조절되도록 함
+
+18/03/28 v1.140
+   - multi chart on/off시 기존데이터 로드 기능 추가
+   - 마지막 Tm값 기준으로 전체 데이터를 업데이트하는 기능 추가([Tm(Last Value)]버튼)
+   - multi chart내에 범위별 시간데이터 표시
+   - RTemp의 MIn, Max flag를 Off시 Mask버튼으로 그래프 표시에서 제외함
+
+18/03/26 v1.139
+   - 화천용 Multi Test 프로그램 릴리즈
+
+18/03/23 v1.138
+   - MultiChart용 메인창 수정, 화면 색 통일
+   - Factory Mode용 버튼 정돈(의미 재정의, 기능별 버튼 정리)
+
+18/03/17 v1.137
+   - 하루 마감시간 30분전에 비상급수 여부 판단(하루 총 3회이하시)
+
+18/03/13 v1.136
+   - 금용연교수 릴리즈용 
+   - Setup에서 모듈 Enable을 변경시 윈도우 위치 초기화
+
+18/03/13 v1.135
+   - VC관련 Dispose Data로 이전데이터의 그래프 표시를 간소화
+
+
+18/03/12 v1.134
+   - 그래프 Min, Max루틴 수정(빈칸 Enter시 비활성화처리, offset 설정시 Min, Max 초기화)
+   - Y2그래프 현위치 표시용 StripLines제거(미사용, 화면 키울때 나타남(크기 0.001)
+   - Scale단위에 따른 x축 표시값 상세튜닝
+   - Dispose Data로 이전데이터의 그래프 표시를 간소화
+
+18/03/11 v1.133
+   - 비사용 그래프값 표시 숨김(환경온도/습도/VPD)
+   - mouse 위치의 정보표시 오류시 try-catch처리
+
+18/03/11 v1.132
+   - 그래프 실시간 표시시 비정상 센서값 입력시 오버플로우 발생-> try예외처리
+   - 비사용 그래프 업데이트 방지(환경온도/습도/VPD)
+   - 초기에 sf값이 0인경우 설정하던 MAX1000 값을 제거
+
+18/02/05 v1.131
+   - VC관련: 이어붙인경우(측정 TimeGap이 5분이상)에는 누적 적산량을 Clear시킴
+   - VC관련: 이어붙인경우(측정 TimeGap이 5분이상)에는 Max Time에 의한 강제물주기를Clear시킴
+
+
+
+18/01/22 v1.13
+   - SF값이 큰경우 그래프 최대화시 오버플로우 발생: SF최대값을 999,999로 제한(Label: 0122'18 )
+   - Positin위치의 SF값을 표시하는 X,Y축 그래프를 ON, OFF가능하도록 수정
+
+18/01/08 v1.12
+   - Display창 2줄만 보여 세로축 늘림
+
+17/12.18 v1.11
+   - Graph재로드 버튼으로 그래프 ON시 Scale 조정 설정
+   - 최소값만 설정후 Graph재로드시 오류발생, min, max조절함수 재수정
+   - Load시 초기 Scale설정값 유지
+
+17/12/15 v1.1
+   - Windows Parameter를 파일로 Backup, Load기능 추가
+   - 시리얼포트 연결시, update Com Port기능 추가
+   - Debug(Command, Responde)데이터 출력 모드 추가(debuglevel88)
+
+17/12/14 v1.005
+   - 양액제어창과 메인창의 Min, Max설정값을 Export/Import하여 상호 연동하도록 수정
+   - 그래프 min, max 저장 및 Windows Parameter위치에 저장하여 재실행시 반영되도록 함
+   - Minus Offset 대응
+   - COM포트 업데이트 버튼 추가
+
+17/12/13 v1.004
+   - 창위치 저장 및 Windows Parameter위치에 저장하여 재실행시 반영되도록 함
+
+17/12/11 v1.004
+   - a,b,c값을 ini파일에 저장/초기화/로드 루틴 추가
+   - VC 그래프 화면의 Zoom 커서를 붉은색 -> 회색으로 변경
+
+17/12/08 v1.004
+   - Setup화면상의 a,b,c값 조정이 가능하도록(릴리즈모드에서도) 창을 Open
+   - VC 그래프 화면의 Zoom 커서를 붉은색 -> 회색으로 변경
+
+17/11/24 v1.004
+   - Calibration 동작이후 Start시 초기에 조기 완료되는 형대로 나옴
+     원인: Calibration시 1초정도 소요후 Return Data가 올라오는데, Calibration창 종료이후 받은 Return Data으로 인해, 
+           이후 Command의 Sequence가 1번씩 밀림
+     수정: Calibration창 종료시, 1초 대기후 CommandBufferClear()를 호출하여 기존 데이터를 삭제함
+
+17/11/15 v1.003
+   - 프로그램시작시, 영문윈도우에서 Chile SFModule창이 Pop-up되면서 SizeChanged 이벤트가 발생함
+     이때, 그래픽창이 생성화되기 전인데도 불구하고 화면을 배치하는 동작을 수행하여 오류발생
+   - Always On Top Default동작을 Off시킴
+   
+17/10/25 v1.002
+   - Tm대신, 센서의 delta T값을 프로그램 동작시 초기입력으로 설정
+      1. 초기 설정파일(ini) Create, Load, Save루틴에 관련 파라메터 관리하도록 수정
+      2. delta T값을 Setup화면에 표시하고, 타 파라메터에 대한 정보는 숨기도록 설정
+      3. Offset Reset시 설정값에 연동되도록 수정
+
+17/10/23 v1.001
+   - Tm = 0.00052 --> 0.000522변경
+   - Auto Tm조정 비활성화
+   - 프로그램종료시, 프로그램 수행중 유무를 체크하여 수행중 종료되지 않도록 수정
+   - Version명에 릴리즈 시간(시간:분:초)삭제, Program
+   - Factory Setting 화면 OPEN시 버젼명에 시간 표시
+
+17/10/20 v0.927
+   - Factory Mode진입시 ID, PW입력시 보이지 않도록 숨김
+   - Auto Tm조정 비활성화
+   - 프로그램종료시, 프로그램 수행중 유무를 체크하여 수행중 종료되지 않도록 수정
+   - Version명에 릴리즈 시간(시간:분:초)삭제, Program
+   - Factory Setting 화면 OPEN시 버젼명에 시간 표시
+
+17/10/19 v0.926
+   - offset set버튼 enable/disable기능 추가
+   - offset text업데이트 추가
+   - Reset Offset버튼추가(Tm을 1.8로 되돌림)
+   - offset text 예외처리 추가
+   - SF Offset값을 기준으로 Tm을 계산하는 루틴 추가
+        // Convert Offset(SF) Value to Tm
+        // SF = a*((Tm-Tdiff)/Tdiff)^b, where Tdiff=c*(tman - tmin)
+
+        // Calculate Tdiff = Tm /(1+ temp)
+        //                  where temp = (SF/a)^(1/b)
+        // SF = offset
+        // Tm = current Tm
+        // temp = (offset/a)^(1/b)   
+   - Graph상에서 안쓰는 값들을 표시되지 않도록 함
+     : File메뉴, 온도, 습도, VPD표시 유무
+   - Connection이 된 이후 COM port설정변경창의 제어를 금지 시킴
+   - Graph창 Reload시 Time Scale이 Full이 되도록 변경
+
+ 
+17/10/18 v0.924
+   - 10/17일 적용사항 Aging시 동작안되는 문제 디버깅
+     --> 기존 Logging금지flag동작과 연계하여, 관련 변수 설정이후 동작되도록 시점 변경
+   - System Connection대기 도중 Connection을 끊으면 오류발생하는 문제 수정
+
+
+
+17/10/17 v0.924
+   - Auto Tm Calculation동작이 측정시점에 따라 금지되어 실행되지 않는 경우발생
+     --> 동작이 가능한 시점까지 기다렸다가 수행되도록 변경
+
+17/10/16 v0.922
+   - Tm설정시 Backup Log의 File명에 해당 모듈, 채널번호 명시
+   - Auto Tm Calculation관련 Log에 몇시의 값을 참조하는지 표시
+	[ ]0, 1037, 25
+	[*]1, 1041, 26
+	[ ]2, 1035, 25
+	[ ]3, 1035, 26
+	[ ]4, 1029, 25
+	[ ]5, 1028, 26
+	2017-09-22 오전 6:01:53, Mo1, Ch1, [MAX]1041, [Tm]0.54132000147365
+
+17/10/12 v0.921, v0.922
+   - "Export SF" 기능 재구현(양액제어관련을 사용안하는경우 에러발생)
+   - Log 로드시 초기값을 Full Scale로 표시
+   - Calibration시작시 Confirm화면 삭제
+   - 채널 측정 데이터를 얻어오는 동안 커서키에 금지 표시를 추가
+     : 동작중 데이터 Export가 안되는 상황을 유저에게 표시하기 위함
+   - 초기 시리얼포트 연결 대기시간동안 커서키에 모래시계를 표시
+   - 상태표시 progressbar추가
+     : 멈춤상태: 0%
+       Start   : 10%
+       CH1 측정중: 10~30%
+       CH2 측정중: 30~50%
+       CH3 측정중: 50~70%
+       CH4 측정중: 70~90%
+       측정완료  : 90  %
+       측정데이터Read: 100%
+
+17/10/11 v0.920
+   - 프로그램 디버깅모드-> 릴리즈모드 변경
+
+17/09/28
+   - 그래프창 크기변경시 창순서 재배치되는문제
+     frmSFModule_ResizedEnd에서 BringToFront()를 통해 재배치하도록함
+   - 화면 재배치를 위해 사용하던 Minimized->Normal Sequence를 BringToFront()로 대체
+   - 1ch표시시 Maximize대신 Normal + MDI Layout을 사용하여 멀티창과 크기를 일관되도록 함
+   - 그래프창에서 오른쪽 클릭시 Hide메뉴 추가
+   - Login Password가 exe파일에 공개되는 것을 막기위해, password 검증절차를
+     string비교에서, 다른 방식(text를 숫자화 하여 하나씩 비교)으로 진행
+   - Lock Control시 VC Stop버튼을 동작하지 않도록 함
+ 
+
+17/09/27
+   - Multi창 실행시 Focus를 Main Form에 유지하도록 수정
+   - Log 로드시 Main Form과 Valve Form이 가려지는 현상 수정  
+   - Valve Control로딩을 Default Off로 변경, Enable를 체크하는경우에만 동작되도록 수정
+   - 데이터 Clear시 메시지창을 띄워 사용자 재확인진행
+   - Setup 파라메터 수정시, Save버튼으로 저장후 취소처리가 무의미하여 Cancel버튼을 Disalbe시킴
+   - Setup동작에서 Cancel을 하는 경우에는 창 재로드를 하지 않음.
+   - 동작하는 모듈을 변경시, Disable된 잔존창이 지워지지 않는 문제 수정
+   
+17/09/26 v0.919 --> 사무실 테스트진행(1일)
+   - 메인창 레이아웃 변경
+     .- 온습도창 분리후 숨김
+     .- Log창 배치 변경
+   - 메뉴 숨김을 위한 Login 창 추가: ID="telofarm", PW="123456"
+     .- 로고를 5번 이상 클릭시 Login창 팝업됨
+   - 사용자용 Message Box추가하여 개발자용 Message창과 내용 분리함
+   - Lock Close시 비활성 버튼 추가확인(Calibration버튼, Export SF버튼, Tm Set버튼, Tm창)
+   - Lock Close와 Lock Control확인버튼을 Lock 버튼으로 통합
+
+17/09/22
+   - Lock Contol시 Setup버튼 비활성화
+   - Clear버튼이 [Lock Close]동작안함으로, Setup시에도 Lock Close가 되지 않은 경우에만 
+     실행되도록 함
+   - Setup에서 활성화된 모듈 Radio Box만 Visible되도록 수정(기존에는 Enable Flag만 업데이트함)
+
+17/09/21
+   - Setup설정 종료이후, 설정을 반영하고 창을 재로드하기위해
+     사용자가 Clear버튼을 조작해야하는데,  자동 실행될 수 있도록 변경
+   - Setup설정시, "Lock Setup"이 설정되도록 하여, 임의의 조작으로 변경되는 것을 막음
+   - "*.ini"설정 조작용 Sub-funcion제작(createIniFile, saveIniFile, loadIniFile)
+   - 시작시 ini파일을 로드하여 모듈Enable정보를 업데이트
+   - Setup설정 변경시 ini파일을 업데이트하여 이후 로딩시 적용되도록 함
+
+
+17/09/20
+   - Calibration 화면 조정
+     - AD값이 11000 ~13000 사이값시 정상(녹색)표시되도록 변경(기존 11500~12400)
+     - X축 Label 표시 삭제
+     - Y축상에 Lower/Upper Limit위치 표시(StripLine)
+     - 색상조절: Silver, Green Tone
+     - Text Font크기 변경
+   - 시리얼 Connect시 대기시간 3초동안 Log창에 표시
+   
+
+17/09/18 v0.917 
+제품용 프로그램용 변경진행
+   - 불필요 FrameForm, References, Resource, Image, Icon삭제
+   - Renaming namespace: "WindowsFormsApplication1" --> "SapflowApplication"
+   - Build Version, Revision 추가:
+	Program_Name+ v0.917(17-09-18) -->  Program_Name+ v0.917(17-09-18 12:58:00,r23340)
+    
+      Module Data Array의 Index가 [-2] offset으로 설정되어 2번 중복되어 Log출력됨
+
+17/09/13 v0.917 
+   - Module Data Array의 Index가 [-2] offset으로 설정되어 2번 중복되어 Log출력됨
+     : Index2 ~ Index3사이에 VCPara변경시,
+       --> Index3에 VC Log: VCPara[index1]~ VCPara비교 => mismatch로 출력(*)
+       --> Index4에 VC Log: VCPara[index2]~ VCPara비교 => mismatch로 출력(*)
+       --> Index5에 VC Log: VCPara[index3]~ VCPara비교 => match로 출력안함
+   - VCParameter배열 초기화시 SFModuleLength를 참조하여 발생, 
+    이값이 8보다 작은경우 VCParameter배열이 작게잡혀서 에러발생
+
+17/09/8 TEST
+   - 정전류방식 Test를 위해 초기값과 가열된값을 swap하여 처리하는 Test프로그램 작성
+
+
+17/09/07 v0.91 
+   - Axix View Change시 X축 라벨 조절 기능을 각 창마다 추가
+
+
+17/09/05 v0.916 
+   - Log저장시 VC관련 모두 저장되도록 함(8/28일 수정내역 + 추가버젼)
+1
+17/09/04 v0.914
+   - 프로그램 종료시 Exit에서 No한경우 바로 Abort하도록 함
+   - Max/Min Time기능 구현
+   - Start/End, Max/Min Enable/Disable기능구현
+   - LockControl시 Valve관련 파라메터/버튼 동작 접근 제한
+   - 누적적산량 max값 제한(99999)
+
+	 v0.915
+   - VC zoom시 x축 표시라벨 상세 조절 
+   - 누적량이 된경우, 해당값을 빼고 남은값은 유지하도록 함
+   - Min Time에 의해 지연되는 경우 이후 누적적산을 하지 않음
+   - Max Time에 의해 강제 물주기를 하는 경우 누적적산값을 0로 클리어
+
+17/09/01 v0.913 
+   - 최초 updateDataBase시 ModuleArray가 업데이트 되기전에 VC파라메터를 참조하여 문제 발생.
+      -> raw데이터를 참조하여 업데이트함
+
+
+<To do> v. 0.900
+   - 3일 ScaleView시 2일로 세팅됨???  --> v0.889 적용완료
+   - Time축 설정(10개정도 라벨)  --> v0.885수정
+   - 실시간 업데이트시 VPD표시 안됨(현재 Graph창 재로드시에만 적용되어있음) --> v0.895적용
+   - 모듈 3개시 time out 문제: 아두이노측 illegal data시 buffer를 
+     항상 clear하도록 하여 처리시간이 지연됨. --> 아두이노 적용
+   - 화면정렬
+   - 윈도우 무빙시 채널 위치 틀어짐
+   - 관수 적산량 clear시 남은 적산량고려 필요함(8/17) --> v0.915적용
+     ex) 설정값 130J, --> 133J로 이벤트 개시시 .. 0J로 클리어하지말고 3J로 클리어 필요
+   - 동작도중 Min/Max, Start/End Time Enable수정시 동작정리 필요
+
+** SNU시리얼 데이터 원복시 교수님께 통보필요.
+
+
+                //  Start와 End시간을 비교
+                //   END가 00:00 인경우는 24:00로 취급
+                //   Start가 00:00 인 경우는 00:00로 취급
+                //      S   0 : S ~ 자정동안 ON
+                //      S < E : S ~ E시간동안 ON
+                //      S > E : S~자정, 자정~E 동안 ON
+                //      S = E : OFF(단, 00:00인 경우 Always ON)
