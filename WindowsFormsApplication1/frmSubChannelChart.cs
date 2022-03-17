@@ -350,7 +350,7 @@ namespace SapflowApplication
 
         void MenuClick(object obj, EventArgs ea)
         {
-            MenuItem mI = (MenuItem)obj;
+            ToolStripMenuItem mI = (ToolStripMenuItem)obj;
             String str = mI.Text;
 
             if (str == "Hide Chart") this.Visible = false;
@@ -366,13 +366,13 @@ namespace SapflowApplication
                 EventHandler eh = new EventHandler(MenuClick);
 
 
-                MenuItem[] ami = {
-                    new MenuItem("Hide Chart",eh),
-                    new MenuItem("Minimize Chart",eh),
-                    new MenuItem("Normal Chart",eh),
-                    new MenuItem("Maximize Chart",eh),
+                ToolStripMenuItem[] ami = {
+                    new ToolStripMenuItem("Hide Chart",null, eh),
+                    new ToolStripMenuItem("Minimize Chart",null, eh),
+                    new ToolStripMenuItem("Normal Chart",null, eh),
+                    new ToolStripMenuItem("Maximize Chart",null, eh),
                     };
-                ContextMenu = new System.Windows.Forms.ContextMenu(ami);
+                //ContextMenuStrip = new System.Windows.Forms.ContextMenuStrip(ami);
 
             }
         }

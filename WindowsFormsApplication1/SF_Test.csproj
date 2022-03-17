@@ -1,16 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0EC3A0F-88A9-434D-83AB-788BFFF26C8D}</ProjectGuid>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SapflowApplication</RootNamespace>
     <AssemblyName>Real_SF_Test</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -30,31 +23,16 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x64</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>logo_real.ico</ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup />
-  <PropertyGroup />
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
@@ -71,228 +49,20 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\x64\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SensorCross|AnyCPU' ">
     <OutputPath>bin\SendorCross\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
     <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SensorCross|x64' ">
     <OutputPath>bin\x64\SensorCross\</OutputPath>
     <DefineConstants>TRACE;SENSOR_CROSS</DefineConstants>
     <Optimize>true</Optimize>
-    <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
-    <LangVersion>7.3</LangVersion>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Windows.Forms.DataVisualization" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Deployment" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="frmAutoStart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAutoStart.Designer.cs">
-      <DependentUpon>frmAutoStart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMessageBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMessageBox.Designer.cs">
-      <DependentUpon>frmMessageBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRestarting.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRestarting.Designer.cs">
-      <DependentUpon>frmRestarting.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSetupMulti.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSetupMulti.Designer.cs">
-      <DependentUpon>frmSetupMulti.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSubChannelMultiChart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSubChannelMultiChart.Designer.cs">
-      <DependentUpon>frmSubChannelMultiChart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSubChannelMultiChartMinMax.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSubChannelMultiChartMinMax.Designer.cs">
-      <DependentUpon>frmSubChannelMultiChartMinMax.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmValveControl.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmValveControl.Designer.cs">
-      <DependentUpon>frmValveControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmValveControlSetup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmValveControlSetup.Designer.cs">
-      <DependentUpon>frmValveControlSetup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Settings.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="frmSetup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSetup.Designer.cs">
-      <DependentUpon>frmSetup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSubChannelChart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSubChannelChart.Designer.cs">
-      <DependentUpon>frmSubChannelChart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSfModule.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSfModule.Designer.cs">
-      <DependentUpon>frmSfModule.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCalibration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCalibration.Designer.cs">
-      <DependentUpon>frmCalibration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSfMultiModules.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSfMultiModules.Designer.cs">
-      <DependentUpon>frmSfMultiModules.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SF_Test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SF_Test.Designer.cs">
-      <DependentUpon>SF_Test.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAutoStart.resx">
-      <DependentUpon>frmAutoStart.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMessageBox.resx">
-      <DependentUpon>frmMessageBox.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRestarting.resx">
-      <DependentUpon>frmRestarting.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSetupMulti.resx">
-      <DependentUpon>frmSetupMulti.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSetup.resx">
-      <DependentUpon>frmSetup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSfModule.resx">
-      <DependentUpon>frmSfModule.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCalibration.resx">
-      <DependentUpon>frmCalibration.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSubChannelChart.resx">
-      <DependentUpon>frmSubChannelChart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSubChannelMultiChart.resx">
-      <DependentUpon>frmSubChannelMultiChart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSubChannelMultiChartMinMax.resx">
-      <DependentUpon>frmSubChannelMultiChartMinMax.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmValveControl.resx">
-      <DependentUpon>frmValveControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmSfMultiModules.resx">
-      <DependentUpon>frmSfMultiModules.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmValveControlSetup.resx">
-      <DependentUpon>frmValveControlSetup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SF_Test.resx">
-      <DependentUpon>SF_Test.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <None Include="app.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <None Include="SF_Test_TemporaryKey.pfx" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="logo_real.ico" />
-    <Content Include="SF_Test.ico" />
-  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
@@ -305,16 +75,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
-  </PropertyGroup>
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.310801">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="System.Windows.Forms.DataVisualization" Version="1.0.0-prerelease.20110.1" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
+  </ItemGroup>
+  <PropertyGroup />
 </Project>
