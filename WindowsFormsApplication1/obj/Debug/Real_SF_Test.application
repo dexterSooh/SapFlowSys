@@ -4,17 +4,17 @@
   <description asmv2:publisher="Telofarm" co.v1:suiteName="Telofarm" asmv2:product="Telofarm SF Test" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Real_SF_Test.exe.manifest" size="4316">
+    <dependentAssembly dependencyType="install" codebase="Real_SF_Test.exe.manifest" size="5048">
       <assemblyIdentity name="Real_SF_Test.exe" version="1.1.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bG7KtXDlL6wQJRqQdU3i7nvdFumGMsN7CL8mnC8MuxI=</dsig:DigestValue>
+        <dsig:DigestValue>l/gz4zRKY8NqyT4gYzX1mNtZl7CI513GRc0Td0wygs4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

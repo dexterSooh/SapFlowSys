@@ -173,6 +173,7 @@
             this.AB_tb = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.gbSettings.SuspendLayout();
             this.gbSfModule.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -216,7 +217,7 @@
             this.cbComPort.FormattingEnabled = true;
             this.cbComPort.Location = new System.Drawing.Point(99, 15);
             this.cbComPort.Name = "cbComPort";
-            this.cbComPort.Size = new System.Drawing.Size(72, 25);
+            this.cbComPort.Size = new System.Drawing.Size(72, 19);
             this.cbComPort.TabIndex = 5;
             // 
             // gbSettings
@@ -239,10 +240,10 @@
             this.listBox1.BackColor = System.Drawing.SystemColors.Info;
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.listBox1.ItemHeight = 18;
+            this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(754, 284);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(182, 252);
+            this.listBox1.Size = new System.Drawing.Size(509, 372);
             this.listBox1.TabIndex = 16;
             // 
             // cbTimeStep
@@ -279,7 +280,7 @@
             "full"});
             this.cbTimeStep.Location = new System.Drawing.Point(131, 14);
             this.cbTimeStep.Name = "cbTimeStep";
-            this.cbTimeStep.Size = new System.Drawing.Size(52, 26);
+            this.cbTimeStep.Size = new System.Drawing.Size(52, 20);
             this.cbTimeStep.TabIndex = 19;
             this.cbTimeStep.SelectedIndexChanged += new System.EventHandler(this.cbTimeStep_SelectedIndexChanged);
             // 
@@ -290,7 +291,7 @@
             this.lbDateTime.ForeColor = System.Drawing.Color.DarkRed;
             this.lbDateTime.Location = new System.Drawing.Point(6, 175);
             this.lbDateTime.Name = "lbDateTime";
-            this.lbDateTime.Size = new System.Drawing.Size(112, 17);
+            this.lbDateTime.Size = new System.Drawing.Size(70, 11);
             this.lbDateTime.TabIndex = 20;
             this.lbDateTime.Text = "Current Time";
             this.lbDateTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -302,7 +303,7 @@
             this.lbStartTime.ForeColor = System.Drawing.Color.DarkGray;
             this.lbStartTime.Location = new System.Drawing.Point(6, 158);
             this.lbStartTime.Name = "lbStartTime";
-            this.lbStartTime.Size = new System.Drawing.Size(90, 17);
+            this.lbStartTime.Size = new System.Drawing.Size(56, 11);
             this.lbStartTime.TabIndex = 20;
             this.lbStartTime.Text = "Start Time";
             this.lbStartTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -314,7 +315,7 @@
             this.gbSfModule.Controls.Add(this.gbChannel);
             this.gbSfModule.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.gbSfModule.ForeColor = System.Drawing.Color.DarkRed;
-            this.gbSfModule.Location = new System.Drawing.Point(10, 101);
+            this.gbSfModule.Location = new System.Drawing.Point(10, 199);
             this.gbSfModule.Name = "gbSfModule";
             this.gbSfModule.Size = new System.Drawing.Size(507, 264);
             this.gbSfModule.TabIndex = 22;
@@ -412,7 +413,7 @@
             this.cbSFModuleSelectionNumber.Location = new System.Drawing.Point(183, 3);
             this.cbSFModuleSelectionNumber.Name = "cbSFModuleSelectionNumber";
             this.cbSFModuleSelectionNumber.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cbSFModuleSelectionNumber.Size = new System.Drawing.Size(46, 28);
+            this.cbSFModuleSelectionNumber.Size = new System.Drawing.Size(46, 21);
             this.cbSFModuleSelectionNumber.TabIndex = 31;
             this.cbSFModuleSelectionNumber.SelectedIndexChanged += new System.EventHandler(this.SFModule_Clicked);
             // 
@@ -478,7 +479,7 @@
             this.label8.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label8.Location = new System.Drawing.Point(3, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(99, 23);
+            this.label8.Size = new System.Drawing.Size(100, 23);
             this.label8.TabIndex = 37;
             this.label8.Text = "Sap Flow:";
             // 
@@ -488,9 +489,9 @@
             this.lbTemperature.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbTemperature.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbTemperature.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.lbTemperature.Location = new System.Drawing.Point(108, 0);
+            this.lbTemperature.Location = new System.Drawing.Point(109, 0);
             this.lbTemperature.Name = "lbTemperature";
-            this.lbTemperature.Size = new System.Drawing.Size(96, 23);
+            this.lbTemperature.Size = new System.Drawing.Size(95, 23);
             this.lbTemperature.TabIndex = 20;
             this.lbTemperature.Text = "--";
             this.lbTemperature.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -501,9 +502,9 @@
             this.lbHumidity.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbHumidity.Font = new System.Drawing.Font("굴림", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbHumidity.ForeColor = System.Drawing.Color.DarkOrange;
-            this.lbHumidity.Location = new System.Drawing.Point(108, 23);
+            this.lbHumidity.Location = new System.Drawing.Point(109, 23);
             this.lbHumidity.Name = "lbHumidity";
-            this.lbHumidity.Size = new System.Drawing.Size(96, 23);
+            this.lbHumidity.Size = new System.Drawing.Size(95, 23);
             this.lbHumidity.TabIndex = 20;
             this.lbHumidity.Text = "--";
             this.lbHumidity.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -516,7 +517,7 @@
             this.label9.ForeColor = System.Drawing.Color.DarkOrange;
             this.label9.Location = new System.Drawing.Point(3, 23);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(99, 23);
+            this.label9.Size = new System.Drawing.Size(100, 23);
             this.label9.TabIndex = 37;
             this.label9.Text = "R. Temp:";
             // 
@@ -566,7 +567,7 @@
             this.tbY1Max.ForeColor = System.Drawing.Color.DarkRed;
             this.tbY1Max.Location = new System.Drawing.Point(223, 26);
             this.tbY1Max.Name = "tbY1Max";
-            this.tbY1Max.Size = new System.Drawing.Size(64, 28);
+            this.tbY1Max.Size = new System.Drawing.Size(64, 21);
             this.tbY1Max.TabIndex = 18;
             this.tbY1Max.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Y1TextMax_KeyPress);
             // 
@@ -577,7 +578,7 @@
             this.tbY1Min.ForeColor = System.Drawing.Color.DarkRed;
             this.tbY1Min.Location = new System.Drawing.Point(133, 26);
             this.tbY1Min.Name = "tbY1Min";
-            this.tbY1Min.Size = new System.Drawing.Size(64, 28);
+            this.tbY1Min.Size = new System.Drawing.Size(64, 21);
             this.tbY1Min.TabIndex = 18;
             this.tbY1Min.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Y1TextMin_KeyPress);
             // 
@@ -604,7 +605,7 @@
             this.tbY2Min.ForeColor = System.Drawing.Color.DarkRed;
             this.tbY2Min.Location = new System.Drawing.Point(133, 56);
             this.tbY2Min.Name = "tbY2Min";
-            this.tbY2Min.Size = new System.Drawing.Size(64, 28);
+            this.tbY2Min.Size = new System.Drawing.Size(64, 21);
             this.tbY2Min.TabIndex = 18;
             this.tbY2Min.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Y2TextMin_KeyPress);
             // 
@@ -651,7 +652,7 @@
             this.tbY2Max.ForeColor = System.Drawing.Color.DarkRed;
             this.tbY2Max.Location = new System.Drawing.Point(223, 56);
             this.tbY2Max.Name = "tbY2Max";
-            this.tbY2Max.Size = new System.Drawing.Size(64, 28);
+            this.tbY2Max.Size = new System.Drawing.Size(64, 21);
             this.tbY2Max.TabIndex = 18;
             this.tbY2Max.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Y2TextMax_KeyPress);
             // 
@@ -746,7 +747,7 @@
             this.tbY1MinValue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbY1MinValue.Location = new System.Drawing.Point(293, 26);
             this.tbY1MinValue.Name = "tbY1MinValue";
-            this.tbY1MinValue.Size = new System.Drawing.Size(90, 21);
+            this.tbY1MinValue.Size = new System.Drawing.Size(90, 14);
             this.tbY1MinValue.TabIndex = 36;
             // 
             // tbY2MinValue
@@ -756,7 +757,7 @@
             this.tbY2MinValue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbY2MinValue.Location = new System.Drawing.Point(293, 56);
             this.tbY2MinValue.Name = "tbY2MinValue";
-            this.tbY2MinValue.Size = new System.Drawing.Size(90, 21);
+            this.tbY2MinValue.Size = new System.Drawing.Size(90, 14);
             this.tbY2MinValue.TabIndex = 37;
             // 
             // tbY1MaxValue
@@ -766,7 +767,7 @@
             this.tbY1MaxValue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbY1MaxValue.Location = new System.Drawing.Point(389, 26);
             this.tbY1MaxValue.Name = "tbY1MaxValue";
-            this.tbY1MaxValue.Size = new System.Drawing.Size(91, 21);
+            this.tbY1MaxValue.Size = new System.Drawing.Size(91, 14);
             this.tbY1MaxValue.TabIndex = 40;
             // 
             // tbY2MaxValue
@@ -776,7 +777,7 @@
             this.tbY2MaxValue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tbY2MaxValue.Location = new System.Drawing.Point(389, 56);
             this.tbY2MaxValue.Name = "tbY2MaxValue";
-            this.tbY2MaxValue.Size = new System.Drawing.Size(91, 21);
+            this.tbY2MaxValue.Size = new System.Drawing.Size(91, 14);
             this.tbY2MaxValue.TabIndex = 41;
             // 
             // flowLayoutPanel1
@@ -822,7 +823,7 @@
             this.tbParaSet_Tm_Offset.ForeColor = System.Drawing.Color.DarkRed;
             this.tbParaSet_Tm_Offset.Location = new System.Drawing.Point(104, 3);
             this.tbParaSet_Tm_Offset.Name = "tbParaSet_Tm_Offset";
-            this.tbParaSet_Tm_Offset.Size = new System.Drawing.Size(55, 30);
+            this.tbParaSet_Tm_Offset.Size = new System.Drawing.Size(55, 22);
             this.tbParaSet_Tm_Offset.TabIndex = 41;
             // 
             // label18
@@ -937,7 +938,7 @@
             this.tbParaSet_Tm.ForeColor = System.Drawing.Color.DarkRed;
             this.tbParaSet_Tm.Location = new System.Drawing.Point(3, 28);
             this.tbParaSet_Tm.Name = "tbParaSet_Tm";
-            this.tbParaSet_Tm.Size = new System.Drawing.Size(117, 30);
+            this.tbParaSet_Tm.Size = new System.Drawing.Size(117, 22);
             this.tbParaSet_Tm.TabIndex = 41;
             // 
             // label24
@@ -997,10 +998,10 @@
             this.listBox2.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.listBox2.ForeColor = System.Drawing.Color.DarkGray;
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 17;
-            this.listBox2.Location = new System.Drawing.Point(10, 371);
+            this.listBox2.ItemHeight = 11;
+            this.listBox2.Location = new System.Drawing.Point(10, 480);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(371, 187);
+            this.listBox2.Size = new System.Drawing.Size(371, 297);
             this.listBox2.TabIndex = 44;
             // 
             // btExportSF
@@ -1057,7 +1058,7 @@
             this.cbDataFilterON.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.cbDataFilterON.Location = new System.Drawing.Point(135, 104);
             this.cbDataFilterON.Name = "cbDataFilterON";
-            this.cbDataFilterON.Size = new System.Drawing.Size(76, 22);
+            this.cbDataFilterON.Size = new System.Drawing.Size(57, 16);
             this.cbDataFilterON.TabIndex = 37;
             this.cbDataFilterON.Text = "Filter";
             this.cbDataFilterON.UseVisualStyleBackColor = true;
@@ -1067,9 +1068,9 @@
             this.cbAlwaysOnTop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cbAlwaysOnTop.AutoSize = true;
             this.cbAlwaysOnTop.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.cbAlwaysOnTop.Location = new System.Drawing.Point(3, 31);
+            this.cbAlwaysOnTop.Location = new System.Drawing.Point(3, 25);
             this.cbAlwaysOnTop.Name = "cbAlwaysOnTop";
-            this.cbAlwaysOnTop.Size = new System.Drawing.Size(159, 22);
+            this.cbAlwaysOnTop.Size = new System.Drawing.Size(112, 16);
             this.cbAlwaysOnTop.TabIndex = 23;
             this.cbAlwaysOnTop.Text = "Always On Top";
             this.cbAlwaysOnTop.UseVisualStyleBackColor = true;
@@ -1192,7 +1193,7 @@
             this.cbLockControl.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.cbLockControl.Location = new System.Drawing.Point(3, 3);
             this.cbLockControl.Name = "cbLockControl";
-            this.cbLockControl.Size = new System.Drawing.Size(137, 22);
+            this.cbLockControl.Size = new System.Drawing.Size(95, 16);
             this.cbLockControl.TabIndex = 34;
             this.cbLockControl.Text = "Lock Control";
             this.cbLockControl.UseVisualStyleBackColor = true;
@@ -1335,7 +1336,7 @@
             0,
             0});
             this.nudModuleNumber.Name = "nudModuleNumber";
-            this.nudModuleNumber.Size = new System.Drawing.Size(47, 28);
+            this.nudModuleNumber.Size = new System.Drawing.Size(47, 21);
             this.nudModuleNumber.TabIndex = 44;
             this.nudModuleNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudModuleNumber.Value = new decimal(new int[] {
@@ -1352,7 +1353,7 @@
             this.label10.ForeColor = System.Drawing.Color.DarkRed;
             this.label10.Location = new System.Drawing.Point(7, 51);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(237, 18);
+            this.label10.Size = new System.Drawing.Size(165, 12);
             this.label10.TabIndex = 0;
             this.label10.Text = "Send Commnad to Moudle: ";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1364,7 +1365,7 @@
             this.cbDebugLog.ForeColor = System.Drawing.Color.DarkRed;
             this.cbDebugLog.Location = new System.Drawing.Point(245, 22);
             this.cbDebugLog.Name = "cbDebugLog";
-            this.cbDebugLog.Size = new System.Drawing.Size(85, 22);
+            this.cbDebugLog.Size = new System.Drawing.Size(60, 16);
             this.cbDebugLog.TabIndex = 52;
             this.cbDebugLog.Text = "Debug";
             this.cbDebugLog.UseVisualStyleBackColor = true;
@@ -1388,7 +1389,7 @@
             this.tbDebugLevel.Location = new System.Drawing.Point(311, 20);
             this.tbDebugLevel.Name = "tbDebugLevel";
             this.tbDebugLevel.PasswordChar = '*';
-            this.tbDebugLevel.Size = new System.Drawing.Size(72, 28);
+            this.tbDebugLevel.Size = new System.Drawing.Size(72, 21);
             this.tbDebugLevel.TabIndex = 53;
             // 
             // btCopyBox1
@@ -1409,7 +1410,7 @@
             this.label12.ForeColor = System.Drawing.Color.DarkRed;
             this.label12.Location = new System.Drawing.Point(7, 24);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(188, 18);
+            this.label12.Size = new System.Drawing.Size(130, 12);
             this.label12.TabIndex = 46;
             this.label12.Text = "Sys. Log to clipboard:";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1441,19 +1442,19 @@
             this.Exit});
             this.ctMs_notifyIcon.Name = "ctMs_notifyIcon";
             this.ctMs_notifyIcon.ShowImageMargin = false;
-            this.ctMs_notifyIcon.Size = new System.Drawing.Size(104, 68);
+            this.ctMs_notifyIcon.Size = new System.Drawing.Size(80, 48);
             // 
             // Show
             // 
             this.Show.Name = "Show";
-            this.Show.Size = new System.Drawing.Size(103, 32);
+            this.Show.Size = new System.Drawing.Size(79, 22);
             this.Show.Text = "Show";
             this.Show.Click += new System.EventHandler(this.Show_Click);
             // 
             // Exit
             // 
             this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(103, 32);
+            this.Exit.Size = new System.Drawing.Size(79, 22);
             this.Exit.Text = "Exit";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
@@ -1466,7 +1467,7 @@
             // 
             this.flowLayoutPanel4.Controls.Add(this.cbLockControl);
             this.flowLayoutPanel4.Controls.Add(this.cbAlwaysOnTop);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(387, 480);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(387, 589);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(129, 46);
             this.flowLayoutPanel4.TabIndex = 46;
@@ -1478,9 +1479,9 @@
             this.cbAutoStart.Enabled = false;
             this.cbAutoStart.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.cbAutoStart.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.cbAutoStart.Location = new System.Drawing.Point(761, 266);
+            this.cbAutoStart.Location = new System.Drawing.Point(924, 266);
             this.cbAutoStart.Name = "cbAutoStart";
-            this.cbAutoStart.Size = new System.Drawing.Size(231, 22);
+            this.cbAutoStart.Size = new System.Drawing.Size(159, 16);
             this.cbAutoStart.TabIndex = 23;
             this.cbAutoStart.Text = "Auto start with Windows";
             this.cbAutoStart.UseVisualStyleBackColor = true;
@@ -1516,9 +1517,9 @@
             this.cbValveControlEnable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbValveControlEnable.AutoSize = true;
             this.cbValveControlEnable.Font = new System.Drawing.Font("굴림", 9F);
-            this.cbValveControlEnable.Location = new System.Drawing.Point(248, 23);
+            this.cbValveControlEnable.Location = new System.Drawing.Point(281, 23);
             this.cbValveControlEnable.Name = "cbValveControlEnable";
-            this.cbValveControlEnable.Size = new System.Drawing.Size(117, 22);
+            this.cbValveControlEnable.Size = new System.Drawing.Size(84, 16);
             this.cbValveControlEnable.TabIndex = 40;
             this.cbValveControlEnable.Text = "Enable VC";
             this.cbValveControlEnable.UseVisualStyleBackColor = true;
@@ -1540,7 +1541,7 @@
             0,
             0});
             this.nUDEmergencyNumber.Name = "nUDEmergencyNumber";
-            this.nUDEmergencyNumber.Size = new System.Drawing.Size(52, 28);
+            this.nUDEmergencyNumber.Size = new System.Drawing.Size(52, 21);
             this.nUDEmergencyNumber.TabIndex = 45;
             this.nUDEmergencyNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nUDEmergencyNumber.Value = new decimal(new int[] {
@@ -1630,7 +1631,7 @@
             this.cbDisposeVCData.ForeColor = System.Drawing.Color.DarkRed;
             this.cbDisposeVCData.Location = new System.Drawing.Point(275, 51);
             this.cbDisposeVCData.Name = "cbDisposeVCData";
-            this.cbDisposeVCData.Size = new System.Drawing.Size(138, 21);
+            this.cbDisposeVCData.Size = new System.Drawing.Size(103, 15);
             this.cbDisposeVCData.TabIndex = 56;
             this.cbDisposeVCData.Text = "Compact Data";
             this.cbDisposeVCData.UseVisualStyleBackColor = true;
@@ -1663,7 +1664,7 @@
             this.label11.Font = new System.Drawing.Font("굴림", 9F);
             this.label11.Location = new System.Drawing.Point(92, 25);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 18);
+            this.label11.Size = new System.Drawing.Size(40, 12);
             this.label11.TabIndex = 47;
             this.label11.Text = "Event:";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1674,7 +1675,7 @@
             this.label1.Font = new System.Drawing.Font("굴림", 9F);
             this.label1.Location = new System.Drawing.Point(92, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 18);
+            this.label1.Size = new System.Drawing.Size(103, 12);
             this.label1.TabIndex = 46;
             this.label1.Text = "Daily Min. Count:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1710,7 +1711,7 @@
             this.cbTCompensation.Font = new System.Drawing.Font("굴림", 9F);
             this.cbTCompensation.Location = new System.Drawing.Point(11, 270);
             this.cbTCompensation.Name = "cbTCompensation";
-            this.cbTCompensation.Size = new System.Drawing.Size(208, 22);
+            this.cbTCompensation.Size = new System.Drawing.Size(147, 16);
             this.cbTCompensation.TabIndex = 66;
             this.cbTCompensation.Text = "Temp. Compensation";
             this.cbTCompensation.UseVisualStyleBackColor = true;
@@ -1735,7 +1736,7 @@
             this.lbParameterMxCx.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lbParameterMxCx.Location = new System.Drawing.Point(98, 128);
             this.lbParameterMxCx.Name = "lbParameterMxCx";
-            this.lbParameterMxCx.Size = new System.Drawing.Size(59, 18);
+            this.lbParameterMxCx.Size = new System.Drawing.Size(43, 12);
             this.lbParameterMxCx.TabIndex = 45;
             this.lbParameterMxCx.Text = "MxCx";
             this.lbParameterMxCx.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1778,7 +1779,7 @@
             this.tbParaSet_c.ForeColor = System.Drawing.Color.DarkRed;
             this.tbParaSet_c.Location = new System.Drawing.Point(133, 28);
             this.tbParaSet_c.Name = "tbParaSet_c";
-            this.tbParaSet_c.Size = new System.Drawing.Size(59, 28);
+            this.tbParaSet_c.Size = new System.Drawing.Size(59, 21);
             this.tbParaSet_c.TabIndex = 41;
             // 
             // tbParaSet_a
@@ -1787,7 +1788,7 @@
             this.tbParaSet_a.ForeColor = System.Drawing.Color.DarkRed;
             this.tbParaSet_a.Location = new System.Drawing.Point(3, 28);
             this.tbParaSet_a.Name = "tbParaSet_a";
-            this.tbParaSet_a.Size = new System.Drawing.Size(59, 28);
+            this.tbParaSet_a.Size = new System.Drawing.Size(59, 21);
             this.tbParaSet_a.TabIndex = 41;
             // 
             // tbParaSet_b
@@ -1796,7 +1797,7 @@
             this.tbParaSet_b.ForeColor = System.Drawing.Color.DarkRed;
             this.tbParaSet_b.Location = new System.Drawing.Point(68, 28);
             this.tbParaSet_b.Name = "tbParaSet_b";
-            this.tbParaSet_b.Size = new System.Drawing.Size(59, 28);
+            this.tbParaSet_b.Size = new System.Drawing.Size(59, 21);
             this.tbParaSet_b.TabIndex = 41;
             // 
             // btTmAdjustLast
@@ -1831,7 +1832,7 @@
             this.label14.ForeColor = System.Drawing.Color.DarkRed;
             this.label14.Location = new System.Drawing.Point(10, 170);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(220, 18);
+            this.label14.Size = new System.Drawing.Size(152, 12);
             this.label14.TabIndex = 0;
             this.label14.Text = "Adjust Para for All Mo, Ch";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1844,7 +1845,7 @@
             this.label13.ForeColor = System.Drawing.Color.DarkRed;
             this.label13.Location = new System.Drawing.Point(10, 128);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(130, 18);
+            this.label13.Size = new System.Drawing.Size(88, 12);
             this.label13.TabIndex = 0;
             this.label13.Text = "Adjust Para for";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1871,7 +1872,7 @@
             // 
             this.btBackupLogDay.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.btBackupLogDay.ForeColor = System.Drawing.Color.DarkRed;
-            this.btBackupLogDay.Location = new System.Drawing.Point(389, 395);
+            this.btBackupLogDay.Location = new System.Drawing.Point(389, 504);
             this.btBackupLogDay.Name = "btBackupLogDay";
             this.btBackupLogDay.Size = new System.Drawing.Size(128, 25);
             this.btBackupLogDay.TabIndex = 40;
@@ -1882,24 +1883,24 @@
             // cbBackupTerm
             // 
             this.cbBackupTerm.FormattingEnabled = true;
-            this.cbBackupTerm.Location = new System.Drawing.Point(444, 369);
+            this.cbBackupTerm.Location = new System.Drawing.Point(444, 478);
             this.cbBackupTerm.Name = "cbBackupTerm";
-            this.cbBackupTerm.Size = new System.Drawing.Size(72, 26);
+            this.cbBackupTerm.Size = new System.Drawing.Size(72, 20);
             this.cbBackupTerm.TabIndex = 61;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(387, 372);
+            this.label20.Location = new System.Drawing.Point(387, 481);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(77, 18);
+            this.label20.Size = new System.Drawing.Size(53, 12);
             this.label20.TabIndex = 62;
             this.label20.Text = "Window:";
             // 
             // btWindowExtend
             // 
             this.btWindowExtend.ForeColor = System.Drawing.Color.DarkRed;
-            this.btWindowExtend.Location = new System.Drawing.Point(478, 530);
+            this.btWindowExtend.Location = new System.Drawing.Point(478, 639);
             this.btWindowExtend.Name = "btWindowExtend";
             this.btWindowExtend.Size = new System.Drawing.Size(38, 22);
             this.btWindowExtend.TabIndex = 63;
@@ -1910,27 +1911,27 @@
             // lbExtendScreen
             // 
             this.lbExtendScreen.AutoSize = true;
-            this.lbExtendScreen.Location = new System.Drawing.Point(387, 536);
+            this.lbExtendScreen.Location = new System.Drawing.Point(387, 645);
             this.lbExtendScreen.Name = "lbExtendScreen";
-            this.lbExtendScreen.Size = new System.Drawing.Size(133, 18);
+            this.lbExtendScreen.Size = new System.Drawing.Size(92, 12);
             this.lbExtendScreen.TabIndex = 64;
             this.lbExtendScreen.Text = "Extend Screen:";
             // 
             // AB_count
             // 
             this.AB_count.AutoSize = true;
-            this.AB_count.Location = new System.Drawing.Point(462, 456);
+            this.AB_count.Location = new System.Drawing.Point(462, 565);
             this.AB_count.Name = "AB_count";
-            this.AB_count.Size = new System.Drawing.Size(18, 18);
+            this.AB_count.Size = new System.Drawing.Size(11, 12);
             this.AB_count.TabIndex = 65;
             this.AB_count.Text = "0";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(387, 431);
+            this.label15.Location = new System.Drawing.Point(387, 540);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(124, 18);
+            this.label15.Size = new System.Drawing.Size(84, 12);
             this.label15.TabIndex = 66;
             this.label15.Text = "Auto Backup :";
             // 
@@ -1939,9 +1940,9 @@
             this.AB_check.AutoSize = true;
             this.AB_check.Checked = true;
             this.AB_check.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.AB_check.Location = new System.Drawing.Point(487, 431);
+            this.AB_check.Location = new System.Drawing.Point(487, 540);
             this.AB_check.Name = "AB_check";
-            this.AB_check.Size = new System.Drawing.Size(22, 21);
+            this.AB_check.Size = new System.Drawing.Size(15, 14);
             this.AB_check.TabIndex = 67;
             this.AB_check.UseVisualStyleBackColor = true;
             this.AB_check.CheckedChanged += new System.EventHandler(this.AB_check_CheckedChanged);
@@ -1950,35 +1951,47 @@
             // 
             this.AB_tb.Enabled = false;
             this.AB_tb.ImeMode = System.Windows.Forms.ImeMode.Disable;
-            this.AB_tb.Location = new System.Drawing.Point(389, 451);
+            this.AB_tb.Location = new System.Drawing.Point(389, 560);
             this.AB_tb.Name = "AB_tb";
-            this.AB_tb.Size = new System.Drawing.Size(44, 28);
+            this.AB_tb.Size = new System.Drawing.Size(44, 21);
             this.AB_tb.TabIndex = 68;
             this.AB_tb.Text = "180";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(476, 455);
+            this.label16.Location = new System.Drawing.Point(476, 564);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(36, 18);
+            this.label16.Size = new System.Drawing.Size(26, 12);
             this.label16.TabIndex = 69;
             this.label16.Text = "min";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(439, 455);
+            this.label17.Location = new System.Drawing.Point(439, 564);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(16, 18);
+            this.label17.Size = new System.Drawing.Size(11, 12);
             this.label17.TabIndex = 70;
             this.label17.Text = "/";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.Color.DarkRed;
+            this.button1.Location = new System.Drawing.Point(18, 94);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 30);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "TEST SCREEN";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // SF_Test
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(944, 563);
+            this.ClientSize = new System.Drawing.Size(1271, 881);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.AB_tb);
@@ -1998,6 +2011,7 @@
             this.Controls.Add(this.flowLayoutPanel6);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.btStopAction);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btStartAction);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.gbSfModule);
@@ -2195,6 +2209,7 @@
         private System.Windows.Forms.TextBox AB_tb;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button1;
     }
 }
 
