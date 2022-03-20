@@ -410,7 +410,7 @@ namespace SapflowApplication
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Ivory;
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(614, 27);
             this.pictureBox1.Name = "pictureBox1";
@@ -2375,6 +2375,7 @@ namespace SapflowApplication
             this.cbAutoStart.TabIndex = 61;
             this.cbAutoStart.Text = "Auto start with Windows";
             this.cbAutoStart.UseVisualStyleBackColor = true;
+            this.cbAutoStart.Visible = false;
             // 
             // listBox1
             // 
@@ -2898,7 +2899,7 @@ namespace SapflowApplication
             this.Padding = new System.Windows.Forms.Padding(3, 64, 3, 3);
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Material Demo";
+            this.Text = "Real SF Monitoring Program v0.000(00/00/00)";
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
             this.flowLayoutPanel6.ResumeLayout(false);
