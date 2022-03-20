@@ -19,8 +19,8 @@ namespace SapflowApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SF_Test());
+            //Application.Run(new SF_Test());
+            Application.Run(new NewForm2_Demo());
         }
-
     }
 }

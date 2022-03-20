@@ -115,6 +115,10 @@
     <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ReaLTaiizor, Version=3.7.8.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReaLTaiizor.3.7.8.5\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -131,6 +135,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewForm2_Demo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForm2_Demo.Designer.cs">
+      <DependentUpon>NewForm2_Demo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewForm2.Designer.cs">
+      <DependentUpon>NewForm2.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -230,6 +246,12 @@
       <DependentUpon>SF_Test.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NewForm2_Demo.resx">
+      <DependentUpon>NewForm2_Demo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewForm2.resx">
+      <DependentUpon>NewForm2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewForm.resx">
       <DependentUpon>NewForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -306,6 +328,92 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo_real.ico" />
+    <None Include="Resources\111201.jpg" />
+    <None Include="Resources\372649.jpg" />
+    <None Include="Resources\475841.jpg" />
+    <None Include="Resources\542249.jpg" />
+    <None Include="Resources\579840.jpg" />
+    <None Include="Resources\579841.jpg" />
+    <None Include="Resources\application_16x.png" />
+    <None Include="Resources\AttachOrDetach_7014.png" />
+    <None Include="Resources\baseline_bluetooth_black_24dp.png" />
+    <None Include="Resources\baseline_build_black_24dp.png" />
+    <None Include="Resources\baseline_favorite_border_black_24dp.png" />
+    <None Include="Resources\baseline_fingerprint_black_24dp.png" />
+    <None Include="Resources\baseline_thumb_up_black_24dp.png" />
+    <None Include="Resources\Close_16xLG.png" />
+    <None Include="Resources\Collection_16xLG.png" />
+    <None Include="Resources\Console.png" />
+    <None Include="Resources\document_16xLG.png" />
+    <None Include="Resources\Files_7954.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\folder_16x.png" />
+    <None Include="Resources\folder_Closed_16xLG.png" />
+    <None Include="Resources\GitHub-Mark.png" />
+    <None Include="Resources\Google.png" />
+    <None Include="Resources\icons8-double-right.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\monochrome-square-pattern.png" />
+    <None Include="Resources\monochrome-square-pattern-background_1164-1345.jpg" />
+    <None Include="Resources\NewFile_6276.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\properties_16xLG.png" />
+    <None Include="Resources\RefactoringLog_12810.png" />
+    <None Include="Resources\round_assessment_white_24dp.png" />
+    <None Include="Resources\round_backup_white_24dp.png" />
+    <None Include="Resources\round_bluetooth_white_24dp.png" />
+    <None Include="Resources\round_bookmark_white_24dp.png" />
+    <None Include="Resources\round_build_white_24dp.png" />
+    <None Include="Resources\round_gps_fixed_white_24dp.png" />
+    <None Include="Resources\round_http_white_24dp.png" />
+    <None Include="Resources\round_report_problem_white_24dp.png" />
+    <None Include="Resources\round_swap_vert_white_24dp.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xLG_color.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xMD_color.png" />
+    <None Include="Resources\Twitter.png" />
+    <None Include="Resources\1112011.jpg" />
+    <None Include="Resources\3726491.jpg" />
+    <None Include="Resources\4758411.jpg" />
+    <None Include="Resources\5422491.jpg" />
+    <None Include="Resources\5798401.jpg" />
+    <None Include="Resources\5798411.jpg" />
+    <None Include="Resources\application_16x1.png" />
+    <None Include="Resources\AttachOrDetach_70141.png" />
+    <None Include="Resources\baseline_bluetooth_black_24dp1.png" />
+    <None Include="Resources\baseline_build_black_24dp1.png" />
+    <None Include="Resources\baseline_favorite_border_black_24dp1.png" />
+    <None Include="Resources\baseline_fingerprint_black_24dp1.png" />
+    <None Include="Resources\baseline_thumb_up_black_24dp1.png" />
+    <None Include="Resources\Close_16xLG1.png" />
+    <None Include="Resources\Collection_16xLG1.png" />
+    <None Include="Resources\Console1.png" />
+    <None Include="Resources\document_16xLG1.png" />
+    <None Include="Resources\Files_79541.png" />
+    <None Include="Resources\filter1.png" />
+    <None Include="Resources\folder_16x1.png" />
+    <None Include="Resources\folder_Closed_16xLG1.png" />
+    <None Include="Resources\GitHub-Mark1.png" />
+    <None Include="Resources\Google1.png" />
+    <None Include="Resources\icons8-double-right1.png" />
+    <None Include="Resources\minus1.png" />
+    <None Include="Resources\monochrome-square-pattern1.png" />
+    <None Include="Resources\monochrome-square-pattern-background_1164-13451.jpg" />
+    <None Include="Resources\NewFile_62761.png" />
+    <None Include="Resources\plus1.png" />
+    <None Include="Resources\properties_16xLG1.png" />
+    <None Include="Resources\RefactoringLog_128101.png" />
+    <None Include="Resources\round_assessment_white_24dp1.png" />
+    <None Include="Resources\round_backup_white_24dp1.png" />
+    <None Include="Resources\round_bluetooth_white_24dp1.png" />
+    <None Include="Resources\round_bookmark_white_24dp1.png" />
+    <None Include="Resources\round_build_white_24dp1.png" />
+    <None Include="Resources\round_gps_fixed_white_24dp1.png" />
+    <None Include="Resources\round_http_white_24dp1.png" />
+    <None Include="Resources\round_report_problem_white_24dp1.png" />
+    <None Include="Resources\round_swap_vert_white_24dp1.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xLG_color1.png" />
+    <None Include="Resources\StatusAnnotations_Information_16xMD_color1.png" />
+    <None Include="Resources\Twitter1.png" />
     <Content Include="SF_Test.ico" />
   </ItemGroup>
   <ItemGroup>
