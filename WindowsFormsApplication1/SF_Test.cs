@@ -21,10 +21,11 @@ using System.Windows.Forms.DataVisualization.Charting;
 using System.IO.Ports;
 using System.Diagnostics;
 using System.IO;
+using ReaLTaiizor.Forms;
 
 namespace SapflowApplication
 {
-    public partial class SF_Test : Form
+    public partial class SF_Test : MaterialForm
     {
         private const string ProgramShortName = "Real SF Monitoring Program";
 #if DEBUG
@@ -1729,14 +1730,14 @@ namespace SapflowApplication
 
             this.Text = String.Format("{0} v{1}({2} {3}, r{4})", ProgramName, ProgramVersion,
                           BuildDate.ToString("yy/MM/dd"), BuildVersionDate.ToString("HH:mm:ss"), BuildVersion);
-            //           this.Text = String.Format("{0} v{1}({2}, r{4})", ProgramName, ProgramVersion,
-            //                       BuildDate.ToString("yy/MM/dd"), BuildVersionDate.ToString("HH:mm:ss"), BuildVersion);
+			//           this.Text = String.Format("{0} v{1}({2}, r{4})", ProgramName, ProgramVersion,
+			//                       BuildDate.ToString("yy/MM/dd"), BuildVersionDate.ToString("HH:mm:ss"), BuildVersion);
 
 
-            updateTopMostState();
-            setWindowPosition();
+			updateTopMostState();
+			setWindowPosition();
 
-            ComPortUpdate();
+			ComPortUpdate();
 
             // BaudRate: 115200 57600 38400 19200 9600
             //cbBaudRate.SelectedIndex = 4;
@@ -3312,7 +3313,7 @@ namespace SapflowApplication
 
             Boolean fgChecked = cbY1Min.Checked;
             float ValueGraph = GraphMin[mo, ch];
-            TextBox tbText = tbY1Min;
+            ReaLTaiizor.Controls.MaterialTextBox tbText = tbY1Min;
 
             tbText.Enabled = fgChecked;
             fgGraphMin[mo, ch] = fgChecked;
@@ -3345,7 +3346,7 @@ namespace SapflowApplication
 
             Boolean fgChecked = cbY1Max.Checked;
             float ValueGraph = GraphMax[mo, ch];
-            TextBox tbText = tbY1Max;
+            ReaLTaiizor.Controls.MaterialTextBox tbText = tbY1Max;
 
             tbText.Enabled = fgChecked;
             fgGraphMax[mo, ch] = fgChecked;
@@ -3379,7 +3380,7 @@ namespace SapflowApplication
 
             Boolean fgChecked = cbY2Min.Checked;
             float ValueGraph = GraphMin2[mo, ch];
-            TextBox tbText = tbY2Min;
+            ReaLTaiizor.Controls.MaterialTextBox tbText = tbY2Min;
 
             tbText.Enabled = fgChecked;
             fgGraphMin2[mo, ch] = fgChecked;
@@ -3418,7 +3419,7 @@ namespace SapflowApplication
 
             Boolean fgChecked = cbY2Max.Checked;
             float ValueGraph = GraphMax2[mo, ch];
-            TextBox tbText = tbY2Max;
+            ReaLTaiizor.Controls.MaterialTextBox tbText = tbY2Max;
 
             tbText.Enabled = fgChecked;
             fgGraphMax2[mo, ch] = fgChecked;
@@ -3453,7 +3454,7 @@ namespace SapflowApplication
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                TextBox tbTemp;
+                ReaLTaiizor.Controls.MaterialTextBox tbTemp;
                 CheckBox cbTemp;
 
                 tbTemp = tbY1Min;
@@ -3549,7 +3550,7 @@ namespace SapflowApplication
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                TextBox tbTemp;
+                ReaLTaiizor.Controls.MaterialTextBox tbTemp;
                 CheckBox cbTemp;
 
                 tbTemp = tbY1Max;
@@ -3647,7 +3648,7 @@ namespace SapflowApplication
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                TextBox tbTemp;
+                ReaLTaiizor.Controls.MaterialTextBox tbTemp;
                 CheckBox cbTemp;
 
                 tbTemp = tbY2Min;
@@ -3743,7 +3744,7 @@ namespace SapflowApplication
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                TextBox tbTemp;
+                ReaLTaiizor.Controls.MaterialTextBox tbTemp;
                 CheckBox cbTemp;
 
                 tbTemp = tbY2Max;
@@ -3833,7 +3834,7 @@ namespace SapflowApplication
             }
         }
 
-        private void updateMinMaxText(TextBox tbTemp, double value)
+        private void updateMinMaxText(ReaLTaiizor.Controls.MaterialTextBox tbTemp, double value)
         {
             if (double.IsNaN(value))
             {
@@ -5603,7 +5604,7 @@ namespace SapflowApplication
             cbY2Max.Checked = fgGraphMax2[mo, ch];
         }
 
-        private void exeUpdateMinMaxTextBox(Boolean fgSetting, TextBox tbTemp, float value)
+        private void exeUpdateMinMaxTextBox(Boolean fgSetting, ReaLTaiizor.Controls.MaterialTextBox tbTemp, float value)
         {
             try
             {
@@ -10121,7 +10122,7 @@ namespace SapflowApplication
 
         private void ActivateFactorySettingScreen()
         {
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            //this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             fgFactoryModeActivated = true;
             lbExtendScreen.Text = "Factory Mode:";
             IncreaseScreen();
@@ -11629,12 +11630,6 @@ namespace SapflowApplication
             {
                 AB_tb.Enabled = true;
             }
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            var newForm = new NewForm();
-            newForm.ShowDialog();
         }
 
         private void queueStatusSFProg(string payload)
