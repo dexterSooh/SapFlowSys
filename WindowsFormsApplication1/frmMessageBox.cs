@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReaLTaiizor.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmMessageBox : Form
+    public partial class frmMessageBox : MaterialForm
     {
         /// <summary>
         /// Delay 함수 MS

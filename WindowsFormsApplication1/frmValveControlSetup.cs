@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReaLTaiizor.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmValveControlSetup : Form
+    public partial class frmValveControlSetup : MaterialForm
     {
         private const int SFModuleLength = SF_Test.SFModuleLength;      // SF_Test에 정의된 채널수를 참조
         private const int SFChannelLength = SF_Test.SFChannelLength;      // SF_Test에 정의된 채널수를 참조

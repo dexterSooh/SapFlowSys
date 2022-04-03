@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReaLTaiizor.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +12,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SapflowApplication
 {
-    public partial class frmCalibration : Form
+    public partial class frmCalibration : MaterialForm
     {
         private SF_Test parentForm;
         private int formID;

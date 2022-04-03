@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReaLTaiizor.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmRestarting : Form
+    public partial class frmRestarting : MaterialForm
     {
         public frmRestarting()
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReaLTaiizor.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +11,7 @@ using System.Windows.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmSetup : Form
+    public partial class frmSetup : MaterialForm
     {
         private int SFModuleLength = SF_Test.SFModuleLength;      // SF_Test에 정의된 채널수를 참조
         private int SFChannelLength = SF_Test.SFChannelLength;      // SF_Test에 정의된 채널수를 참조
@@ -55,7 +56,7 @@ namespace SapflowApplication
                 // tbM00DefaultPara_a 
                 strSearchPara_a.Remove(3, 2);
                 strSearchPara_a.Insert(3, (mo + 1).ToString("D2"));
-                TextBox tbPara_a = this.Controls.Find(strSearchPara_a.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbPara_a = this.Controls.Find(strSearchPara_a.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
                 if (eType == typeParameter.READ)
                 {
                     tbPara_a.Text = SF_Test.SystemParameter.Para[mo, 0].a.ToString();
@@ -73,7 +74,7 @@ namespace SapflowApplication
                 // tbM00DefaultPara_b 
                 strSearchPara_b.Remove(3, 2);
                 strSearchPara_b.Insert(3, (mo + 1).ToString("D2"));
-                TextBox tbPara_b = this.Controls.Find(strSearchPara_b.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbPara_b = this.Controls.Find(strSearchPara_b.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
                 if (eType == typeParameter.READ)
                 {
                     tbPara_b.Text = SF_Test.SystemParameter.Para[mo, 0].b.ToString();
@@ -90,7 +91,7 @@ namespace SapflowApplication
                 // tbM00DefaultPara_c 
                 strSearchPara_c.Remove(3, 2);
                 strSearchPara_c.Insert(3, (mo + 1).ToString("D2"));
-                TextBox tbPara_c = this.Controls.Find(strSearchPara_c.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbPara_c = this.Controls.Find(strSearchPara_c.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
                 if (eType == typeParameter.READ)
                 {
                     tbPara_c.Text = SF_Test.SystemParameter.Para[mo, 0].c.ToString();
@@ -112,7 +113,7 @@ namespace SapflowApplication
                     strSearchPara_Tm.Remove(22, 1);
                     strSearchPara_Tm.Insert(22, (ch + 1).ToString("D1"));
 
-                    TextBox tbPara_Tm = this.Controls.Find(strSearchPara_Tm.ToString(), true)[0] as TextBox;
+                    ReaLTaiizor.Controls.MaterialTextBox tbPara_Tm = this.Controls.Find(strSearchPara_Tm.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
                     if (eType == typeParameter.READ)
                     {
                         tbPara_Tm.Text = SF_Test.SystemParameter.Para[mo, ch].Tm.ToString();
@@ -167,7 +168,7 @@ namespace SapflowApplication
                     strSearchPara_Custom.Remove(18, 1);
                     strSearchPara_Custom.Insert(18, (ch + 1).ToString("D1"));
 
-                    TextBox tbPara_Custom = this.Controls.Find(strSearchPara_Custom.ToString(), true)[0] as TextBox;
+                    ReaLTaiizor.Controls.MaterialTextBox tbPara_Custom = this.Controls.Find(strSearchPara_Custom.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
                     if (eType == typeParameter.READ)
                     {
                         if (SF_Test.SystemParameter.Para[mo, 0].c != 0)
@@ -378,22 +379,22 @@ namespace SapflowApplication
                 // tbMxLocX
                 strLocationX.Remove(3, 1);
                 strLocationX.Insert(3, (mo + 1).ToString("D1"));
-                TextBox tbLocationX = this.Controls.Find(strLocationX.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbLocationX = this.Controls.Find(strLocationX.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
 
                 // tbMxLocY
                 strLocationY.Remove(3, 1);
                 strLocationY.Insert(3, (mo + 1).ToString("D1"));
-                TextBox tbLocationY = this.Controls.Find(strLocationY.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbLocationY = this.Controls.Find(strLocationY.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
 
                 // tbMxSizX
                 strSizeX.Remove(3, 1);
                 strSizeX.Insert(3, (mo + 1).ToString("D1"));
-                TextBox tbSizeX = this.Controls.Find(strSizeX.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbSizeX = this.Controls.Find(strSizeX.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
 
                 // tbMxSizY
                 strSizeY.Remove(3, 1);
                 strSizeY.Insert(3, (mo + 1).ToString("D1"));
-                TextBox tbSizeY = this.Controls.Find(strSizeY.ToString(), true)[0] as TextBox;
+                ReaLTaiizor.Controls.MaterialTextBox tbSizeY = this.Controls.Find(strSizeY.ToString(), true)[0] as ReaLTaiizor.Controls.MaterialTextBox;
 
                 if (eType == typeParameter.READ)
                 {

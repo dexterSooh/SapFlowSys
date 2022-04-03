@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.IO;
+using ReaLTaiizor.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmSfMultiModules : Form
+    public partial class frmSfMultiModules : MaterialForm
     {
         private SF_Test parentForm;
         private const int SFModuleLength = SF_Test.SFModuleLength;      // SF_Test에 정의된 채널수를 참조

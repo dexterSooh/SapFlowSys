@@ -12,10 +12,11 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.IO;
+using ReaLTaiizor.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmSfModule : Form
+    public partial class frmSfModule : MaterialForm
     {
         private SF_Test parentForm;
         private int formID;

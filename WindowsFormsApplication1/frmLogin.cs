@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using ReaLTaiizor.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmLogin : Form
+    public partial class frmLogin : MaterialForm
     {
         public frmLogin()
         {

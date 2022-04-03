@@ -10,10 +10,11 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.IO;
 using System.Xml;
+using ReaLTaiizor.Forms;
 
 namespace SapflowApplication
 {
-    public partial class frmValveControl : Form
+    public partial class frmValveControl : MaterialForm
     {
         private const int SFModuleLength = SF_Test.SFModuleLength;      // SF_Test에 정의된 채널수를 참조
         private const int SFChannelLength = SF_Test.SFChannelLength;      // SF_Test에 정의된 채널수를 참조
