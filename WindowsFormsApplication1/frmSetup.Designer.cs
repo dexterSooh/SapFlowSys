@@ -460,7 +460,7 @@
 			// 
 			this.cbM01Enable.AutoSize = true;
 			this.cbM01Enable.Depth = 0;
-			this.cbM01Enable.Location = new System.Drawing.Point(7, 14);
+			this.cbM01Enable.Location = new System.Drawing.Point(8, 18);
 			this.cbM01Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -476,7 +476,7 @@
 			// 
 			this.cbM02Enable.AutoSize = true;
 			this.cbM02Enable.Depth = 0;
-			this.cbM02Enable.Location = new System.Drawing.Point(6, 44);
+			this.cbM02Enable.Location = new System.Drawing.Point(7, 55);
 			this.cbM02Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -492,7 +492,7 @@
 			// 
 			this.cbM03Enable.AutoSize = true;
 			this.cbM03Enable.Depth = 0;
-			this.cbM03Enable.Location = new System.Drawing.Point(6, 74);
+			this.cbM03Enable.Location = new System.Drawing.Point(7, 92);
 			this.cbM03Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -508,7 +508,7 @@
 			// 
 			this.cbM04Enable.AutoSize = true;
 			this.cbM04Enable.Depth = 0;
-			this.cbM04Enable.Location = new System.Drawing.Point(6, 104);
+			this.cbM04Enable.Location = new System.Drawing.Point(7, 130);
 			this.cbM04Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -524,7 +524,7 @@
 			// 
 			this.cbM05Enable.AutoSize = true;
 			this.cbM05Enable.Depth = 0;
-			this.cbM05Enable.Location = new System.Drawing.Point(6, 134);
+			this.cbM05Enable.Location = new System.Drawing.Point(7, 168);
 			this.cbM05Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -540,7 +540,7 @@
 			// 
 			this.cbM06Enable.AutoSize = true;
 			this.cbM06Enable.Depth = 0;
-			this.cbM06Enable.Location = new System.Drawing.Point(6, 164);
+			this.cbM06Enable.Location = new System.Drawing.Point(7, 205);
 			this.cbM06Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -556,7 +556,7 @@
 			// 
 			this.cbM07Enable.AutoSize = true;
 			this.cbM07Enable.Depth = 0;
-			this.cbM07Enable.Location = new System.Drawing.Point(6, 194);
+			this.cbM07Enable.Location = new System.Drawing.Point(7, 242);
 			this.cbM07Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -572,7 +572,7 @@
 			// 
 			this.cbM08Enable.AutoSize = true;
 			this.cbM08Enable.Depth = 0;
-			this.cbM08Enable.Location = new System.Drawing.Point(6, 224);
+			this.cbM08Enable.Location = new System.Drawing.Point(7, 280);
 			this.cbM08Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -588,7 +588,7 @@
 			// 
 			this.cbM09Enable.AutoSize = true;
 			this.cbM09Enable.Depth = 0;
-			this.cbM09Enable.Location = new System.Drawing.Point(6, 254);
+			this.cbM09Enable.Location = new System.Drawing.Point(7, 318);
 			this.cbM09Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM09Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM09Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -605,7 +605,7 @@
 			// 
 			this.cbM10Enable.AutoSize = true;
 			this.cbM10Enable.Depth = 0;
-			this.cbM10Enable.Location = new System.Drawing.Point(6, 284);
+			this.cbM10Enable.Location = new System.Drawing.Point(7, 355);
 			this.cbM10Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM10Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM10Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -631,9 +631,11 @@
 			this.gbSetUpModule.Controls.Add(this.cbM05Enable);
 			this.gbSetUpModule.Controls.Add(this.cbM07Enable);
 			this.gbSetUpModule.Controls.Add(this.cbM06Enable);
-			this.gbSetUpModule.Location = new System.Drawing.Point(12, 76);
+			this.gbSetUpModule.Location = new System.Drawing.Point(14, 95);
+			this.gbSetUpModule.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbSetUpModule.Name = "gbSetUpModule";
-			this.gbSetUpModule.Size = new System.Drawing.Size(132, 361);
+			this.gbSetUpModule.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbSetUpModule.Size = new System.Drawing.Size(151, 451);
 			this.gbSetUpModule.TabIndex = 12;
 			this.gbSetUpModule.TabStop = false;
 			this.gbSetUpModule.Text = "Module";
@@ -646,8 +648,8 @@
 			this.btWindowsParaReset.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btWindowsParaReset.HighEmphasis = true;
 			this.btWindowsParaReset.Icon = null;
-			this.btWindowsParaReset.Location = new System.Drawing.Point(7, 317);
-			this.btWindowsParaReset.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btWindowsParaReset.Location = new System.Drawing.Point(8, 396);
+			this.btWindowsParaReset.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btWindowsParaReset.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btWindowsParaReset.Name = "btWindowsParaReset";
 			this.btWindowsParaReset.Size = new System.Drawing.Size(121, 36);
@@ -672,10 +674,11 @@
 			this.tbModule.Controls.Add(this.tbM07);
 			this.tbModule.Controls.Add(this.tbM08);
 			this.tbModule.Controls.Add(this.tbWinPara);
-			this.tbModule.Location = new System.Drawing.Point(162, 73);
+			this.tbModule.Location = new System.Drawing.Point(185, 91);
+			this.tbModule.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbModule.Name = "tbModule";
 			this.tbModule.SelectedIndex = 0;
-			this.tbModule.Size = new System.Drawing.Size(439, 356);
+			this.tbModule.Size = new System.Drawing.Size(502, 445);
 			this.tbModule.TabIndex = 13;
 			// 
 			// tbM01
@@ -684,9 +687,10 @@
 			this.tbM01.Controls.Add(this.groupBox3);
 			this.tbM01.Controls.Add(this.gbM01ParaPannel);
 			this.tbM01.Controls.Add(this.gbM01CustomPannel);
-			this.tbM01.Location = new System.Drawing.Point(4, 22);
+			this.tbM01.Location = new System.Drawing.Point(4, 25);
+			this.tbM01.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01.Name = "tbM01";
-			this.tbM01.Size = new System.Drawing.Size(431, 330);
+			this.tbM01.Size = new System.Drawing.Size(494, 416);
 			this.tbM01.TabIndex = 8;
 			this.tbM01.Text = "Module01";
 			// 
@@ -700,9 +704,11 @@
 			this.gbM01CHPannel.Controls.Add(this.cbM01CH6Enable);
 			this.gbM01CHPannel.Controls.Add(this.cbM01CH1Enable);
 			this.gbM01CHPannel.Controls.Add(this.cbM01CH8Enable);
-			this.gbM01CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM01CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM01CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM01CHPannel.Name = "gbM01CHPannel";
-			this.gbM01CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM01CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM01CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM01CHPannel.TabIndex = 13;
 			this.gbM01CHPannel.TabStop = false;
 			this.gbM01CHPannel.Text = "Channel Enable";
@@ -712,7 +718,7 @@
 			// 
 			this.cbM01CH4Enable.AutoSize = true;
 			this.cbM01CH4Enable.Depth = 0;
-			this.cbM01CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM01CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM01CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -727,7 +733,7 @@
 			// 
 			this.cbM01CH5Enable.AutoSize = true;
 			this.cbM01CH5Enable.Depth = 0;
-			this.cbM01CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM01CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM01CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -742,7 +748,7 @@
 			// 
 			this.cbM01CH3Enable.AutoSize = true;
 			this.cbM01CH3Enable.Depth = 0;
-			this.cbM01CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM01CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM01CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -757,7 +763,7 @@
 			// 
 			this.cbM01CH7Enable.AutoSize = true;
 			this.cbM01CH7Enable.Depth = 0;
-			this.cbM01CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM01CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM01CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -772,7 +778,7 @@
 			// 
 			this.cbM01CH2Enable.AutoSize = true;
 			this.cbM01CH2Enable.Depth = 0;
-			this.cbM01CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM01CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM01CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -787,7 +793,7 @@
 			// 
 			this.cbM01CH6Enable.AutoSize = true;
 			this.cbM01CH6Enable.Depth = 0;
-			this.cbM01CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM01CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM01CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -802,7 +808,7 @@
 			// 
 			this.cbM01CH1Enable.AutoSize = true;
 			this.cbM01CH1Enable.Depth = 0;
-			this.cbM01CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM01CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM01CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -817,7 +823,7 @@
 			// 
 			this.cbM01CH8Enable.AutoSize = true;
 			this.cbM01CH8Enable.Depth = 0;
-			this.cbM01CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM01CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM01CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM01CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM01CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -831,9 +837,11 @@
 			// groupBox3
 			// 
 			this.groupBox3.Controls.Add(this.textBox19);
-			this.groupBox3.Location = new System.Drawing.Point(7, 247);
+			this.groupBox3.Location = new System.Drawing.Point(8, 309);
+			this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(374, 56);
+			this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox3.Size = new System.Drawing.Size(427, 70);
 			this.groupBox3.TabIndex = 12;
 			this.groupBox3.TabStop = false;
 			this.groupBox3.Text = "Description";
@@ -845,12 +853,13 @@
 			this.textBox19.Depth = 0;
 			this.textBox19.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox19.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox19.Location = new System.Drawing.Point(3, 17);
+			this.textBox19.Location = new System.Drawing.Point(3, 22);
+			this.textBox19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox19.MaxLength = 50;
 			this.textBox19.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox19.Multiline = false;
 			this.textBox19.Name = "textBox19";
-			this.textBox19.Size = new System.Drawing.Size(368, 36);
+			this.textBox19.Size = new System.Drawing.Size(421, 36);
 			this.textBox19.TabIndex = 0;
 			this.textBox19.Text = "";
 			this.textBox19.UseTallSize = false;
@@ -858,9 +867,11 @@
 			// gbM01ParaPannel
 			// 
 			this.gbM01ParaPannel.Controls.Add(this.tableLayoutPanel9);
-			this.gbM01ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM01ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM01ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM01ParaPannel.Name = "gbM01ParaPannel";
-			this.gbM01ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM01ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM01ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM01ParaPannel.TabIndex = 11;
 			this.gbM01ParaPannel.TabStop = false;
 			this.gbM01ParaPannel.Text = "Default Parameter";
@@ -887,14 +898,15 @@
 			this.tableLayoutPanel9.Controls.Add(this.tbM01DefaultPara_Tm_CH2, 1, 3);
 			this.tableLayoutPanel9.Controls.Add(this.tbM01DefaultPara_Tm_CH3, 2, 3);
 			this.tableLayoutPanel9.Controls.Add(this.tbM01DefaultPara_Tm_CH4, 3, 3);
-			this.tableLayoutPanel9.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel9.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel9.Name = "tableLayoutPanel9";
 			this.tableLayoutPanel9.RowCount = 4;
 			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel9.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel9.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel9.TabIndex = 33;
 			// 
 			// label33
@@ -906,7 +918,7 @@
 			this.label33.Location = new System.Drawing.Point(3, 0);
 			this.label33.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label33.Name = "label33";
-			this.label33.Size = new System.Drawing.Size(82, 24);
+			this.label33.Size = new System.Drawing.Size(94, 31);
 			this.label33.TabIndex = 0;
 			this.label33.Text = "a";
 			this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -917,10 +929,10 @@
 			this.label34.Depth = 0;
 			this.label34.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label34.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label34.Location = new System.Drawing.Point(91, 0);
+			this.label34.Location = new System.Drawing.Point(103, 0);
 			this.label34.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label34.Name = "label34";
-			this.label34.Size = new System.Drawing.Size(82, 24);
+			this.label34.Size = new System.Drawing.Size(94, 31);
 			this.label34.TabIndex = 0;
 			this.label34.Text = "b";
 			this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -931,10 +943,10 @@
 			this.label35.Depth = 0;
 			this.label35.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label35.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label35.Location = new System.Drawing.Point(179, 0);
+			this.label35.Location = new System.Drawing.Point(203, 0);
 			this.label35.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label35.Name = "label35";
-			this.label35.Size = new System.Drawing.Size(82, 24);
+			this.label35.Size = new System.Drawing.Size(94, 31);
 			this.label35.TabIndex = 0;
 			this.label35.Text = "c";
 			this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -945,10 +957,10 @@
 			this.label36.Depth = 0;
 			this.label36.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label36.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label36.Location = new System.Drawing.Point(267, 0);
+			this.label36.Location = new System.Drawing.Point(303, 0);
 			this.label36.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label36.Name = "label36";
-			this.label36.Size = new System.Drawing.Size(82, 24);
+			this.label36.Size = new System.Drawing.Size(96, 31);
 			this.label36.TabIndex = 0;
 			this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -960,12 +972,13 @@
 			this.tbM01DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_a.Depth = 0;
 			this.tbM01DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM01DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM01DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_a.MaxLength = 50;
 			this.tbM01DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_a.Multiline = false;
 			this.tbM01DefaultPara_a.Name = "tbM01DefaultPara_a";
-			this.tbM01DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_a.TabIndex = 1;
 			this.tbM01DefaultPara_a.Text = "";
 			this.tbM01DefaultPara_a.UseTallSize = false;
@@ -978,12 +991,13 @@
 			this.tbM01DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_b.Depth = 0;
 			this.tbM01DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM01DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM01DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_b.MaxLength = 50;
 			this.tbM01DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_b.Multiline = false;
 			this.tbM01DefaultPara_b.Name = "tbM01DefaultPara_b";
-			this.tbM01DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_b.TabIndex = 1;
 			this.tbM01DefaultPara_b.Text = "";
 			this.tbM01DefaultPara_b.UseTallSize = false;
@@ -996,12 +1010,13 @@
 			this.tbM01DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_c.Depth = 0;
 			this.tbM01DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM01DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM01DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_c.MaxLength = 50;
 			this.tbM01DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_c.Multiline = false;
 			this.tbM01DefaultPara_c.Name = "tbM01DefaultPara_c";
-			this.tbM01DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_c.TabIndex = 1;
 			this.tbM01DefaultPara_c.Text = "";
 			this.tbM01DefaultPara_c.UseTallSize = false;
@@ -1012,10 +1027,10 @@
 			this.label37.Depth = 0;
 			this.label37.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label37.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label37.Location = new System.Drawing.Point(91, 61);
+			this.label37.Location = new System.Drawing.Point(103, 77);
 			this.label37.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label37.Name = "label37";
-			this.label37.Size = new System.Drawing.Size(82, 24);
+			this.label37.Size = new System.Drawing.Size(94, 31);
 			this.label37.TabIndex = 2;
 			this.label37.Text = "Tm_CH2";
 			this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1026,10 +1041,10 @@
 			this.label38.Depth = 0;
 			this.label38.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label38.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label38.Location = new System.Drawing.Point(3, 61);
+			this.label38.Location = new System.Drawing.Point(3, 77);
 			this.label38.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label38.Name = "label38";
-			this.label38.Size = new System.Drawing.Size(82, 24);
+			this.label38.Size = new System.Drawing.Size(94, 31);
 			this.label38.TabIndex = 3;
 			this.label38.Text = "Tm_CH1";
 			this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1040,10 +1055,10 @@
 			this.label39.Depth = 0;
 			this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label39.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label39.Location = new System.Drawing.Point(179, 61);
+			this.label39.Location = new System.Drawing.Point(203, 77);
 			this.label39.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label39.Name = "label39";
-			this.label39.Size = new System.Drawing.Size(82, 24);
+			this.label39.Size = new System.Drawing.Size(94, 31);
 			this.label39.TabIndex = 4;
 			this.label39.Text = "Tm_CH3";
 			this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1054,10 +1069,10 @@
 			this.label40.Depth = 0;
 			this.label40.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label40.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label40.Location = new System.Drawing.Point(267, 61);
+			this.label40.Location = new System.Drawing.Point(303, 77);
 			this.label40.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label40.Name = "label40";
-			this.label40.Size = new System.Drawing.Size(82, 24);
+			this.label40.Size = new System.Drawing.Size(96, 31);
 			this.label40.TabIndex = 5;
 			this.label40.Text = "Tm_CH4";
 			this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1070,13 +1085,14 @@
 			this.tbM01DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM01DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM01DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM01DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM01DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM01DefaultPara_Tm_CH1.Name = "tbM01DefaultPara_Tm_CH1";
 			this.tbM01DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM01DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_Tm_CH1.TabIndex = 1;
 			this.tbM01DefaultPara_Tm_CH1.Text = "";
 			this.tbM01DefaultPara_Tm_CH1.UseTallSize = false;
@@ -1089,13 +1105,14 @@
 			this.tbM01DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM01DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM01DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM01DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM01DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM01DefaultPara_Tm_CH2.Name = "tbM01DefaultPara_Tm_CH2";
 			this.tbM01DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM01DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_Tm_CH2.TabIndex = 1;
 			this.tbM01DefaultPara_Tm_CH2.Text = "";
 			this.tbM01DefaultPara_Tm_CH2.UseTallSize = false;
@@ -1108,13 +1125,14 @@
 			this.tbM01DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM01DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM01DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM01DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM01DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM01DefaultPara_Tm_CH3.Name = "tbM01DefaultPara_Tm_CH3";
 			this.tbM01DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM01DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM01DefaultPara_Tm_CH3.TabIndex = 1;
 			this.tbM01DefaultPara_Tm_CH3.Text = "";
 			this.tbM01DefaultPara_Tm_CH3.UseTallSize = false;
@@ -1127,13 +1145,14 @@
 			this.tbM01DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM01DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM01DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM01DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM01DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM01DefaultPara_Tm_CH4.Name = "tbM01DefaultPara_Tm_CH4";
 			this.tbM01DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM01DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM01DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM01DefaultPara_Tm_CH4.TabIndex = 1;
 			this.tbM01DefaultPara_Tm_CH4.Text = "";
 			this.tbM01DefaultPara_Tm_CH4.UseTallSize = false;
@@ -1141,9 +1160,11 @@
 			// gbM01CustomPannel
 			// 
 			this.gbM01CustomPannel.Controls.Add(this.tableLayoutPanel1);
-			this.gbM01CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM01CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM01CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM01CustomPannel.Name = "gbM01CustomPannel";
-			this.gbM01CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM01CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM01CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM01CustomPannel.TabIndex = 10;
 			this.gbM01CustomPannel.TabStop = false;
 			this.gbM01CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -1164,12 +1185,13 @@
 			this.tableLayoutPanel1.Controls.Add(this.tbM01CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel1.Controls.Add(this.tbM01CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 2;
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.67533F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 65.32468F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel1.TabIndex = 0;
 			// 
 			// label9
@@ -1181,7 +1203,7 @@
 			this.label9.Location = new System.Drawing.Point(3, 0);
 			this.label9.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(86, 20);
+			this.label9.Size = new System.Drawing.Size(99, 25);
 			this.label9.TabIndex = 0;
 			this.label9.Text = "Channel 1";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1192,10 +1214,10 @@
 			this.label10.Depth = 0;
 			this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label10.Location = new System.Drawing.Point(95, 0);
+			this.label10.Location = new System.Drawing.Point(108, 0);
 			this.label10.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(86, 20);
+			this.label10.Size = new System.Drawing.Size(99, 25);
 			this.label10.TabIndex = 0;
 			this.label10.Text = "Channel 2";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1206,10 +1228,10 @@
 			this.label11.Depth = 0;
 			this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label11.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label11.Location = new System.Drawing.Point(187, 0);
+			this.label11.Location = new System.Drawing.Point(213, 0);
 			this.label11.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(86, 20);
+			this.label11.Size = new System.Drawing.Size(99, 25);
 			this.label11.TabIndex = 0;
 			this.label11.Text = "Channel 3";
 			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1220,10 +1242,10 @@
 			this.label12.Depth = 0;
 			this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label12.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label12.Location = new System.Drawing.Point(279, 0);
+			this.label12.Location = new System.Drawing.Point(318, 0);
 			this.label12.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(86, 20);
+			this.label12.Size = new System.Drawing.Size(100, 25);
 			this.label12.TabIndex = 0;
 			this.label12.Text = "Channel 4";
 			this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1233,12 +1255,13 @@
 			this.tbM01CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01CustomPara_CH1.Depth = 0;
 			this.tbM01CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM01CustomPara_CH1.Location = new System.Drawing.Point(3, 29);
+			this.tbM01CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01CustomPara_CH1.MaxLength = 50;
 			this.tbM01CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01CustomPara_CH1.Multiline = false;
 			this.tbM01CustomPara_CH1.Name = "tbM01CustomPara_CH1";
-			this.tbM01CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM01CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM01CustomPara_CH1.TabIndex = 1;
 			this.tbM01CustomPara_CH1.Text = "";
 			this.tbM01CustomPara_CH1.UseTallSize = false;
@@ -1248,12 +1271,13 @@
 			this.tbM01CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01CustomPara_CH2.Depth = 0;
 			this.tbM01CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM01CustomPara_CH2.Location = new System.Drawing.Point(108, 29);
+			this.tbM01CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01CustomPara_CH2.MaxLength = 50;
 			this.tbM01CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01CustomPara_CH2.Multiline = false;
 			this.tbM01CustomPara_CH2.Name = "tbM01CustomPara_CH2";
-			this.tbM01CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM01CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM01CustomPara_CH2.TabIndex = 1;
 			this.tbM01CustomPara_CH2.Text = "";
 			this.tbM01CustomPara_CH2.UseTallSize = false;
@@ -1263,12 +1287,13 @@
 			this.tbM01CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01CustomPara_CH3.Depth = 0;
 			this.tbM01CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM01CustomPara_CH3.Location = new System.Drawing.Point(213, 29);
+			this.tbM01CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01CustomPara_CH3.MaxLength = 50;
 			this.tbM01CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01CustomPara_CH3.Multiline = false;
 			this.tbM01CustomPara_CH3.Name = "tbM01CustomPara_CH3";
-			this.tbM01CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM01CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM01CustomPara_CH3.TabIndex = 1;
 			this.tbM01CustomPara_CH3.Text = "";
 			this.tbM01CustomPara_CH3.UseTallSize = false;
@@ -1278,12 +1303,13 @@
 			this.tbM01CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM01CustomPara_CH4.Depth = 0;
 			this.tbM01CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM01CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM01CustomPara_CH4.Location = new System.Drawing.Point(318, 29);
+			this.tbM01CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM01CustomPara_CH4.MaxLength = 50;
 			this.tbM01CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM01CustomPara_CH4.Multiline = false;
 			this.tbM01CustomPara_CH4.Name = "tbM01CustomPara_CH4";
-			this.tbM01CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM01CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM01CustomPara_CH4.TabIndex = 1;
 			this.tbM01CustomPara_CH4.Text = "";
 			this.tbM01CustomPara_CH4.UseTallSize = false;
@@ -1294,19 +1320,22 @@
 			this.tbM02.Controls.Add(this.groupBox22);
 			this.tbM02.Controls.Add(this.gbM02ParaPannel);
 			this.tbM02.Controls.Add(this.gbM02CHPannel);
-			this.tbM02.Location = new System.Drawing.Point(4, 22);
+			this.tbM02.Location = new System.Drawing.Point(4, 25);
+			this.tbM02.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02.Name = "tbM02";
-			this.tbM02.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM02.Size = new System.Drawing.Size(431, 330);
+			this.tbM02.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM02.Size = new System.Drawing.Size(494, 416);
 			this.tbM02.TabIndex = 1;
 			this.tbM02.Text = "Module02";
 			// 
 			// gbM02CustomPannel
 			// 
 			this.gbM02CustomPannel.Controls.Add(this.tableLayoutPanel14);
-			this.gbM02CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM02CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM02CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM02CustomPannel.Name = "gbM02CustomPannel";
-			this.gbM02CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM02CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM02CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM02CustomPannel.TabIndex = 9;
 			this.gbM02CustomPannel.TabStop = false;
 			this.gbM02CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -1327,12 +1356,13 @@
 			this.tableLayoutPanel14.Controls.Add(this.tbM02CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel14.Controls.Add(this.tbM02CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel14.Name = "tableLayoutPanel14";
 			this.tableLayoutPanel14.RowCount = 2;
 			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.50584F));
 			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 64.49416F));
-			this.tableLayoutPanel14.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel14.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel14.TabIndex = 0;
 			// 
 			// label100
@@ -1344,7 +1374,7 @@
 			this.label100.Location = new System.Drawing.Point(3, 0);
 			this.label100.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label100.Name = "label100";
-			this.label100.Size = new System.Drawing.Size(86, 20);
+			this.label100.Size = new System.Drawing.Size(99, 25);
 			this.label100.TabIndex = 0;
 			this.label100.Text = "Channel 1";
 			this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1355,10 +1385,10 @@
 			this.label101.Depth = 0;
 			this.label101.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label101.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label101.Location = new System.Drawing.Point(95, 0);
+			this.label101.Location = new System.Drawing.Point(108, 0);
 			this.label101.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label101.Name = "label101";
-			this.label101.Size = new System.Drawing.Size(86, 20);
+			this.label101.Size = new System.Drawing.Size(99, 25);
 			this.label101.TabIndex = 0;
 			this.label101.Text = "Channel 2";
 			this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1369,10 +1399,10 @@
 			this.label102.Depth = 0;
 			this.label102.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label102.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label102.Location = new System.Drawing.Point(187, 0);
+			this.label102.Location = new System.Drawing.Point(213, 0);
 			this.label102.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label102.Name = "label102";
-			this.label102.Size = new System.Drawing.Size(86, 20);
+			this.label102.Size = new System.Drawing.Size(99, 25);
 			this.label102.TabIndex = 0;
 			this.label102.Text = "Channel 3";
 			this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1383,10 +1413,10 @@
 			this.label103.Depth = 0;
 			this.label103.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label103.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label103.Location = new System.Drawing.Point(279, 0);
+			this.label103.Location = new System.Drawing.Point(318, 0);
 			this.label103.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label103.Name = "label103";
-			this.label103.Size = new System.Drawing.Size(86, 20);
+			this.label103.Size = new System.Drawing.Size(100, 25);
 			this.label103.TabIndex = 0;
 			this.label103.Text = "Channel 4";
 			this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1396,12 +1426,13 @@
 			this.tbM02CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02CustomPara_CH1.Depth = 0;
 			this.tbM02CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM02CustomPara_CH1.Location = new System.Drawing.Point(3, 29);
+			this.tbM02CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02CustomPara_CH1.MaxLength = 50;
 			this.tbM02CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02CustomPara_CH1.Multiline = false;
 			this.tbM02CustomPara_CH1.Name = "tbM02CustomPara_CH1";
-			this.tbM02CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM02CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM02CustomPara_CH1.TabIndex = 1;
 			this.tbM02CustomPara_CH1.Text = "";
 			this.tbM02CustomPara_CH1.UseTallSize = false;
@@ -1411,12 +1442,13 @@
 			this.tbM02CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02CustomPara_CH2.Depth = 0;
 			this.tbM02CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM02CustomPara_CH2.Location = new System.Drawing.Point(108, 29);
+			this.tbM02CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02CustomPara_CH2.MaxLength = 50;
 			this.tbM02CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02CustomPara_CH2.Multiline = false;
 			this.tbM02CustomPara_CH2.Name = "tbM02CustomPara_CH2";
-			this.tbM02CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM02CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM02CustomPara_CH2.TabIndex = 1;
 			this.tbM02CustomPara_CH2.Text = "";
 			this.tbM02CustomPara_CH2.UseTallSize = false;
@@ -1426,12 +1458,13 @@
 			this.tbM02CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02CustomPara_CH3.Depth = 0;
 			this.tbM02CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM02CustomPara_CH3.Location = new System.Drawing.Point(213, 29);
+			this.tbM02CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02CustomPara_CH3.MaxLength = 50;
 			this.tbM02CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02CustomPara_CH3.Multiline = false;
 			this.tbM02CustomPara_CH3.Name = "tbM02CustomPara_CH3";
-			this.tbM02CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM02CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM02CustomPara_CH3.TabIndex = 1;
 			this.tbM02CustomPara_CH3.Text = "";
 			this.tbM02CustomPara_CH3.UseTallSize = false;
@@ -1441,12 +1474,13 @@
 			this.tbM02CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02CustomPara_CH4.Depth = 0;
 			this.tbM02CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM02CustomPara_CH4.Location = new System.Drawing.Point(318, 29);
+			this.tbM02CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02CustomPara_CH4.MaxLength = 50;
 			this.tbM02CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02CustomPara_CH4.Multiline = false;
 			this.tbM02CustomPara_CH4.Name = "tbM02CustomPara_CH4";
-			this.tbM02CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM02CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM02CustomPara_CH4.TabIndex = 1;
 			this.tbM02CustomPara_CH4.Text = "";
 			this.tbM02CustomPara_CH4.UseTallSize = false;
@@ -1454,9 +1488,11 @@
 			// groupBox22
 			// 
 			this.groupBox22.Controls.Add(this.textBox2);
-			this.groupBox22.Location = new System.Drawing.Point(7, 247);
+			this.groupBox22.Location = new System.Drawing.Point(8, 309);
+			this.groupBox22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox22.Name = "groupBox22";
-			this.groupBox22.Size = new System.Drawing.Size(374, 56);
+			this.groupBox22.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox22.Size = new System.Drawing.Size(427, 70);
 			this.groupBox22.TabIndex = 8;
 			this.groupBox22.TabStop = false;
 			this.groupBox22.Text = "Description";
@@ -1468,12 +1504,13 @@
 			this.textBox2.Depth = 0;
 			this.textBox2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox2.Location = new System.Drawing.Point(3, 17);
+			this.textBox2.Location = new System.Drawing.Point(3, 22);
+			this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox2.MaxLength = 50;
 			this.textBox2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox2.Multiline = false;
 			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(368, 36);
+			this.textBox2.Size = new System.Drawing.Size(421, 36);
 			this.textBox2.TabIndex = 0;
 			this.textBox2.Text = "";
 			this.textBox2.UseTallSize = false;
@@ -1481,9 +1518,11 @@
 			// gbM02ParaPannel
 			// 
 			this.gbM02ParaPannel.Controls.Add(this.tableLayoutPanel2);
-			this.gbM02ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM02ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM02ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM02ParaPannel.Name = "gbM02ParaPannel";
-			this.gbM02ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM02ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM02ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM02ParaPannel.TabIndex = 7;
 			this.gbM02ParaPannel.TabStop = false;
 			this.gbM02ParaPannel.Text = "Default Parameter";
@@ -1510,14 +1549,15 @@
 			this.tableLayoutPanel2.Controls.Add(this.tbM02DefaultPara_Tm_CH2, 1, 3);
 			this.tableLayoutPanel2.Controls.Add(this.tbM02DefaultPara_Tm_CH3, 2, 3);
 			this.tableLayoutPanel2.Controls.Add(this.tbM02DefaultPara_Tm_CH4, 3, 3);
-			this.tableLayoutPanel2.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel2.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel2.Name = "tableLayoutPanel2";
 			this.tableLayoutPanel2.RowCount = 4;
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel2.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel2.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel2.TabIndex = 33;
 			// 
 			// label1
@@ -1529,7 +1569,7 @@
 			this.label1.Location = new System.Drawing.Point(3, 0);
 			this.label1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(82, 24);
+			this.label1.Size = new System.Drawing.Size(94, 31);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "a";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1540,10 +1580,10 @@
 			this.label2.Depth = 0;
 			this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label2.Location = new System.Drawing.Point(91, 0);
+			this.label2.Location = new System.Drawing.Point(103, 0);
 			this.label2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(82, 24);
+			this.label2.Size = new System.Drawing.Size(94, 31);
 			this.label2.TabIndex = 0;
 			this.label2.Text = "b";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1554,10 +1594,10 @@
 			this.label3.Depth = 0;
 			this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label3.Location = new System.Drawing.Point(179, 0);
+			this.label3.Location = new System.Drawing.Point(203, 0);
 			this.label3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(82, 24);
+			this.label3.Size = new System.Drawing.Size(94, 31);
 			this.label3.TabIndex = 0;
 			this.label3.Text = "c";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1568,10 +1608,10 @@
 			this.label4.Depth = 0;
 			this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label4.Location = new System.Drawing.Point(267, 0);
+			this.label4.Location = new System.Drawing.Point(303, 0);
 			this.label4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(82, 24);
+			this.label4.Size = new System.Drawing.Size(96, 31);
 			this.label4.TabIndex = 0;
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -1583,12 +1623,13 @@
 			this.tbM02DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_a.Depth = 0;
 			this.tbM02DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM02DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM02DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_a.MaxLength = 50;
 			this.tbM02DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_a.Multiline = false;
 			this.tbM02DefaultPara_a.Name = "tbM02DefaultPara_a";
-			this.tbM02DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_a.TabIndex = 1;
 			this.tbM02DefaultPara_a.Text = "";
 			this.tbM02DefaultPara_a.UseTallSize = false;
@@ -1601,12 +1642,13 @@
 			this.tbM02DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_b.Depth = 0;
 			this.tbM02DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM02DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM02DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_b.MaxLength = 50;
 			this.tbM02DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_b.Multiline = false;
 			this.tbM02DefaultPara_b.Name = "tbM02DefaultPara_b";
-			this.tbM02DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_b.TabIndex = 1;
 			this.tbM02DefaultPara_b.Text = "";
 			this.tbM02DefaultPara_b.UseTallSize = false;
@@ -1619,12 +1661,13 @@
 			this.tbM02DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_c.Depth = 0;
 			this.tbM02DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM02DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM02DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_c.MaxLength = 50;
 			this.tbM02DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_c.Multiline = false;
 			this.tbM02DefaultPara_c.Name = "tbM02DefaultPara_c";
-			this.tbM02DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_c.TabIndex = 1;
 			this.tbM02DefaultPara_c.Text = "";
 			this.tbM02DefaultPara_c.UseTallSize = false;
@@ -1635,10 +1678,10 @@
 			this.label53.Depth = 0;
 			this.label53.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label53.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label53.Location = new System.Drawing.Point(91, 61);
+			this.label53.Location = new System.Drawing.Point(103, 77);
 			this.label53.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(82, 24);
+			this.label53.Size = new System.Drawing.Size(94, 31);
 			this.label53.TabIndex = 2;
 			this.label53.Text = "Tm_CH2";
 			this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1649,10 +1692,10 @@
 			this.label54.Depth = 0;
 			this.label54.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label54.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label54.Location = new System.Drawing.Point(3, 61);
+			this.label54.Location = new System.Drawing.Point(3, 77);
 			this.label54.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label54.Name = "label54";
-			this.label54.Size = new System.Drawing.Size(82, 24);
+			this.label54.Size = new System.Drawing.Size(94, 31);
 			this.label54.TabIndex = 3;
 			this.label54.Text = "Tm_CH1";
 			this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1663,10 +1706,10 @@
 			this.label55.Depth = 0;
 			this.label55.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label55.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label55.Location = new System.Drawing.Point(179, 61);
+			this.label55.Location = new System.Drawing.Point(203, 77);
 			this.label55.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label55.Name = "label55";
-			this.label55.Size = new System.Drawing.Size(82, 24);
+			this.label55.Size = new System.Drawing.Size(94, 31);
 			this.label55.TabIndex = 4;
 			this.label55.Text = "Tm_CH3";
 			this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1677,10 +1720,10 @@
 			this.label56.Depth = 0;
 			this.label56.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label56.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label56.Location = new System.Drawing.Point(267, 61);
+			this.label56.Location = new System.Drawing.Point(303, 77);
 			this.label56.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label56.Name = "label56";
-			this.label56.Size = new System.Drawing.Size(82, 24);
+			this.label56.Size = new System.Drawing.Size(96, 31);
 			this.label56.TabIndex = 5;
 			this.label56.Text = "Tm_CH4";
 			this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1693,13 +1736,14 @@
 			this.tbM02DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM02DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM02DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM02DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM02DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM02DefaultPara_Tm_CH1.Name = "tbM02DefaultPara_Tm_CH1";
 			this.tbM02DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM02DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_Tm_CH1.TabIndex = 1;
 			this.tbM02DefaultPara_Tm_CH1.Text = "";
 			this.tbM02DefaultPara_Tm_CH1.UseTallSize = false;
@@ -1712,13 +1756,14 @@
 			this.tbM02DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM02DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM02DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM02DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM02DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM02DefaultPara_Tm_CH2.Name = "tbM02DefaultPara_Tm_CH2";
 			this.tbM02DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM02DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_Tm_CH2.TabIndex = 1;
 			this.tbM02DefaultPara_Tm_CH2.Text = "";
 			this.tbM02DefaultPara_Tm_CH2.UseTallSize = false;
@@ -1731,13 +1776,14 @@
 			this.tbM02DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM02DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM02DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM02DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM02DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM02DefaultPara_Tm_CH3.Name = "tbM02DefaultPara_Tm_CH3";
 			this.tbM02DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM02DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM02DefaultPara_Tm_CH3.TabIndex = 1;
 			this.tbM02DefaultPara_Tm_CH3.Text = "";
 			this.tbM02DefaultPara_Tm_CH3.UseTallSize = false;
@@ -1750,13 +1796,14 @@
 			this.tbM02DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM02DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM02DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM02DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM02DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM02DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM02DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM02DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM02DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM02DefaultPara_Tm_CH4.Name = "tbM02DefaultPara_Tm_CH4";
 			this.tbM02DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM02DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM02DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM02DefaultPara_Tm_CH4.TabIndex = 1;
 			this.tbM02DefaultPara_Tm_CH4.Text = "";
 			this.tbM02DefaultPara_Tm_CH4.UseTallSize = false;
@@ -1771,9 +1818,11 @@
 			this.gbM02CHPannel.Controls.Add(this.cbM02CH6Enable);
 			this.gbM02CHPannel.Controls.Add(this.cbM02CH1Enable);
 			this.gbM02CHPannel.Controls.Add(this.cbM02CH8Enable);
-			this.gbM02CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM02CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM02CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM02CHPannel.Name = "gbM02CHPannel";
-			this.gbM02CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM02CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM02CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM02CHPannel.TabIndex = 6;
 			this.gbM02CHPannel.TabStop = false;
 			this.gbM02CHPannel.Text = "Channel Enable";
@@ -1783,7 +1832,7 @@
 			// 
 			this.cbM02CH4Enable.AutoSize = true;
 			this.cbM02CH4Enable.Depth = 0;
-			this.cbM02CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM02CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM02CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1798,7 +1847,7 @@
 			// 
 			this.cbM02CH5Enable.AutoSize = true;
 			this.cbM02CH5Enable.Depth = 0;
-			this.cbM02CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM02CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM02CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1813,7 +1862,7 @@
 			// 
 			this.cbM02CH3Enable.AutoSize = true;
 			this.cbM02CH3Enable.Depth = 0;
-			this.cbM02CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM02CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM02CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1828,7 +1877,7 @@
 			// 
 			this.cbM02CH7Enable.AutoSize = true;
 			this.cbM02CH7Enable.Depth = 0;
-			this.cbM02CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM02CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM02CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1843,7 +1892,7 @@
 			// 
 			this.cbM02CH2Enable.AutoSize = true;
 			this.cbM02CH2Enable.Depth = 0;
-			this.cbM02CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM02CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM02CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1858,7 +1907,7 @@
 			// 
 			this.cbM02CH6Enable.AutoSize = true;
 			this.cbM02CH6Enable.Depth = 0;
-			this.cbM02CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM02CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM02CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1873,7 +1922,7 @@
 			// 
 			this.cbM02CH1Enable.AutoSize = true;
 			this.cbM02CH1Enable.Depth = 0;
-			this.cbM02CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM02CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM02CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1888,7 +1937,7 @@
 			// 
 			this.cbM02CH8Enable.AutoSize = true;
 			this.cbM02CH8Enable.Depth = 0;
-			this.cbM02CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM02CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM02CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM02CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM02CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -1905,19 +1954,22 @@
 			this.tbM03.Controls.Add(this.groupBox23);
 			this.tbM03.Controls.Add(this.gbM03ParaPannel);
 			this.tbM03.Controls.Add(this.gbM03CHPannel);
-			this.tbM03.Location = new System.Drawing.Point(4, 22);
+			this.tbM03.Location = new System.Drawing.Point(4, 25);
+			this.tbM03.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03.Name = "tbM03";
-			this.tbM03.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM03.Size = new System.Drawing.Size(431, 330);
+			this.tbM03.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM03.Size = new System.Drawing.Size(494, 416);
 			this.tbM03.TabIndex = 2;
 			this.tbM03.Text = "Module03";
 			// 
 			// gbM03CustomPannel
 			// 
 			this.gbM03CustomPannel.Controls.Add(this.tableLayoutPanel15);
-			this.gbM03CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM03CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM03CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM03CustomPannel.Name = "gbM03CustomPannel";
-			this.gbM03CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM03CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM03CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM03CustomPannel.TabIndex = 12;
 			this.gbM03CustomPannel.TabStop = false;
 			this.gbM03CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -1938,12 +1990,13 @@
 			this.tableLayoutPanel15.Controls.Add(this.tbM03CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel15.Controls.Add(this.tbM03CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel15.Name = "tableLayoutPanel15";
 			this.tableLayoutPanel15.RowCount = 2;
 			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.35438F));
 			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 63.64563F));
-			this.tableLayoutPanel15.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel15.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel15.TabIndex = 0;
 			// 
 			// label104
@@ -1955,7 +2008,7 @@
 			this.label104.Location = new System.Drawing.Point(3, 0);
 			this.label104.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label104.Name = "label104";
-			this.label104.Size = new System.Drawing.Size(86, 21);
+			this.label104.Size = new System.Drawing.Size(99, 26);
 			this.label104.TabIndex = 0;
 			this.label104.Text = "Channel 1";
 			this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1966,10 +2019,10 @@
 			this.label105.Depth = 0;
 			this.label105.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label105.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label105.Location = new System.Drawing.Point(95, 0);
+			this.label105.Location = new System.Drawing.Point(108, 0);
 			this.label105.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label105.Name = "label105";
-			this.label105.Size = new System.Drawing.Size(86, 21);
+			this.label105.Size = new System.Drawing.Size(99, 26);
 			this.label105.TabIndex = 0;
 			this.label105.Text = "Channel 2";
 			this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1980,10 +2033,10 @@
 			this.label106.Depth = 0;
 			this.label106.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label106.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label106.Location = new System.Drawing.Point(187, 0);
+			this.label106.Location = new System.Drawing.Point(213, 0);
 			this.label106.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label106.Name = "label106";
-			this.label106.Size = new System.Drawing.Size(86, 21);
+			this.label106.Size = new System.Drawing.Size(99, 26);
 			this.label106.TabIndex = 0;
 			this.label106.Text = "Channel 3";
 			this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1994,10 +2047,10 @@
 			this.label107.Depth = 0;
 			this.label107.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label107.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label107.Location = new System.Drawing.Point(279, 0);
+			this.label107.Location = new System.Drawing.Point(318, 0);
 			this.label107.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label107.Name = "label107";
-			this.label107.Size = new System.Drawing.Size(86, 21);
+			this.label107.Size = new System.Drawing.Size(100, 26);
 			this.label107.TabIndex = 0;
 			this.label107.Text = "Channel 4";
 			this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2007,12 +2060,13 @@
 			this.tbM03CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03CustomPara_CH1.Depth = 0;
 			this.tbM03CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03CustomPara_CH1.Location = new System.Drawing.Point(3, 24);
+			this.tbM03CustomPara_CH1.Location = new System.Drawing.Point(3, 30);
+			this.tbM03CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03CustomPara_CH1.MaxLength = 50;
 			this.tbM03CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03CustomPara_CH1.Multiline = false;
 			this.tbM03CustomPara_CH1.Name = "tbM03CustomPara_CH1";
-			this.tbM03CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM03CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM03CustomPara_CH1.TabIndex = 1;
 			this.tbM03CustomPara_CH1.Text = "";
 			this.tbM03CustomPara_CH1.UseTallSize = false;
@@ -2022,12 +2076,13 @@
 			this.tbM03CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03CustomPara_CH2.Depth = 0;
 			this.tbM03CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03CustomPara_CH2.Location = new System.Drawing.Point(95, 24);
+			this.tbM03CustomPara_CH2.Location = new System.Drawing.Point(108, 30);
+			this.tbM03CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03CustomPara_CH2.MaxLength = 50;
 			this.tbM03CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03CustomPara_CH2.Multiline = false;
 			this.tbM03CustomPara_CH2.Name = "tbM03CustomPara_CH2";
-			this.tbM03CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM03CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM03CustomPara_CH2.TabIndex = 1;
 			this.tbM03CustomPara_CH2.Text = "";
 			this.tbM03CustomPara_CH2.UseTallSize = false;
@@ -2037,12 +2092,13 @@
 			this.tbM03CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03CustomPara_CH3.Depth = 0;
 			this.tbM03CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03CustomPara_CH3.Location = new System.Drawing.Point(187, 24);
+			this.tbM03CustomPara_CH3.Location = new System.Drawing.Point(213, 30);
+			this.tbM03CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03CustomPara_CH3.MaxLength = 50;
 			this.tbM03CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03CustomPara_CH3.Multiline = false;
 			this.tbM03CustomPara_CH3.Name = "tbM03CustomPara_CH3";
-			this.tbM03CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM03CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM03CustomPara_CH3.TabIndex = 1;
 			this.tbM03CustomPara_CH3.Text = "";
 			this.tbM03CustomPara_CH3.UseTallSize = false;
@@ -2052,12 +2108,13 @@
 			this.tbM03CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03CustomPara_CH4.Depth = 0;
 			this.tbM03CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03CustomPara_CH4.Location = new System.Drawing.Point(279, 24);
+			this.tbM03CustomPara_CH4.Location = new System.Drawing.Point(318, 30);
+			this.tbM03CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03CustomPara_CH4.MaxLength = 50;
 			this.tbM03CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03CustomPara_CH4.Multiline = false;
 			this.tbM03CustomPara_CH4.Name = "tbM03CustomPara_CH4";
-			this.tbM03CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM03CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM03CustomPara_CH4.TabIndex = 1;
 			this.tbM03CustomPara_CH4.Text = "";
 			this.tbM03CustomPara_CH4.UseTallSize = false;
@@ -2065,9 +2122,11 @@
 			// groupBox23
 			// 
 			this.groupBox23.Controls.Add(this.textBox3);
-			this.groupBox23.Location = new System.Drawing.Point(7, 247);
+			this.groupBox23.Location = new System.Drawing.Point(8, 309);
+			this.groupBox23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox23.Name = "groupBox23";
-			this.groupBox23.Size = new System.Drawing.Size(374, 56);
+			this.groupBox23.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox23.Size = new System.Drawing.Size(427, 70);
 			this.groupBox23.TabIndex = 11;
 			this.groupBox23.TabStop = false;
 			this.groupBox23.Text = "Description";
@@ -2079,12 +2138,13 @@
 			this.textBox3.Depth = 0;
 			this.textBox3.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox3.Location = new System.Drawing.Point(3, 17);
+			this.textBox3.Location = new System.Drawing.Point(3, 22);
+			this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox3.MaxLength = 50;
 			this.textBox3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox3.Multiline = false;
 			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(368, 36);
+			this.textBox3.Size = new System.Drawing.Size(421, 36);
 			this.textBox3.TabIndex = 0;
 			this.textBox3.Text = "";
 			this.textBox3.UseTallSize = false;
@@ -2092,9 +2152,11 @@
 			// gbM03ParaPannel
 			// 
 			this.gbM03ParaPannel.Controls.Add(this.tableLayoutPanel3);
-			this.gbM03ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM03ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM03ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM03ParaPannel.Name = "gbM03ParaPannel";
-			this.gbM03ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM03ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM03ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM03ParaPannel.TabIndex = 10;
 			this.gbM03ParaPannel.TabStop = false;
 			this.gbM03ParaPannel.Text = "Default Parameter";
@@ -2120,14 +2182,15 @@
 			this.tableLayoutPanel3.Controls.Add(this.label59, 2, 2);
 			this.tableLayoutPanel3.Controls.Add(this.label60, 3, 2);
 			this.tableLayoutPanel3.Controls.Add(this.label57, 1, 2);
-			this.tableLayoutPanel3.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel3.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
 			this.tableLayoutPanel3.RowCount = 4;
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel3.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel3.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel3.TabIndex = 34;
 			// 
 			// tbM03DefaultPara_Tm_CH1
@@ -2138,13 +2201,14 @@
 			this.tbM03DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM03DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM03DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM03DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM03DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM03DefaultPara_Tm_CH1.Name = "tbM03DefaultPara_Tm_CH1";
 			this.tbM03DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM03DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_Tm_CH1.TabIndex = 10;
 			this.tbM03DefaultPara_Tm_CH1.Text = "";
 			this.tbM03DefaultPara_Tm_CH1.UseTallSize = false;
@@ -2157,13 +2221,14 @@
 			this.tbM03DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM03DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM03DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM03DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM03DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM03DefaultPara_Tm_CH4.Name = "tbM03DefaultPara_Tm_CH4";
 			this.tbM03DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM03DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM03DefaultPara_Tm_CH4.TabIndex = 11;
 			this.tbM03DefaultPara_Tm_CH4.Text = "";
 			this.tbM03DefaultPara_Tm_CH4.UseTallSize = false;
@@ -2176,13 +2241,14 @@
 			this.tbM03DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM03DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM03DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM03DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM03DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM03DefaultPara_Tm_CH3.Name = "tbM03DefaultPara_Tm_CH3";
 			this.tbM03DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM03DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_Tm_CH3.TabIndex = 12;
 			this.tbM03DefaultPara_Tm_CH3.Text = "";
 			this.tbM03DefaultPara_Tm_CH3.UseTallSize = false;
@@ -2195,13 +2261,14 @@
 			this.tbM03DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM03DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM03DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM03DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM03DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM03DefaultPara_Tm_CH2.Name = "tbM03DefaultPara_Tm_CH2";
 			this.tbM03DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM03DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_Tm_CH2.TabIndex = 13;
 			this.tbM03DefaultPara_Tm_CH2.Text = "";
 			this.tbM03DefaultPara_Tm_CH2.UseTallSize = false;
@@ -2215,7 +2282,7 @@
 			this.label5.Location = new System.Drawing.Point(3, 0);
 			this.label5.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(82, 24);
+			this.label5.Size = new System.Drawing.Size(94, 31);
 			this.label5.TabIndex = 0;
 			this.label5.Text = "a";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2226,10 +2293,10 @@
 			this.label6.Depth = 0;
 			this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label6.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label6.Location = new System.Drawing.Point(91, 0);
+			this.label6.Location = new System.Drawing.Point(103, 0);
 			this.label6.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(82, 24);
+			this.label6.Size = new System.Drawing.Size(94, 31);
 			this.label6.TabIndex = 0;
 			this.label6.Text = "b";
 			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2240,10 +2307,10 @@
 			this.label7.Depth = 0;
 			this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label7.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label7.Location = new System.Drawing.Point(179, 0);
+			this.label7.Location = new System.Drawing.Point(203, 0);
 			this.label7.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(82, 24);
+			this.label7.Size = new System.Drawing.Size(94, 31);
 			this.label7.TabIndex = 0;
 			this.label7.Text = "c";
 			this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2256,12 +2323,13 @@
 			this.tbM03DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_a.Depth = 0;
 			this.tbM03DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM03DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM03DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_a.MaxLength = 50;
 			this.tbM03DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_a.Multiline = false;
 			this.tbM03DefaultPara_a.Name = "tbM03DefaultPara_a";
-			this.tbM03DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_a.TabIndex = 1;
 			this.tbM03DefaultPara_a.Text = "";
 			this.tbM03DefaultPara_a.UseTallSize = false;
@@ -2274,12 +2342,13 @@
 			this.tbM03DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_b.Depth = 0;
 			this.tbM03DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM03DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM03DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_b.MaxLength = 50;
 			this.tbM03DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_b.Multiline = false;
 			this.tbM03DefaultPara_b.Name = "tbM03DefaultPara_b";
-			this.tbM03DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_b.TabIndex = 1;
 			this.tbM03DefaultPara_b.Text = "";
 			this.tbM03DefaultPara_b.UseTallSize = false;
@@ -2292,12 +2361,13 @@
 			this.tbM03DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM03DefaultPara_c.Depth = 0;
 			this.tbM03DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM03DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM03DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM03DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM03DefaultPara_c.MaxLength = 50;
 			this.tbM03DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM03DefaultPara_c.Multiline = false;
 			this.tbM03DefaultPara_c.Name = "tbM03DefaultPara_c";
-			this.tbM03DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM03DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM03DefaultPara_c.TabIndex = 1;
 			this.tbM03DefaultPara_c.Text = "";
 			this.tbM03DefaultPara_c.UseTallSize = false;
@@ -2308,10 +2378,10 @@
 			this.label58.Depth = 0;
 			this.label58.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label58.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label58.Location = new System.Drawing.Point(3, 61);
+			this.label58.Location = new System.Drawing.Point(3, 77);
 			this.label58.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label58.Name = "label58";
-			this.label58.Size = new System.Drawing.Size(82, 24);
+			this.label58.Size = new System.Drawing.Size(94, 31);
 			this.label58.TabIndex = 7;
 			this.label58.Text = "Tm_CH1";
 			this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2322,10 +2392,10 @@
 			this.label59.Depth = 0;
 			this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label59.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label59.Location = new System.Drawing.Point(179, 61);
+			this.label59.Location = new System.Drawing.Point(203, 77);
 			this.label59.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label59.Name = "label59";
-			this.label59.Size = new System.Drawing.Size(82, 24);
+			this.label59.Size = new System.Drawing.Size(94, 31);
 			this.label59.TabIndex = 8;
 			this.label59.Text = "Tm_CH3";
 			this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2336,10 +2406,10 @@
 			this.label60.Depth = 0;
 			this.label60.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label60.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label60.Location = new System.Drawing.Point(267, 61);
+			this.label60.Location = new System.Drawing.Point(303, 77);
 			this.label60.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label60.Name = "label60";
-			this.label60.Size = new System.Drawing.Size(82, 24);
+			this.label60.Size = new System.Drawing.Size(96, 31);
 			this.label60.TabIndex = 9;
 			this.label60.Text = "Tm_CH4";
 			this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2350,10 +2420,10 @@
 			this.label57.Depth = 0;
 			this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label57.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label57.Location = new System.Drawing.Point(91, 61);
+			this.label57.Location = new System.Drawing.Point(103, 77);
 			this.label57.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label57.Name = "label57";
-			this.label57.Size = new System.Drawing.Size(82, 24);
+			this.label57.Size = new System.Drawing.Size(94, 31);
 			this.label57.TabIndex = 6;
 			this.label57.Text = "Tm_CH2";
 			this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2368,9 +2438,11 @@
 			this.gbM03CHPannel.Controls.Add(this.cbM03CH6Enable);
 			this.gbM03CHPannel.Controls.Add(this.cbM03CH1Enable);
 			this.gbM03CHPannel.Controls.Add(this.cbM03CH8Enable);
-			this.gbM03CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM03CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM03CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM03CHPannel.Name = "gbM03CHPannel";
-			this.gbM03CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM03CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM03CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM03CHPannel.TabIndex = 9;
 			this.gbM03CHPannel.TabStop = false;
 			this.gbM03CHPannel.Text = "Channel Enable";
@@ -2380,7 +2452,7 @@
 			// 
 			this.cbM03CH4Enable.AutoSize = true;
 			this.cbM03CH4Enable.Depth = 0;
-			this.cbM03CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM03CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM03CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2395,7 +2467,7 @@
 			// 
 			this.cbM03CH5Enable.AutoSize = true;
 			this.cbM03CH5Enable.Depth = 0;
-			this.cbM03CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM03CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM03CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2410,7 +2482,7 @@
 			// 
 			this.cbM03CH3Enable.AutoSize = true;
 			this.cbM03CH3Enable.Depth = 0;
-			this.cbM03CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM03CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM03CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2425,7 +2497,7 @@
 			// 
 			this.cbM03CH7Enable.AutoSize = true;
 			this.cbM03CH7Enable.Depth = 0;
-			this.cbM03CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM03CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM03CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2440,7 +2512,7 @@
 			// 
 			this.cbM03CH2Enable.AutoSize = true;
 			this.cbM03CH2Enable.Depth = 0;
-			this.cbM03CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM03CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM03CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2455,7 +2527,7 @@
 			// 
 			this.cbM03CH6Enable.AutoSize = true;
 			this.cbM03CH6Enable.Depth = 0;
-			this.cbM03CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM03CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM03CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2470,7 +2542,7 @@
 			// 
 			this.cbM03CH1Enable.AutoSize = true;
 			this.cbM03CH1Enable.Depth = 0;
-			this.cbM03CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM03CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM03CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2485,7 +2557,7 @@
 			// 
 			this.cbM03CH8Enable.AutoSize = true;
 			this.cbM03CH8Enable.Depth = 0;
-			this.cbM03CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM03CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM03CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM03CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM03CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -2502,19 +2574,22 @@
 			this.tbM04.Controls.Add(this.groupBox24);
 			this.tbM04.Controls.Add(this.gbM04ParaPannel);
 			this.tbM04.Controls.Add(this.gbM04CHPannel);
-			this.tbM04.Location = new System.Drawing.Point(4, 22);
+			this.tbM04.Location = new System.Drawing.Point(4, 25);
+			this.tbM04.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04.Name = "tbM04";
-			this.tbM04.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM04.Size = new System.Drawing.Size(431, 330);
+			this.tbM04.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM04.Size = new System.Drawing.Size(494, 416);
 			this.tbM04.TabIndex = 3;
 			this.tbM04.Text = "Module04";
 			// 
 			// gbM04CustomPannel
 			// 
 			this.gbM04CustomPannel.Controls.Add(this.tableLayoutPanel16);
-			this.gbM04CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM04CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM04CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM04CustomPannel.Name = "gbM04CustomPannel";
-			this.gbM04CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM04CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM04CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM04CustomPannel.TabIndex = 14;
 			this.gbM04CustomPannel.TabStop = false;
 			this.gbM04CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -2535,12 +2610,13 @@
 			this.tableLayoutPanel16.Controls.Add(this.tbM04CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel16.Controls.Add(this.tbM04CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel16.Name = "tableLayoutPanel16";
 			this.tableLayoutPanel16.RowCount = 2;
 			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.35438F));
 			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 63.64563F));
-			this.tableLayoutPanel16.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel16.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel16.TabIndex = 0;
 			// 
 			// label108
@@ -2552,7 +2628,7 @@
 			this.label108.Location = new System.Drawing.Point(3, 0);
 			this.label108.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label108.Name = "label108";
-			this.label108.Size = new System.Drawing.Size(86, 21);
+			this.label108.Size = new System.Drawing.Size(99, 26);
 			this.label108.TabIndex = 0;
 			this.label108.Text = "Channel 1";
 			this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2563,10 +2639,10 @@
 			this.label109.Depth = 0;
 			this.label109.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label109.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label109.Location = new System.Drawing.Point(95, 0);
+			this.label109.Location = new System.Drawing.Point(108, 0);
 			this.label109.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label109.Name = "label109";
-			this.label109.Size = new System.Drawing.Size(86, 21);
+			this.label109.Size = new System.Drawing.Size(99, 26);
 			this.label109.TabIndex = 0;
 			this.label109.Text = "Channel 2";
 			this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2577,10 +2653,10 @@
 			this.label110.Depth = 0;
 			this.label110.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label110.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label110.Location = new System.Drawing.Point(187, 0);
+			this.label110.Location = new System.Drawing.Point(213, 0);
 			this.label110.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label110.Name = "label110";
-			this.label110.Size = new System.Drawing.Size(86, 21);
+			this.label110.Size = new System.Drawing.Size(99, 26);
 			this.label110.TabIndex = 0;
 			this.label110.Text = "Channel 3";
 			this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2591,10 +2667,10 @@
 			this.label111.Depth = 0;
 			this.label111.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label111.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label111.Location = new System.Drawing.Point(279, 0);
+			this.label111.Location = new System.Drawing.Point(318, 0);
 			this.label111.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label111.Name = "label111";
-			this.label111.Size = new System.Drawing.Size(86, 21);
+			this.label111.Size = new System.Drawing.Size(100, 26);
 			this.label111.TabIndex = 0;
 			this.label111.Text = "Channel 4";
 			this.label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2604,12 +2680,13 @@
 			this.tbM04CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04CustomPara_CH1.Depth = 0;
 			this.tbM04CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04CustomPara_CH1.Location = new System.Drawing.Point(3, 24);
+			this.tbM04CustomPara_CH1.Location = new System.Drawing.Point(3, 30);
+			this.tbM04CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04CustomPara_CH1.MaxLength = 50;
 			this.tbM04CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04CustomPara_CH1.Multiline = false;
 			this.tbM04CustomPara_CH1.Name = "tbM04CustomPara_CH1";
-			this.tbM04CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM04CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM04CustomPara_CH1.TabIndex = 1;
 			this.tbM04CustomPara_CH1.Text = "";
 			this.tbM04CustomPara_CH1.UseTallSize = false;
@@ -2619,12 +2696,13 @@
 			this.tbM04CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04CustomPara_CH2.Depth = 0;
 			this.tbM04CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04CustomPara_CH2.Location = new System.Drawing.Point(95, 24);
+			this.tbM04CustomPara_CH2.Location = new System.Drawing.Point(108, 30);
+			this.tbM04CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04CustomPara_CH2.MaxLength = 50;
 			this.tbM04CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04CustomPara_CH2.Multiline = false;
 			this.tbM04CustomPara_CH2.Name = "tbM04CustomPara_CH2";
-			this.tbM04CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM04CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM04CustomPara_CH2.TabIndex = 1;
 			this.tbM04CustomPara_CH2.Text = "";
 			this.tbM04CustomPara_CH2.UseTallSize = false;
@@ -2634,12 +2712,13 @@
 			this.tbM04CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04CustomPara_CH3.Depth = 0;
 			this.tbM04CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04CustomPara_CH3.Location = new System.Drawing.Point(187, 24);
+			this.tbM04CustomPara_CH3.Location = new System.Drawing.Point(213, 30);
+			this.tbM04CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04CustomPara_CH3.MaxLength = 50;
 			this.tbM04CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04CustomPara_CH3.Multiline = false;
 			this.tbM04CustomPara_CH3.Name = "tbM04CustomPara_CH3";
-			this.tbM04CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM04CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM04CustomPara_CH3.TabIndex = 1;
 			this.tbM04CustomPara_CH3.Text = "";
 			this.tbM04CustomPara_CH3.UseTallSize = false;
@@ -2649,12 +2728,13 @@
 			this.tbM04CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04CustomPara_CH4.Depth = 0;
 			this.tbM04CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04CustomPara_CH4.Location = new System.Drawing.Point(279, 24);
+			this.tbM04CustomPara_CH4.Location = new System.Drawing.Point(318, 30);
+			this.tbM04CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04CustomPara_CH4.MaxLength = 50;
 			this.tbM04CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04CustomPara_CH4.Multiline = false;
 			this.tbM04CustomPara_CH4.Name = "tbM04CustomPara_CH4";
-			this.tbM04CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM04CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM04CustomPara_CH4.TabIndex = 1;
 			this.tbM04CustomPara_CH4.Text = "";
 			this.tbM04CustomPara_CH4.UseTallSize = false;
@@ -2662,9 +2742,11 @@
 			// groupBox24
 			// 
 			this.groupBox24.Controls.Add(this.textBox4);
-			this.groupBox24.Location = new System.Drawing.Point(7, 247);
+			this.groupBox24.Location = new System.Drawing.Point(8, 309);
+			this.groupBox24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox24.Name = "groupBox24";
-			this.groupBox24.Size = new System.Drawing.Size(374, 56);
+			this.groupBox24.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox24.Size = new System.Drawing.Size(427, 70);
 			this.groupBox24.TabIndex = 13;
 			this.groupBox24.TabStop = false;
 			this.groupBox24.Text = "Description";
@@ -2676,12 +2758,13 @@
 			this.textBox4.Depth = 0;
 			this.textBox4.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox4.Location = new System.Drawing.Point(3, 17);
+			this.textBox4.Location = new System.Drawing.Point(3, 22);
+			this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox4.MaxLength = 50;
 			this.textBox4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox4.Multiline = false;
 			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(368, 36);
+			this.textBox4.Size = new System.Drawing.Size(421, 36);
 			this.textBox4.TabIndex = 0;
 			this.textBox4.Text = "";
 			this.textBox4.UseTallSize = false;
@@ -2689,9 +2772,11 @@
 			// gbM04ParaPannel
 			// 
 			this.gbM04ParaPannel.Controls.Add(this.tableLayoutPanel4);
-			this.gbM04ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM04ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM04ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM04ParaPannel.Name = "gbM04ParaPannel";
-			this.gbM04ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM04ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM04ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM04ParaPannel.TabIndex = 12;
 			this.gbM04ParaPannel.TabStop = false;
 			this.gbM04ParaPannel.Text = "Default Parameter";
@@ -2718,14 +2803,15 @@
 			this.tableLayoutPanel4.Controls.Add(this.label8, 0, 2);
 			this.tableLayoutPanel4.Controls.Add(this.label62, 3, 2);
 			this.tableLayoutPanel4.Controls.Add(this.label61, 2, 2);
-			this.tableLayoutPanel4.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel4.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel4.Name = "tableLayoutPanel4";
 			this.tableLayoutPanel4.RowCount = 4;
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel4.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel4.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel4.TabIndex = 34;
 			// 
 			// label13
@@ -2737,7 +2823,7 @@
 			this.label13.Location = new System.Drawing.Point(3, 0);
 			this.label13.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(82, 24);
+			this.label13.Size = new System.Drawing.Size(94, 31);
 			this.label13.TabIndex = 0;
 			this.label13.Text = "a";
 			this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2748,10 +2834,10 @@
 			this.label14.Depth = 0;
 			this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label14.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label14.Location = new System.Drawing.Point(91, 0);
+			this.label14.Location = new System.Drawing.Point(103, 0);
 			this.label14.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(82, 24);
+			this.label14.Size = new System.Drawing.Size(94, 31);
 			this.label14.TabIndex = 0;
 			this.label14.Text = "b";
 			this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2762,10 +2848,10 @@
 			this.label15.Depth = 0;
 			this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label15.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label15.Location = new System.Drawing.Point(179, 0);
+			this.label15.Location = new System.Drawing.Point(203, 0);
 			this.label15.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(82, 24);
+			this.label15.Size = new System.Drawing.Size(94, 31);
 			this.label15.TabIndex = 0;
 			this.label15.Text = "c";
 			this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2776,10 +2862,10 @@
 			this.label16.Depth = 0;
 			this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label16.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label16.Location = new System.Drawing.Point(267, 0);
+			this.label16.Location = new System.Drawing.Point(303, 0);
 			this.label16.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(82, 24);
+			this.label16.Size = new System.Drawing.Size(96, 31);
 			this.label16.TabIndex = 0;
 			this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -2791,12 +2877,13 @@
 			this.tbM04DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_a.Depth = 0;
 			this.tbM04DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM04DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM04DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_a.MaxLength = 50;
 			this.tbM04DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_a.Multiline = false;
 			this.tbM04DefaultPara_a.Name = "tbM04DefaultPara_a";
-			this.tbM04DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_a.TabIndex = 1;
 			this.tbM04DefaultPara_a.Text = "";
 			this.tbM04DefaultPara_a.UseTallSize = false;
@@ -2809,12 +2896,13 @@
 			this.tbM04DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_b.Depth = 0;
 			this.tbM04DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM04DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM04DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_b.MaxLength = 50;
 			this.tbM04DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_b.Multiline = false;
 			this.tbM04DefaultPara_b.Name = "tbM04DefaultPara_b";
-			this.tbM04DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_b.TabIndex = 1;
 			this.tbM04DefaultPara_b.Text = "";
 			this.tbM04DefaultPara_b.UseTallSize = false;
@@ -2827,12 +2915,13 @@
 			this.tbM04DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_c.Depth = 0;
 			this.tbM04DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM04DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM04DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_c.MaxLength = 50;
 			this.tbM04DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_c.Multiline = false;
 			this.tbM04DefaultPara_c.Name = "tbM04DefaultPara_c";
-			this.tbM04DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_c.TabIndex = 1;
 			this.tbM04DefaultPara_c.Text = "";
 			this.tbM04DefaultPara_c.UseTallSize = false;
@@ -2845,13 +2934,14 @@
 			this.tbM04DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM04DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM04DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM04DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM04DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM04DefaultPara_Tm_CH1.Name = "tbM04DefaultPara_Tm_CH1";
 			this.tbM04DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM04DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_Tm_CH1.TabIndex = 1;
 			this.tbM04DefaultPara_Tm_CH1.Text = "";
 			this.tbM04DefaultPara_Tm_CH1.UseTallSize = false;
@@ -2864,13 +2954,14 @@
 			this.tbM04DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM04DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM04DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM04DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM04DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM04DefaultPara_Tm_CH2.Name = "tbM04DefaultPara_Tm_CH2";
 			this.tbM04DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM04DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_Tm_CH2.TabIndex = 1;
 			this.tbM04DefaultPara_Tm_CH2.Text = "";
 			this.tbM04DefaultPara_Tm_CH2.UseTallSize = false;
@@ -2883,13 +2974,14 @@
 			this.tbM04DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM04DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM04DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM04DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM04DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM04DefaultPara_Tm_CH3.Name = "tbM04DefaultPara_Tm_CH3";
 			this.tbM04DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM04DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM04DefaultPara_Tm_CH3.TabIndex = 1;
 			this.tbM04DefaultPara_Tm_CH3.Text = "";
 			this.tbM04DefaultPara_Tm_CH3.UseTallSize = false;
@@ -2902,13 +2994,14 @@
 			this.tbM04DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM04DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM04DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM04DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM04DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM04DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM04DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM04DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM04DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM04DefaultPara_Tm_CH4.Name = "tbM04DefaultPara_Tm_CH4";
 			this.tbM04DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM04DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM04DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM04DefaultPara_Tm_CH4.TabIndex = 1;
 			this.tbM04DefaultPara_Tm_CH4.Text = "";
 			this.tbM04DefaultPara_Tm_CH4.UseTallSize = false;
@@ -2919,10 +3012,10 @@
 			this.label63.Depth = 0;
 			this.label63.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label63.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label63.Location = new System.Drawing.Point(91, 61);
+			this.label63.Location = new System.Drawing.Point(103, 77);
 			this.label63.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label63.Name = "label63";
-			this.label63.Size = new System.Drawing.Size(82, 24);
+			this.label63.Size = new System.Drawing.Size(94, 31);
 			this.label63.TabIndex = 10;
 			this.label63.Text = "Tm_CH2";
 			this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2933,10 +3026,10 @@
 			this.label8.Depth = 0;
 			this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label8.Location = new System.Drawing.Point(3, 61);
+			this.label8.Location = new System.Drawing.Point(3, 77);
 			this.label8.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(82, 24);
+			this.label8.Size = new System.Drawing.Size(94, 31);
 			this.label8.TabIndex = 11;
 			this.label8.Text = "Tm_CH1";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2947,10 +3040,10 @@
 			this.label62.Depth = 0;
 			this.label62.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label62.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label62.Location = new System.Drawing.Point(267, 61);
+			this.label62.Location = new System.Drawing.Point(303, 77);
 			this.label62.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label62.Name = "label62";
-			this.label62.Size = new System.Drawing.Size(82, 24);
+			this.label62.Size = new System.Drawing.Size(96, 31);
 			this.label62.TabIndex = 13;
 			this.label62.Text = "Tm_CH4";
 			this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2961,10 +3054,10 @@
 			this.label61.Depth = 0;
 			this.label61.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label61.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label61.Location = new System.Drawing.Point(179, 61);
+			this.label61.Location = new System.Drawing.Point(203, 77);
 			this.label61.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label61.Name = "label61";
-			this.label61.Size = new System.Drawing.Size(82, 24);
+			this.label61.Size = new System.Drawing.Size(94, 31);
 			this.label61.TabIndex = 12;
 			this.label61.Text = "Tm_CH3";
 			this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -2979,9 +3072,11 @@
 			this.gbM04CHPannel.Controls.Add(this.cbM04CH6Enable);
 			this.gbM04CHPannel.Controls.Add(this.cbM04CH1Enable);
 			this.gbM04CHPannel.Controls.Add(this.cbM04CH8Enable);
-			this.gbM04CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM04CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM04CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM04CHPannel.Name = "gbM04CHPannel";
-			this.gbM04CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM04CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM04CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM04CHPannel.TabIndex = 11;
 			this.gbM04CHPannel.TabStop = false;
 			this.gbM04CHPannel.Text = "Channel Enable";
@@ -2991,7 +3086,7 @@
 			// 
 			this.cbM04CH4Enable.AutoSize = true;
 			this.cbM04CH4Enable.Depth = 0;
-			this.cbM04CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM04CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM04CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3006,7 +3101,7 @@
 			// 
 			this.cbM04CH5Enable.AutoSize = true;
 			this.cbM04CH5Enable.Depth = 0;
-			this.cbM04CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM04CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM04CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3021,7 +3116,7 @@
 			// 
 			this.cbM04CH3Enable.AutoSize = true;
 			this.cbM04CH3Enable.Depth = 0;
-			this.cbM04CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM04CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM04CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3036,7 +3131,7 @@
 			// 
 			this.cbM04CH7Enable.AutoSize = true;
 			this.cbM04CH7Enable.Depth = 0;
-			this.cbM04CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM04CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM04CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3051,7 +3146,7 @@
 			// 
 			this.cbM04CH2Enable.AutoSize = true;
 			this.cbM04CH2Enable.Depth = 0;
-			this.cbM04CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM04CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM04CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3066,7 +3161,7 @@
 			// 
 			this.cbM04CH6Enable.AutoSize = true;
 			this.cbM04CH6Enable.Depth = 0;
-			this.cbM04CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM04CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM04CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3081,7 +3176,7 @@
 			// 
 			this.cbM04CH1Enable.AutoSize = true;
 			this.cbM04CH1Enable.Depth = 0;
-			this.cbM04CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM04CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM04CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3096,7 +3191,7 @@
 			// 
 			this.cbM04CH8Enable.AutoSize = true;
 			this.cbM04CH8Enable.Depth = 0;
-			this.cbM04CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM04CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM04CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM04CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM04CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3113,19 +3208,22 @@
 			this.tbM05.Controls.Add(this.groupBox25);
 			this.tbM05.Controls.Add(this.gbM05ParaPannel);
 			this.tbM05.Controls.Add(this.gbM05CHPannel);
-			this.tbM05.Location = new System.Drawing.Point(4, 22);
+			this.tbM05.Location = new System.Drawing.Point(4, 25);
+			this.tbM05.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05.Name = "tbM05";
-			this.tbM05.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM05.Size = new System.Drawing.Size(431, 330);
+			this.tbM05.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM05.Size = new System.Drawing.Size(494, 416);
 			this.tbM05.TabIndex = 4;
 			this.tbM05.Text = "Module05";
 			// 
 			// gbM05CustomPannel
 			// 
 			this.gbM05CustomPannel.Controls.Add(this.tableLayoutPanel17);
-			this.gbM05CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM05CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM05CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM05CustomPannel.Name = "gbM05CustomPannel";
-			this.gbM05CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM05CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM05CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM05CustomPannel.TabIndex = 13;
 			this.gbM05CustomPannel.TabStop = false;
 			this.gbM05CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -3146,12 +3244,13 @@
 			this.tableLayoutPanel17.Controls.Add(this.tbM05CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel17.Controls.Add(this.tbM05CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel17.Name = "tableLayoutPanel17";
 			this.tableLayoutPanel17.RowCount = 2;
 			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
 			this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66F));
-			this.tableLayoutPanel17.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel17.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel17.TabIndex = 0;
 			// 
 			// label112
@@ -3163,7 +3262,7 @@
 			this.label112.Location = new System.Drawing.Point(3, 0);
 			this.label112.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label112.Name = "label112";
-			this.label112.Size = new System.Drawing.Size(86, 20);
+			this.label112.Size = new System.Drawing.Size(99, 24);
 			this.label112.TabIndex = 0;
 			this.label112.Text = "Channel 1";
 			this.label112.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3174,10 +3273,10 @@
 			this.label113.Depth = 0;
 			this.label113.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label113.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label113.Location = new System.Drawing.Point(95, 0);
+			this.label113.Location = new System.Drawing.Point(108, 0);
 			this.label113.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label113.Name = "label113";
-			this.label113.Size = new System.Drawing.Size(86, 20);
+			this.label113.Size = new System.Drawing.Size(99, 24);
 			this.label113.TabIndex = 0;
 			this.label113.Text = "Channel 2";
 			this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3188,10 +3287,10 @@
 			this.label114.Depth = 0;
 			this.label114.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label114.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label114.Location = new System.Drawing.Point(187, 0);
+			this.label114.Location = new System.Drawing.Point(213, 0);
 			this.label114.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label114.Name = "label114";
-			this.label114.Size = new System.Drawing.Size(86, 20);
+			this.label114.Size = new System.Drawing.Size(99, 24);
 			this.label114.TabIndex = 0;
 			this.label114.Text = "Channel 3";
 			this.label114.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3202,10 +3301,10 @@
 			this.label115.Depth = 0;
 			this.label115.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label115.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label115.Location = new System.Drawing.Point(279, 0);
+			this.label115.Location = new System.Drawing.Point(318, 0);
 			this.label115.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label115.Name = "label115";
-			this.label115.Size = new System.Drawing.Size(86, 20);
+			this.label115.Size = new System.Drawing.Size(100, 24);
 			this.label115.TabIndex = 0;
 			this.label115.Text = "Channel 4";
 			this.label115.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3215,12 +3314,13 @@
 			this.tbM05CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05CustomPara_CH1.Depth = 0;
 			this.tbM05CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM05CustomPara_CH1.Location = new System.Drawing.Point(3, 28);
+			this.tbM05CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05CustomPara_CH1.MaxLength = 50;
 			this.tbM05CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05CustomPara_CH1.Multiline = false;
 			this.tbM05CustomPara_CH1.Name = "tbM05CustomPara_CH1";
-			this.tbM05CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM05CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM05CustomPara_CH1.TabIndex = 1;
 			this.tbM05CustomPara_CH1.Text = "";
 			this.tbM05CustomPara_CH1.UseTallSize = false;
@@ -3230,12 +3330,13 @@
 			this.tbM05CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05CustomPara_CH2.Depth = 0;
 			this.tbM05CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM05CustomPara_CH2.Location = new System.Drawing.Point(108, 28);
+			this.tbM05CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05CustomPara_CH2.MaxLength = 50;
 			this.tbM05CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05CustomPara_CH2.Multiline = false;
 			this.tbM05CustomPara_CH2.Name = "tbM05CustomPara_CH2";
-			this.tbM05CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM05CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM05CustomPara_CH2.TabIndex = 1;
 			this.tbM05CustomPara_CH2.Text = "";
 			this.tbM05CustomPara_CH2.UseTallSize = false;
@@ -3245,12 +3346,13 @@
 			this.tbM05CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05CustomPara_CH3.Depth = 0;
 			this.tbM05CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM05CustomPara_CH3.Location = new System.Drawing.Point(213, 28);
+			this.tbM05CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05CustomPara_CH3.MaxLength = 50;
 			this.tbM05CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05CustomPara_CH3.Multiline = false;
 			this.tbM05CustomPara_CH3.Name = "tbM05CustomPara_CH3";
-			this.tbM05CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM05CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM05CustomPara_CH3.TabIndex = 1;
 			this.tbM05CustomPara_CH3.Text = "";
 			this.tbM05CustomPara_CH3.UseTallSize = false;
@@ -3260,12 +3362,13 @@
 			this.tbM05CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05CustomPara_CH4.Depth = 0;
 			this.tbM05CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM05CustomPara_CH4.Location = new System.Drawing.Point(318, 28);
+			this.tbM05CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05CustomPara_CH4.MaxLength = 50;
 			this.tbM05CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05CustomPara_CH4.Multiline = false;
 			this.tbM05CustomPara_CH4.Name = "tbM05CustomPara_CH4";
-			this.tbM05CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM05CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM05CustomPara_CH4.TabIndex = 1;
 			this.tbM05CustomPara_CH4.Text = "";
 			this.tbM05CustomPara_CH4.UseTallSize = false;
@@ -3273,9 +3376,11 @@
 			// groupBox25
 			// 
 			this.groupBox25.Controls.Add(this.textBox5);
-			this.groupBox25.Location = new System.Drawing.Point(7, 247);
+			this.groupBox25.Location = new System.Drawing.Point(8, 309);
+			this.groupBox25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox25.Name = "groupBox25";
-			this.groupBox25.Size = new System.Drawing.Size(374, 56);
+			this.groupBox25.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox25.Size = new System.Drawing.Size(427, 70);
 			this.groupBox25.TabIndex = 12;
 			this.groupBox25.TabStop = false;
 			this.groupBox25.Text = "Description";
@@ -3287,12 +3392,13 @@
 			this.textBox5.Depth = 0;
 			this.textBox5.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox5.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox5.Location = new System.Drawing.Point(3, 17);
+			this.textBox5.Location = new System.Drawing.Point(3, 22);
+			this.textBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox5.MaxLength = 50;
 			this.textBox5.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox5.Multiline = false;
 			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(368, 36);
+			this.textBox5.Size = new System.Drawing.Size(421, 36);
 			this.textBox5.TabIndex = 0;
 			this.textBox5.Text = "";
 			this.textBox5.UseTallSize = false;
@@ -3300,9 +3406,11 @@
 			// gbM05ParaPannel
 			// 
 			this.gbM05ParaPannel.Controls.Add(this.tableLayoutPanel5);
-			this.gbM05ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM05ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM05ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM05ParaPannel.Name = "gbM05ParaPannel";
-			this.gbM05ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM05ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM05ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM05ParaPannel.TabIndex = 7;
 			this.gbM05ParaPannel.TabStop = false;
 			this.gbM05ParaPannel.Text = "Default Parameter";
@@ -3329,14 +3437,15 @@
 			this.tableLayoutPanel5.Controls.Add(this.label68, 1, 2);
 			this.tableLayoutPanel5.Controls.Add(this.label69, 2, 2);
 			this.tableLayoutPanel5.Controls.Add(this.label70, 3, 2);
-			this.tableLayoutPanel5.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel5.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel5.Name = "tableLayoutPanel5";
 			this.tableLayoutPanel5.RowCount = 4;
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel5.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel5.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel5.TabIndex = 32;
 			// 
 			// tbM05DefaultPara_Tm_CH4
@@ -3347,13 +3456,14 @@
 			this.tbM05DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM05DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_Tm_CH4.Location = new System.Drawing.Point(91, 88);
+			this.tbM05DefaultPara_Tm_CH4.Location = new System.Drawing.Point(103, 112);
+			this.tbM05DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM05DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM05DefaultPara_Tm_CH4.Name = "tbM05DefaultPara_Tm_CH4";
 			this.tbM05DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM05DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_Tm_CH4.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_Tm_CH4.TabIndex = 14;
 			this.tbM05DefaultPara_Tm_CH4.Text = "";
 			this.tbM05DefaultPara_Tm_CH4.UseTallSize = false;
@@ -3366,13 +3476,14 @@
 			this.tbM05DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM05DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_Tm_CH3.Location = new System.Drawing.Point(3, 88);
+			this.tbM05DefaultPara_Tm_CH3.Location = new System.Drawing.Point(3, 112);
+			this.tbM05DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM05DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM05DefaultPara_Tm_CH3.Name = "tbM05DefaultPara_Tm_CH3";
 			this.tbM05DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM05DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_Tm_CH3.TabIndex = 15;
 			this.tbM05DefaultPara_Tm_CH3.Text = "";
 			this.tbM05DefaultPara_Tm_CH3.UseTallSize = false;
@@ -3385,13 +3496,14 @@
 			this.tbM05DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM05DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_Tm_CH2.Location = new System.Drawing.Point(267, 88);
+			this.tbM05DefaultPara_Tm_CH2.Location = new System.Drawing.Point(303, 112);
+			this.tbM05DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM05DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM05DefaultPara_Tm_CH2.Name = "tbM05DefaultPara_Tm_CH2";
 			this.tbM05DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM05DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_Tm_CH2.Size = new System.Drawing.Size(96, 36);
 			this.tbM05DefaultPara_Tm_CH2.TabIndex = 16;
 			this.tbM05DefaultPara_Tm_CH2.Text = "";
 			this.tbM05DefaultPara_Tm_CH2.UseTallSize = false;
@@ -3404,13 +3516,14 @@
 			this.tbM05DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM05DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_Tm_CH1.Location = new System.Drawing.Point(179, 88);
+			this.tbM05DefaultPara_Tm_CH1.Location = new System.Drawing.Point(203, 112);
+			this.tbM05DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM05DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM05DefaultPara_Tm_CH1.Name = "tbM05DefaultPara_Tm_CH1";
 			this.tbM05DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM05DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_Tm_CH1.TabIndex = 17;
 			this.tbM05DefaultPara_Tm_CH1.Text = "";
 			this.tbM05DefaultPara_Tm_CH1.UseTallSize = false;
@@ -3424,7 +3537,7 @@
 			this.label17.Location = new System.Drawing.Point(3, 0);
 			this.label17.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(82, 24);
+			this.label17.Size = new System.Drawing.Size(94, 31);
 			this.label17.TabIndex = 0;
 			this.label17.Text = "a";
 			this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3435,10 +3548,10 @@
 			this.label18.Depth = 0;
 			this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label18.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label18.Location = new System.Drawing.Point(91, 0);
+			this.label18.Location = new System.Drawing.Point(103, 0);
 			this.label18.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(82, 24);
+			this.label18.Size = new System.Drawing.Size(94, 31);
 			this.label18.TabIndex = 0;
 			this.label18.Text = "b";
 			this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3449,10 +3562,10 @@
 			this.label19.Depth = 0;
 			this.label19.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label19.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label19.Location = new System.Drawing.Point(179, 0);
+			this.label19.Location = new System.Drawing.Point(203, 0);
 			this.label19.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label19.Name = "label19";
-			this.label19.Size = new System.Drawing.Size(82, 24);
+			this.label19.Size = new System.Drawing.Size(94, 31);
 			this.label19.TabIndex = 0;
 			this.label19.Text = "c";
 			this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3463,10 +3576,10 @@
 			this.label20.Depth = 0;
 			this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label20.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label20.Location = new System.Drawing.Point(267, 0);
+			this.label20.Location = new System.Drawing.Point(303, 0);
 			this.label20.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label20.Name = "label20";
-			this.label20.Size = new System.Drawing.Size(82, 24);
+			this.label20.Size = new System.Drawing.Size(96, 31);
 			this.label20.TabIndex = 0;
 			this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -3478,12 +3591,13 @@
 			this.tbM05DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_a.Depth = 0;
 			this.tbM05DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM05DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM05DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_a.MaxLength = 50;
 			this.tbM05DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_a.Multiline = false;
 			this.tbM05DefaultPara_a.Name = "tbM05DefaultPara_a";
-			this.tbM05DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_a.TabIndex = 1;
 			this.tbM05DefaultPara_a.Text = "";
 			this.tbM05DefaultPara_a.UseTallSize = false;
@@ -3496,12 +3610,13 @@
 			this.tbM05DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_b.Depth = 0;
 			this.tbM05DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM05DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM05DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_b.MaxLength = 50;
 			this.tbM05DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_b.Multiline = false;
 			this.tbM05DefaultPara_b.Name = "tbM05DefaultPara_b";
-			this.tbM05DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_b.TabIndex = 1;
 			this.tbM05DefaultPara_b.Text = "";
 			this.tbM05DefaultPara_b.UseTallSize = false;
@@ -3514,12 +3629,13 @@
 			this.tbM05DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM05DefaultPara_c.Depth = 0;
 			this.tbM05DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM05DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM05DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM05DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM05DefaultPara_c.MaxLength = 50;
 			this.tbM05DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM05DefaultPara_c.Multiline = false;
 			this.tbM05DefaultPara_c.Name = "tbM05DefaultPara_c";
-			this.tbM05DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM05DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM05DefaultPara_c.TabIndex = 1;
 			this.tbM05DefaultPara_c.Text = "";
 			this.tbM05DefaultPara_c.UseTallSize = false;
@@ -3530,10 +3646,10 @@
 			this.label64.Depth = 0;
 			this.label64.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label64.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label64.Location = new System.Drawing.Point(3, 61);
+			this.label64.Location = new System.Drawing.Point(3, 77);
 			this.label64.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label64.Name = "label64";
-			this.label64.Size = new System.Drawing.Size(82, 24);
+			this.label64.Size = new System.Drawing.Size(94, 31);
 			this.label64.TabIndex = 22;
 			this.label64.Text = "Tm_CH1";
 			this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3544,10 +3660,10 @@
 			this.label68.Depth = 0;
 			this.label68.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label68.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label68.Location = new System.Drawing.Point(91, 61);
+			this.label68.Location = new System.Drawing.Point(103, 77);
 			this.label68.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label68.Name = "label68";
-			this.label68.Size = new System.Drawing.Size(82, 24);
+			this.label68.Size = new System.Drawing.Size(94, 31);
 			this.label68.TabIndex = 22;
 			this.label68.Text = "Tm_CH2";
 			this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3558,10 +3674,10 @@
 			this.label69.Depth = 0;
 			this.label69.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label69.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label69.Location = new System.Drawing.Point(179, 61);
+			this.label69.Location = new System.Drawing.Point(203, 77);
 			this.label69.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label69.Name = "label69";
-			this.label69.Size = new System.Drawing.Size(82, 24);
+			this.label69.Size = new System.Drawing.Size(94, 31);
 			this.label69.TabIndex = 22;
 			this.label69.Text = "Tm_CH3";
 			this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3572,10 +3688,10 @@
 			this.label70.Depth = 0;
 			this.label70.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label70.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label70.Location = new System.Drawing.Point(267, 61);
+			this.label70.Location = new System.Drawing.Point(303, 77);
 			this.label70.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label70.Name = "label70";
-			this.label70.Size = new System.Drawing.Size(82, 24);
+			this.label70.Size = new System.Drawing.Size(96, 31);
 			this.label70.TabIndex = 22;
 			this.label70.Text = "Tm_CH4";
 			this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3590,9 +3706,11 @@
 			this.gbM05CHPannel.Controls.Add(this.cbM05CH6Enable);
 			this.gbM05CHPannel.Controls.Add(this.cbM05CH1Enable);
 			this.gbM05CHPannel.Controls.Add(this.cbM05CH8Enable);
-			this.gbM05CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM05CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM05CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM05CHPannel.Name = "gbM05CHPannel";
-			this.gbM05CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM05CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM05CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM05CHPannel.TabIndex = 6;
 			this.gbM05CHPannel.TabStop = false;
 			this.gbM05CHPannel.Text = "Channel Enable";
@@ -3602,7 +3720,7 @@
 			// 
 			this.cbM05CH4Enable.AutoSize = true;
 			this.cbM05CH4Enable.Depth = 0;
-			this.cbM05CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM05CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM05CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3617,7 +3735,7 @@
 			// 
 			this.cbM05CH5Enable.AutoSize = true;
 			this.cbM05CH5Enable.Depth = 0;
-			this.cbM05CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM05CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM05CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3632,7 +3750,7 @@
 			// 
 			this.cbM05CH3Enable.AutoSize = true;
 			this.cbM05CH3Enable.Depth = 0;
-			this.cbM05CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM05CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM05CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3647,7 +3765,7 @@
 			// 
 			this.cbM05CH7Enable.AutoSize = true;
 			this.cbM05CH7Enable.Depth = 0;
-			this.cbM05CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM05CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM05CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3662,7 +3780,7 @@
 			// 
 			this.cbM05CH2Enable.AutoSize = true;
 			this.cbM05CH2Enable.Depth = 0;
-			this.cbM05CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM05CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM05CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3677,7 +3795,7 @@
 			// 
 			this.cbM05CH6Enable.AutoSize = true;
 			this.cbM05CH6Enable.Depth = 0;
-			this.cbM05CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM05CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM05CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3692,7 +3810,7 @@
 			// 
 			this.cbM05CH1Enable.AutoSize = true;
 			this.cbM05CH1Enable.Depth = 0;
-			this.cbM05CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM05CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM05CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3707,7 +3825,7 @@
 			// 
 			this.cbM05CH8Enable.AutoSize = true;
 			this.cbM05CH8Enable.Depth = 0;
-			this.cbM05CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM05CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM05CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM05CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM05CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -3724,19 +3842,22 @@
 			this.tbM06.Controls.Add(this.groupBox26);
 			this.tbM06.Controls.Add(this.gbM06ParaPannel);
 			this.tbM06.Controls.Add(this.gbM06CHPannel);
-			this.tbM06.Location = new System.Drawing.Point(4, 22);
+			this.tbM06.Location = new System.Drawing.Point(4, 25);
+			this.tbM06.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06.Name = "tbM06";
-			this.tbM06.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM06.Size = new System.Drawing.Size(431, 330);
+			this.tbM06.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM06.Size = new System.Drawing.Size(494, 416);
 			this.tbM06.TabIndex = 5;
 			this.tbM06.Text = "Module06";
 			// 
 			// gbM06CustomPannel
 			// 
 			this.gbM06CustomPannel.Controls.Add(this.tableLayoutPanel18);
-			this.gbM06CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM06CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM06CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM06CustomPannel.Name = "gbM06CustomPannel";
-			this.gbM06CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM06CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM06CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM06CustomPannel.TabIndex = 13;
 			this.gbM06CustomPannel.TabStop = false;
 			this.gbM06CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -3757,12 +3878,13 @@
 			this.tableLayoutPanel18.Controls.Add(this.tbM06CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel18.Controls.Add(this.tbM06CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel18.Name = "tableLayoutPanel18";
 			this.tableLayoutPanel18.RowCount = 2;
 			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
 			this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66F));
-			this.tableLayoutPanel18.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel18.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel18.TabIndex = 0;
 			// 
 			// label116
@@ -3774,7 +3896,7 @@
 			this.label116.Location = new System.Drawing.Point(3, 0);
 			this.label116.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label116.Name = "label116";
-			this.label116.Size = new System.Drawing.Size(86, 20);
+			this.label116.Size = new System.Drawing.Size(99, 24);
 			this.label116.TabIndex = 0;
 			this.label116.Text = "Channel 1";
 			this.label116.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3785,10 +3907,10 @@
 			this.label117.Depth = 0;
 			this.label117.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label117.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label117.Location = new System.Drawing.Point(95, 0);
+			this.label117.Location = new System.Drawing.Point(108, 0);
 			this.label117.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label117.Name = "label117";
-			this.label117.Size = new System.Drawing.Size(86, 20);
+			this.label117.Size = new System.Drawing.Size(99, 24);
 			this.label117.TabIndex = 0;
 			this.label117.Text = "Channel 2";
 			this.label117.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3799,10 +3921,10 @@
 			this.label118.Depth = 0;
 			this.label118.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label118.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label118.Location = new System.Drawing.Point(187, 0);
+			this.label118.Location = new System.Drawing.Point(213, 0);
 			this.label118.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label118.Name = "label118";
-			this.label118.Size = new System.Drawing.Size(86, 20);
+			this.label118.Size = new System.Drawing.Size(99, 24);
 			this.label118.TabIndex = 0;
 			this.label118.Text = "Channel 3";
 			this.label118.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3813,10 +3935,10 @@
 			this.label119.Depth = 0;
 			this.label119.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label119.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label119.Location = new System.Drawing.Point(279, 0);
+			this.label119.Location = new System.Drawing.Point(318, 0);
 			this.label119.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label119.Name = "label119";
-			this.label119.Size = new System.Drawing.Size(86, 20);
+			this.label119.Size = new System.Drawing.Size(100, 24);
 			this.label119.TabIndex = 0;
 			this.label119.Text = "Channel 4";
 			this.label119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -3826,12 +3948,13 @@
 			this.tbM06CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06CustomPara_CH1.Depth = 0;
 			this.tbM06CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM06CustomPara_CH1.Location = new System.Drawing.Point(3, 28);
+			this.tbM06CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06CustomPara_CH1.MaxLength = 50;
 			this.tbM06CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06CustomPara_CH1.Multiline = false;
 			this.tbM06CustomPara_CH1.Name = "tbM06CustomPara_CH1";
-			this.tbM06CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM06CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM06CustomPara_CH1.TabIndex = 1;
 			this.tbM06CustomPara_CH1.Text = "";
 			this.tbM06CustomPara_CH1.UseTallSize = false;
@@ -3841,12 +3964,13 @@
 			this.tbM06CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06CustomPara_CH2.Depth = 0;
 			this.tbM06CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM06CustomPara_CH2.Location = new System.Drawing.Point(108, 28);
+			this.tbM06CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06CustomPara_CH2.MaxLength = 50;
 			this.tbM06CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06CustomPara_CH2.Multiline = false;
 			this.tbM06CustomPara_CH2.Name = "tbM06CustomPara_CH2";
-			this.tbM06CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM06CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM06CustomPara_CH2.TabIndex = 1;
 			this.tbM06CustomPara_CH2.Text = "";
 			this.tbM06CustomPara_CH2.UseTallSize = false;
@@ -3856,12 +3980,13 @@
 			this.tbM06CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06CustomPara_CH3.Depth = 0;
 			this.tbM06CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM06CustomPara_CH3.Location = new System.Drawing.Point(213, 28);
+			this.tbM06CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06CustomPara_CH3.MaxLength = 50;
 			this.tbM06CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06CustomPara_CH3.Multiline = false;
 			this.tbM06CustomPara_CH3.Name = "tbM06CustomPara_CH3";
-			this.tbM06CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM06CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM06CustomPara_CH3.TabIndex = 1;
 			this.tbM06CustomPara_CH3.Text = "";
 			this.tbM06CustomPara_CH3.UseTallSize = false;
@@ -3871,12 +3996,13 @@
 			this.tbM06CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06CustomPara_CH4.Depth = 0;
 			this.tbM06CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM06CustomPara_CH4.Location = new System.Drawing.Point(318, 28);
+			this.tbM06CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06CustomPara_CH4.MaxLength = 50;
 			this.tbM06CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06CustomPara_CH4.Multiline = false;
 			this.tbM06CustomPara_CH4.Name = "tbM06CustomPara_CH4";
-			this.tbM06CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM06CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM06CustomPara_CH4.TabIndex = 1;
 			this.tbM06CustomPara_CH4.Text = "";
 			this.tbM06CustomPara_CH4.UseTallSize = false;
@@ -3884,9 +4010,11 @@
 			// groupBox26
 			// 
 			this.groupBox26.Controls.Add(this.textBox6);
-			this.groupBox26.Location = new System.Drawing.Point(7, 247);
+			this.groupBox26.Location = new System.Drawing.Point(8, 309);
+			this.groupBox26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox26.Name = "groupBox26";
-			this.groupBox26.Size = new System.Drawing.Size(374, 56);
+			this.groupBox26.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox26.Size = new System.Drawing.Size(427, 70);
 			this.groupBox26.TabIndex = 12;
 			this.groupBox26.TabStop = false;
 			this.groupBox26.Text = "Description";
@@ -3898,12 +4026,13 @@
 			this.textBox6.Depth = 0;
 			this.textBox6.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox6.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox6.Location = new System.Drawing.Point(3, 17);
+			this.textBox6.Location = new System.Drawing.Point(3, 22);
+			this.textBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox6.MaxLength = 50;
 			this.textBox6.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox6.Multiline = false;
 			this.textBox6.Name = "textBox6";
-			this.textBox6.Size = new System.Drawing.Size(368, 36);
+			this.textBox6.Size = new System.Drawing.Size(421, 36);
 			this.textBox6.TabIndex = 0;
 			this.textBox6.Text = "";
 			this.textBox6.UseTallSize = false;
@@ -3911,9 +4040,11 @@
 			// gbM06ParaPannel
 			// 
 			this.gbM06ParaPannel.Controls.Add(this.tableLayoutPanel6);
-			this.gbM06ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM06ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM06ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM06ParaPannel.Name = "gbM06ParaPannel";
-			this.gbM06ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM06ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM06ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM06ParaPannel.TabIndex = 7;
 			this.gbM06ParaPannel.TabStop = false;
 			this.gbM06ParaPannel.Text = "Default Parameter";
@@ -3940,14 +4071,15 @@
 			this.tableLayoutPanel6.Controls.Add(this.label72, 1, 2);
 			this.tableLayoutPanel6.Controls.Add(this.label73, 2, 2);
 			this.tableLayoutPanel6.Controls.Add(this.label74, 3, 2);
-			this.tableLayoutPanel6.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel6.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel6.Name = "tableLayoutPanel6";
 			this.tableLayoutPanel6.RowCount = 4;
 			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel6.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel6.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel6.TabIndex = 32;
 			// 
 			// tbM06DefaultPara_Tm_CH2
@@ -3958,13 +4090,14 @@
 			this.tbM06DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM06DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM06DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM06DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM06DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM06DefaultPara_Tm_CH2.Name = "tbM06DefaultPara_Tm_CH2";
 			this.tbM06DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM06DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_Tm_CH2.TabIndex = 18;
 			this.tbM06DefaultPara_Tm_CH2.Text = "";
 			this.tbM06DefaultPara_Tm_CH2.UseTallSize = false;
@@ -3977,13 +4110,14 @@
 			this.tbM06DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM06DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM06DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM06DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM06DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM06DefaultPara_Tm_CH1.Name = "tbM06DefaultPara_Tm_CH1";
 			this.tbM06DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM06DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_Tm_CH1.TabIndex = 19;
 			this.tbM06DefaultPara_Tm_CH1.Text = "";
 			this.tbM06DefaultPara_Tm_CH1.UseTallSize = false;
@@ -3996,13 +4130,14 @@
 			this.tbM06DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM06DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM06DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM06DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM06DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM06DefaultPara_Tm_CH4.Name = "tbM06DefaultPara_Tm_CH4";
 			this.tbM06DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM06DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM06DefaultPara_Tm_CH4.TabIndex = 20;
 			this.tbM06DefaultPara_Tm_CH4.Text = "";
 			this.tbM06DefaultPara_Tm_CH4.UseTallSize = false;
@@ -4015,13 +4150,14 @@
 			this.tbM06DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM06DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM06DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM06DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM06DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM06DefaultPara_Tm_CH3.Name = "tbM06DefaultPara_Tm_CH3";
 			this.tbM06DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM06DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_Tm_CH3.TabIndex = 21;
 			this.tbM06DefaultPara_Tm_CH3.Text = "";
 			this.tbM06DefaultPara_Tm_CH3.UseTallSize = false;
@@ -4035,7 +4171,7 @@
 			this.label21.Location = new System.Drawing.Point(3, 0);
 			this.label21.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label21.Name = "label21";
-			this.label21.Size = new System.Drawing.Size(82, 24);
+			this.label21.Size = new System.Drawing.Size(94, 31);
 			this.label21.TabIndex = 0;
 			this.label21.Text = "a";
 			this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4046,10 +4182,10 @@
 			this.label22.Depth = 0;
 			this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label22.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label22.Location = new System.Drawing.Point(91, 0);
+			this.label22.Location = new System.Drawing.Point(103, 0);
 			this.label22.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label22.Name = "label22";
-			this.label22.Size = new System.Drawing.Size(82, 24);
+			this.label22.Size = new System.Drawing.Size(94, 31);
 			this.label22.TabIndex = 0;
 			this.label22.Text = "b";
 			this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4060,10 +4196,10 @@
 			this.label23.Depth = 0;
 			this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label23.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label23.Location = new System.Drawing.Point(179, 0);
+			this.label23.Location = new System.Drawing.Point(203, 0);
 			this.label23.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label23.Name = "label23";
-			this.label23.Size = new System.Drawing.Size(82, 24);
+			this.label23.Size = new System.Drawing.Size(94, 31);
 			this.label23.TabIndex = 0;
 			this.label23.Text = "c";
 			this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4074,10 +4210,10 @@
 			this.label24.Depth = 0;
 			this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label24.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label24.Location = new System.Drawing.Point(267, 0);
+			this.label24.Location = new System.Drawing.Point(303, 0);
 			this.label24.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label24.Name = "label24";
-			this.label24.Size = new System.Drawing.Size(82, 24);
+			this.label24.Size = new System.Drawing.Size(96, 31);
 			this.label24.TabIndex = 0;
 			this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -4089,12 +4225,13 @@
 			this.tbM06DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_a.Depth = 0;
 			this.tbM06DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM06DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM06DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_a.MaxLength = 50;
 			this.tbM06DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_a.Multiline = false;
 			this.tbM06DefaultPara_a.Name = "tbM06DefaultPara_a";
-			this.tbM06DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_a.TabIndex = 1;
 			this.tbM06DefaultPara_a.Text = "";
 			this.tbM06DefaultPara_a.UseTallSize = false;
@@ -4107,12 +4244,13 @@
 			this.tbM06DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_b.Depth = 0;
 			this.tbM06DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM06DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM06DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_b.MaxLength = 50;
 			this.tbM06DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_b.Multiline = false;
 			this.tbM06DefaultPara_b.Name = "tbM06DefaultPara_b";
-			this.tbM06DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_b.TabIndex = 1;
 			this.tbM06DefaultPara_b.Text = "";
 			this.tbM06DefaultPara_b.UseTallSize = false;
@@ -4125,12 +4263,13 @@
 			this.tbM06DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM06DefaultPara_c.Depth = 0;
 			this.tbM06DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM06DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM06DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM06DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM06DefaultPara_c.MaxLength = 50;
 			this.tbM06DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM06DefaultPara_c.Multiline = false;
 			this.tbM06DefaultPara_c.Name = "tbM06DefaultPara_c";
-			this.tbM06DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM06DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM06DefaultPara_c.TabIndex = 1;
 			this.tbM06DefaultPara_c.Text = "";
 			this.tbM06DefaultPara_c.UseTallSize = false;
@@ -4141,10 +4280,10 @@
 			this.label71.Depth = 0;
 			this.label71.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label71.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label71.Location = new System.Drawing.Point(3, 61);
+			this.label71.Location = new System.Drawing.Point(3, 77);
 			this.label71.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label71.Name = "label71";
-			this.label71.Size = new System.Drawing.Size(82, 24);
+			this.label71.Size = new System.Drawing.Size(94, 31);
 			this.label71.TabIndex = 22;
 			this.label71.Text = "Tm_CH1";
 			this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4155,10 +4294,10 @@
 			this.label72.Depth = 0;
 			this.label72.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label72.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label72.Location = new System.Drawing.Point(91, 61);
+			this.label72.Location = new System.Drawing.Point(103, 77);
 			this.label72.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label72.Name = "label72";
-			this.label72.Size = new System.Drawing.Size(82, 24);
+			this.label72.Size = new System.Drawing.Size(94, 31);
 			this.label72.TabIndex = 22;
 			this.label72.Text = "Tm_CH2";
 			this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4169,10 +4308,10 @@
 			this.label73.Depth = 0;
 			this.label73.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label73.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label73.Location = new System.Drawing.Point(179, 61);
+			this.label73.Location = new System.Drawing.Point(203, 77);
 			this.label73.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label73.Name = "label73";
-			this.label73.Size = new System.Drawing.Size(82, 24);
+			this.label73.Size = new System.Drawing.Size(94, 31);
 			this.label73.TabIndex = 22;
 			this.label73.Text = "Tm_CH3";
 			this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4183,10 +4322,10 @@
 			this.label74.Depth = 0;
 			this.label74.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label74.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label74.Location = new System.Drawing.Point(267, 61);
+			this.label74.Location = new System.Drawing.Point(303, 77);
 			this.label74.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label74.Name = "label74";
-			this.label74.Size = new System.Drawing.Size(82, 24);
+			this.label74.Size = new System.Drawing.Size(96, 31);
 			this.label74.TabIndex = 22;
 			this.label74.Text = "Tm_CH4";
 			this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4201,9 +4340,11 @@
 			this.gbM06CHPannel.Controls.Add(this.cbM06CH6Enable);
 			this.gbM06CHPannel.Controls.Add(this.cbM06CH1Enable);
 			this.gbM06CHPannel.Controls.Add(this.cbM06CH8Enable);
-			this.gbM06CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM06CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM06CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM06CHPannel.Name = "gbM06CHPannel";
-			this.gbM06CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM06CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM06CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM06CHPannel.TabIndex = 6;
 			this.gbM06CHPannel.TabStop = false;
 			this.gbM06CHPannel.Text = "Channel Enable";
@@ -4213,7 +4354,7 @@
 			// 
 			this.cbM06CH4Enable.AutoSize = true;
 			this.cbM06CH4Enable.Depth = 0;
-			this.cbM06CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM06CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM06CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4228,7 +4369,7 @@
 			// 
 			this.cbM06CH5Enable.AutoSize = true;
 			this.cbM06CH5Enable.Depth = 0;
-			this.cbM06CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM06CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM06CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4243,7 +4384,7 @@
 			// 
 			this.cbM06CH3Enable.AutoSize = true;
 			this.cbM06CH3Enable.Depth = 0;
-			this.cbM06CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM06CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM06CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4258,7 +4399,7 @@
 			// 
 			this.cbM06CH7Enable.AutoSize = true;
 			this.cbM06CH7Enable.Depth = 0;
-			this.cbM06CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM06CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM06CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4273,7 +4414,7 @@
 			// 
 			this.cbM06CH2Enable.AutoSize = true;
 			this.cbM06CH2Enable.Depth = 0;
-			this.cbM06CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM06CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM06CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4288,7 +4429,7 @@
 			// 
 			this.cbM06CH6Enable.AutoSize = true;
 			this.cbM06CH6Enable.Depth = 0;
-			this.cbM06CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM06CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM06CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4303,7 +4444,7 @@
 			// 
 			this.cbM06CH1Enable.AutoSize = true;
 			this.cbM06CH1Enable.Depth = 0;
-			this.cbM06CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM06CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM06CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4318,7 +4459,7 @@
 			// 
 			this.cbM06CH8Enable.AutoSize = true;
 			this.cbM06CH8Enable.Depth = 0;
-			this.cbM06CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM06CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM06CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM06CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM06CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4335,19 +4476,22 @@
 			this.tbM07.Controls.Add(this.groupBox27);
 			this.tbM07.Controls.Add(this.gbM07ParaPannel);
 			this.tbM07.Controls.Add(this.gbM07CHPannel);
-			this.tbM07.Location = new System.Drawing.Point(4, 22);
+			this.tbM07.Location = new System.Drawing.Point(4, 25);
+			this.tbM07.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07.Name = "tbM07";
-			this.tbM07.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM07.Size = new System.Drawing.Size(431, 330);
+			this.tbM07.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM07.Size = new System.Drawing.Size(494, 416);
 			this.tbM07.TabIndex = 6;
 			this.tbM07.Text = "Module07";
 			// 
 			// gbM07CustomPannel
 			// 
 			this.gbM07CustomPannel.Controls.Add(this.tableLayoutPanel19);
-			this.gbM07CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM07CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM07CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM07CustomPannel.Name = "gbM07CustomPannel";
-			this.gbM07CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM07CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM07CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM07CustomPannel.TabIndex = 13;
 			this.gbM07CustomPannel.TabStop = false;
 			this.gbM07CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -4368,12 +4512,13 @@
 			this.tableLayoutPanel19.Controls.Add(this.tbM07CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel19.Controls.Add(this.tbM07CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel19.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel19.Name = "tableLayoutPanel19";
 			this.tableLayoutPanel19.RowCount = 2;
 			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
 			this.tableLayoutPanel19.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66F));
-			this.tableLayoutPanel19.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel19.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel19.TabIndex = 0;
 			// 
 			// label120
@@ -4385,7 +4530,7 @@
 			this.label120.Location = new System.Drawing.Point(3, 0);
 			this.label120.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label120.Name = "label120";
-			this.label120.Size = new System.Drawing.Size(86, 20);
+			this.label120.Size = new System.Drawing.Size(99, 24);
 			this.label120.TabIndex = 0;
 			this.label120.Text = "Channel 1";
 			this.label120.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4396,10 +4541,10 @@
 			this.label121.Depth = 0;
 			this.label121.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label121.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label121.Location = new System.Drawing.Point(95, 0);
+			this.label121.Location = new System.Drawing.Point(108, 0);
 			this.label121.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label121.Name = "label121";
-			this.label121.Size = new System.Drawing.Size(86, 20);
+			this.label121.Size = new System.Drawing.Size(99, 24);
 			this.label121.TabIndex = 0;
 			this.label121.Text = "Channel 2";
 			this.label121.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4410,10 +4555,10 @@
 			this.label122.Depth = 0;
 			this.label122.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label122.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label122.Location = new System.Drawing.Point(187, 0);
+			this.label122.Location = new System.Drawing.Point(213, 0);
 			this.label122.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label122.Name = "label122";
-			this.label122.Size = new System.Drawing.Size(86, 20);
+			this.label122.Size = new System.Drawing.Size(99, 24);
 			this.label122.TabIndex = 0;
 			this.label122.Text = "Channel 3";
 			this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4424,10 +4569,10 @@
 			this.label123.Depth = 0;
 			this.label123.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label123.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label123.Location = new System.Drawing.Point(279, 0);
+			this.label123.Location = new System.Drawing.Point(318, 0);
 			this.label123.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label123.Name = "label123";
-			this.label123.Size = new System.Drawing.Size(86, 20);
+			this.label123.Size = new System.Drawing.Size(100, 24);
 			this.label123.TabIndex = 0;
 			this.label123.Text = "Channel 4";
 			this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4437,12 +4582,13 @@
 			this.tbM07CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07CustomPara_CH1.Depth = 0;
 			this.tbM07CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM07CustomPara_CH1.Location = new System.Drawing.Point(3, 28);
+			this.tbM07CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07CustomPara_CH1.MaxLength = 50;
 			this.tbM07CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07CustomPara_CH1.Multiline = false;
 			this.tbM07CustomPara_CH1.Name = "tbM07CustomPara_CH1";
-			this.tbM07CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM07CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM07CustomPara_CH1.TabIndex = 1;
 			this.tbM07CustomPara_CH1.Text = "";
 			this.tbM07CustomPara_CH1.UseTallSize = false;
@@ -4452,12 +4598,13 @@
 			this.tbM07CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07CustomPara_CH2.Depth = 0;
 			this.tbM07CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM07CustomPara_CH2.Location = new System.Drawing.Point(108, 28);
+			this.tbM07CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07CustomPara_CH2.MaxLength = 50;
 			this.tbM07CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07CustomPara_CH2.Multiline = false;
 			this.tbM07CustomPara_CH2.Name = "tbM07CustomPara_CH2";
-			this.tbM07CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM07CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM07CustomPara_CH2.TabIndex = 1;
 			this.tbM07CustomPara_CH2.Text = "";
 			this.tbM07CustomPara_CH2.UseTallSize = false;
@@ -4467,12 +4614,13 @@
 			this.tbM07CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07CustomPara_CH3.Depth = 0;
 			this.tbM07CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM07CustomPara_CH3.Location = new System.Drawing.Point(213, 28);
+			this.tbM07CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07CustomPara_CH3.MaxLength = 50;
 			this.tbM07CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07CustomPara_CH3.Multiline = false;
 			this.tbM07CustomPara_CH3.Name = "tbM07CustomPara_CH3";
-			this.tbM07CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM07CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM07CustomPara_CH3.TabIndex = 1;
 			this.tbM07CustomPara_CH3.Text = "";
 			this.tbM07CustomPara_CH3.UseTallSize = false;
@@ -4482,12 +4630,13 @@
 			this.tbM07CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07CustomPara_CH4.Depth = 0;
 			this.tbM07CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM07CustomPara_CH4.Location = new System.Drawing.Point(318, 28);
+			this.tbM07CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07CustomPara_CH4.MaxLength = 50;
 			this.tbM07CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07CustomPara_CH4.Multiline = false;
 			this.tbM07CustomPara_CH4.Name = "tbM07CustomPara_CH4";
-			this.tbM07CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM07CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM07CustomPara_CH4.TabIndex = 1;
 			this.tbM07CustomPara_CH4.Text = "";
 			this.tbM07CustomPara_CH4.UseTallSize = false;
@@ -4495,9 +4644,11 @@
 			// groupBox27
 			// 
 			this.groupBox27.Controls.Add(this.textBox7);
-			this.groupBox27.Location = new System.Drawing.Point(7, 247);
+			this.groupBox27.Location = new System.Drawing.Point(8, 309);
+			this.groupBox27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox27.Name = "groupBox27";
-			this.groupBox27.Size = new System.Drawing.Size(374, 56);
+			this.groupBox27.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox27.Size = new System.Drawing.Size(427, 70);
 			this.groupBox27.TabIndex = 12;
 			this.groupBox27.TabStop = false;
 			this.groupBox27.Text = "Description";
@@ -4509,12 +4660,13 @@
 			this.textBox7.Depth = 0;
 			this.textBox7.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox7.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox7.Location = new System.Drawing.Point(3, 17);
+			this.textBox7.Location = new System.Drawing.Point(3, 22);
+			this.textBox7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox7.MaxLength = 50;
 			this.textBox7.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox7.Multiline = false;
 			this.textBox7.Name = "textBox7";
-			this.textBox7.Size = new System.Drawing.Size(368, 36);
+			this.textBox7.Size = new System.Drawing.Size(421, 36);
 			this.textBox7.TabIndex = 0;
 			this.textBox7.Text = "";
 			this.textBox7.UseTallSize = false;
@@ -4522,9 +4674,11 @@
 			// gbM07ParaPannel
 			// 
 			this.gbM07ParaPannel.Controls.Add(this.tableLayoutPanel7);
-			this.gbM07ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM07ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM07ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM07ParaPannel.Name = "gbM07ParaPannel";
-			this.gbM07ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM07ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM07ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM07ParaPannel.TabIndex = 7;
 			this.gbM07ParaPannel.TabStop = false;
 			this.gbM07ParaPannel.Text = "Default Parameter";
@@ -4551,14 +4705,15 @@
 			this.tableLayoutPanel7.Controls.Add(this.label76, 1, 2);
 			this.tableLayoutPanel7.Controls.Add(this.label77, 2, 2);
 			this.tableLayoutPanel7.Controls.Add(this.label78, 3, 2);
-			this.tableLayoutPanel7.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel7.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel7.Name = "tableLayoutPanel7";
 			this.tableLayoutPanel7.RowCount = 4;
 			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel7.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel7.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel7.TabIndex = 32;
 			// 
 			// tbM07DefaultPara_Tm_CH2
@@ -4569,13 +4724,14 @@
 			this.tbM07DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM07DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM07DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM07DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM07DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM07DefaultPara_Tm_CH2.Name = "tbM07DefaultPara_Tm_CH2";
 			this.tbM07DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM07DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_Tm_CH2.TabIndex = 18;
 			this.tbM07DefaultPara_Tm_CH2.Text = "";
 			this.tbM07DefaultPara_Tm_CH2.UseTallSize = false;
@@ -4588,13 +4744,14 @@
 			this.tbM07DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM07DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM07DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM07DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM07DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM07DefaultPara_Tm_CH1.Name = "tbM07DefaultPara_Tm_CH1";
 			this.tbM07DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM07DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_Tm_CH1.TabIndex = 19;
 			this.tbM07DefaultPara_Tm_CH1.Text = "";
 			this.tbM07DefaultPara_Tm_CH1.UseTallSize = false;
@@ -4607,13 +4764,14 @@
 			this.tbM07DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM07DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM07DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM07DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM07DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM07DefaultPara_Tm_CH4.Name = "tbM07DefaultPara_Tm_CH4";
 			this.tbM07DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM07DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM07DefaultPara_Tm_CH4.TabIndex = 20;
 			this.tbM07DefaultPara_Tm_CH4.Text = "";
 			this.tbM07DefaultPara_Tm_CH4.UseTallSize = false;
@@ -4626,13 +4784,14 @@
 			this.tbM07DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM07DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM07DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM07DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM07DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM07DefaultPara_Tm_CH3.Name = "tbM07DefaultPara_Tm_CH3";
 			this.tbM07DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM07DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_Tm_CH3.TabIndex = 21;
 			this.tbM07DefaultPara_Tm_CH3.Text = "";
 			this.tbM07DefaultPara_Tm_CH3.UseTallSize = false;
@@ -4646,7 +4805,7 @@
 			this.label25.Location = new System.Drawing.Point(3, 0);
 			this.label25.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label25.Name = "label25";
-			this.label25.Size = new System.Drawing.Size(82, 24);
+			this.label25.Size = new System.Drawing.Size(94, 31);
 			this.label25.TabIndex = 0;
 			this.label25.Text = "a";
 			this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4657,10 +4816,10 @@
 			this.label26.Depth = 0;
 			this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label26.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label26.Location = new System.Drawing.Point(91, 0);
+			this.label26.Location = new System.Drawing.Point(103, 0);
 			this.label26.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label26.Name = "label26";
-			this.label26.Size = new System.Drawing.Size(82, 24);
+			this.label26.Size = new System.Drawing.Size(94, 31);
 			this.label26.TabIndex = 0;
 			this.label26.Text = "b";
 			this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4671,10 +4830,10 @@
 			this.label27.Depth = 0;
 			this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label27.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label27.Location = new System.Drawing.Point(179, 0);
+			this.label27.Location = new System.Drawing.Point(203, 0);
 			this.label27.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label27.Name = "label27";
-			this.label27.Size = new System.Drawing.Size(82, 24);
+			this.label27.Size = new System.Drawing.Size(94, 31);
 			this.label27.TabIndex = 0;
 			this.label27.Text = "c";
 			this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4685,10 +4844,10 @@
 			this.label28.Depth = 0;
 			this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label28.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label28.Location = new System.Drawing.Point(267, 0);
+			this.label28.Location = new System.Drawing.Point(303, 0);
 			this.label28.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label28.Name = "label28";
-			this.label28.Size = new System.Drawing.Size(82, 24);
+			this.label28.Size = new System.Drawing.Size(96, 31);
 			this.label28.TabIndex = 0;
 			this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -4700,12 +4859,13 @@
 			this.tbM07DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_a.Depth = 0;
 			this.tbM07DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM07DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM07DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_a.MaxLength = 50;
 			this.tbM07DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_a.Multiline = false;
 			this.tbM07DefaultPara_a.Name = "tbM07DefaultPara_a";
-			this.tbM07DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_a.TabIndex = 1;
 			this.tbM07DefaultPara_a.Text = "";
 			this.tbM07DefaultPara_a.UseTallSize = false;
@@ -4718,12 +4878,13 @@
 			this.tbM07DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_b.Depth = 0;
 			this.tbM07DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM07DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM07DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_b.MaxLength = 50;
 			this.tbM07DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_b.Multiline = false;
 			this.tbM07DefaultPara_b.Name = "tbM07DefaultPara_b";
-			this.tbM07DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_b.TabIndex = 1;
 			this.tbM07DefaultPara_b.Text = "";
 			this.tbM07DefaultPara_b.UseTallSize = false;
@@ -4736,12 +4897,13 @@
 			this.tbM07DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM07DefaultPara_c.Depth = 0;
 			this.tbM07DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM07DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM07DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM07DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM07DefaultPara_c.MaxLength = 50;
 			this.tbM07DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM07DefaultPara_c.Multiline = false;
 			this.tbM07DefaultPara_c.Name = "tbM07DefaultPara_c";
-			this.tbM07DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM07DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM07DefaultPara_c.TabIndex = 1;
 			this.tbM07DefaultPara_c.Text = "";
 			this.tbM07DefaultPara_c.UseTallSize = false;
@@ -4752,10 +4914,10 @@
 			this.label75.Depth = 0;
 			this.label75.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label75.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label75.Location = new System.Drawing.Point(3, 61);
+			this.label75.Location = new System.Drawing.Point(3, 77);
 			this.label75.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label75.Name = "label75";
-			this.label75.Size = new System.Drawing.Size(82, 24);
+			this.label75.Size = new System.Drawing.Size(94, 31);
 			this.label75.TabIndex = 22;
 			this.label75.Text = "Tm_CH1";
 			this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4766,10 +4928,10 @@
 			this.label76.Depth = 0;
 			this.label76.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label76.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label76.Location = new System.Drawing.Point(91, 61);
+			this.label76.Location = new System.Drawing.Point(103, 77);
 			this.label76.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label76.Name = "label76";
-			this.label76.Size = new System.Drawing.Size(82, 24);
+			this.label76.Size = new System.Drawing.Size(94, 31);
 			this.label76.TabIndex = 22;
 			this.label76.Text = "Tm_CH2";
 			this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4780,10 +4942,10 @@
 			this.label77.Depth = 0;
 			this.label77.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label77.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label77.Location = new System.Drawing.Point(179, 61);
+			this.label77.Location = new System.Drawing.Point(203, 77);
 			this.label77.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label77.Name = "label77";
-			this.label77.Size = new System.Drawing.Size(82, 24);
+			this.label77.Size = new System.Drawing.Size(94, 31);
 			this.label77.TabIndex = 22;
 			this.label77.Text = "Tm_CH3";
 			this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4794,10 +4956,10 @@
 			this.label78.Depth = 0;
 			this.label78.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label78.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label78.Location = new System.Drawing.Point(267, 61);
+			this.label78.Location = new System.Drawing.Point(303, 77);
 			this.label78.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label78.Name = "label78";
-			this.label78.Size = new System.Drawing.Size(82, 24);
+			this.label78.Size = new System.Drawing.Size(96, 31);
 			this.label78.TabIndex = 22;
 			this.label78.Text = "Tm_CH4";
 			this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -4812,9 +4974,11 @@
 			this.gbM07CHPannel.Controls.Add(this.cbM07CH6Enable);
 			this.gbM07CHPannel.Controls.Add(this.cbM07CH1Enable);
 			this.gbM07CHPannel.Controls.Add(this.cbM07CH8Enable);
-			this.gbM07CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM07CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM07CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM07CHPannel.Name = "gbM07CHPannel";
-			this.gbM07CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM07CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM07CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM07CHPannel.TabIndex = 6;
 			this.gbM07CHPannel.TabStop = false;
 			this.gbM07CHPannel.Text = "Channel Enable";
@@ -4824,7 +4988,7 @@
 			// 
 			this.cbM07CH4Enable.AutoSize = true;
 			this.cbM07CH4Enable.Depth = 0;
-			this.cbM07CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM07CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM07CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4839,7 +5003,7 @@
 			// 
 			this.cbM07CH5Enable.AutoSize = true;
 			this.cbM07CH5Enable.Depth = 0;
-			this.cbM07CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM07CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM07CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4854,7 +5018,7 @@
 			// 
 			this.cbM07CH3Enable.AutoSize = true;
 			this.cbM07CH3Enable.Depth = 0;
-			this.cbM07CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM07CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM07CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4869,7 +5033,7 @@
 			// 
 			this.cbM07CH7Enable.AutoSize = true;
 			this.cbM07CH7Enable.Depth = 0;
-			this.cbM07CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM07CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM07CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4884,7 +5048,7 @@
 			// 
 			this.cbM07CH2Enable.AutoSize = true;
 			this.cbM07CH2Enable.Depth = 0;
-			this.cbM07CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM07CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM07CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4899,7 +5063,7 @@
 			// 
 			this.cbM07CH6Enable.AutoSize = true;
 			this.cbM07CH6Enable.Depth = 0;
-			this.cbM07CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM07CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM07CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4914,7 +5078,7 @@
 			// 
 			this.cbM07CH1Enable.AutoSize = true;
 			this.cbM07CH1Enable.Depth = 0;
-			this.cbM07CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM07CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM07CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4929,7 +5093,7 @@
 			// 
 			this.cbM07CH8Enable.AutoSize = true;
 			this.cbM07CH8Enable.Depth = 0;
-			this.cbM07CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM07CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM07CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM07CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM07CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -4946,19 +5110,22 @@
 			this.tbM08.Controls.Add(this.groupBox28);
 			this.tbM08.Controls.Add(this.gbM08ParaPannel);
 			this.tbM08.Controls.Add(this.gbM08CHPannel);
-			this.tbM08.Location = new System.Drawing.Point(4, 22);
+			this.tbM08.Location = new System.Drawing.Point(4, 25);
+			this.tbM08.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08.Name = "tbM08";
-			this.tbM08.Padding = new System.Windows.Forms.Padding(3);
-			this.tbM08.Size = new System.Drawing.Size(431, 330);
+			this.tbM08.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbM08.Size = new System.Drawing.Size(494, 416);
 			this.tbM08.TabIndex = 7;
 			this.tbM08.Text = "Module08";
 			// 
 			// gbM08CustomPannel
 			// 
 			this.gbM08CustomPannel.Controls.Add(this.tableLayoutPanel20);
-			this.gbM08CustomPannel.Location = new System.Drawing.Point(7, 6);
+			this.gbM08CustomPannel.Location = new System.Drawing.Point(8, 8);
+			this.gbM08CustomPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM08CustomPannel.Name = "gbM08CustomPannel";
-			this.gbM08CustomPannel.Size = new System.Drawing.Size(374, 79);
+			this.gbM08CustomPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM08CustomPannel.Size = new System.Drawing.Size(427, 99);
 			this.gbM08CustomPannel.TabIndex = 13;
 			this.gbM08CustomPannel.TabStop = false;
 			this.gbM08CustomPannel.Text = "Custom Parameter(Sensor Serial Number)";
@@ -4979,12 +5146,13 @@
 			this.tableLayoutPanel20.Controls.Add(this.tbM08CustomPara_CH3, 2, 1);
 			this.tableLayoutPanel20.Controls.Add(this.tbM08CustomPara_CH4, 3, 1);
 			this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 17);
+			this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 22);
+			this.tableLayoutPanel20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel20.Name = "tableLayoutPanel20";
 			this.tableLayoutPanel20.RowCount = 2;
 			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34F));
 			this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 66F));
-			this.tableLayoutPanel20.Size = new System.Drawing.Size(368, 59);
+			this.tableLayoutPanel20.Size = new System.Drawing.Size(421, 73);
 			this.tableLayoutPanel20.TabIndex = 0;
 			// 
 			// label124
@@ -4996,7 +5164,7 @@
 			this.label124.Location = new System.Drawing.Point(3, 0);
 			this.label124.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label124.Name = "label124";
-			this.label124.Size = new System.Drawing.Size(86, 20);
+			this.label124.Size = new System.Drawing.Size(99, 24);
 			this.label124.TabIndex = 0;
 			this.label124.Text = "Channel 1";
 			this.label124.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5007,10 +5175,10 @@
 			this.label125.Depth = 0;
 			this.label125.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label125.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label125.Location = new System.Drawing.Point(95, 0);
+			this.label125.Location = new System.Drawing.Point(108, 0);
 			this.label125.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label125.Name = "label125";
-			this.label125.Size = new System.Drawing.Size(86, 20);
+			this.label125.Size = new System.Drawing.Size(99, 24);
 			this.label125.TabIndex = 0;
 			this.label125.Text = "Channel 2";
 			this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5021,10 +5189,10 @@
 			this.label126.Depth = 0;
 			this.label126.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label126.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label126.Location = new System.Drawing.Point(187, 0);
+			this.label126.Location = new System.Drawing.Point(213, 0);
 			this.label126.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label126.Name = "label126";
-			this.label126.Size = new System.Drawing.Size(86, 20);
+			this.label126.Size = new System.Drawing.Size(99, 24);
 			this.label126.TabIndex = 0;
 			this.label126.Text = "Channel 3";
 			this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5035,10 +5203,10 @@
 			this.label127.Depth = 0;
 			this.label127.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label127.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label127.Location = new System.Drawing.Point(279, 0);
+			this.label127.Location = new System.Drawing.Point(318, 0);
 			this.label127.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label127.Name = "label127";
-			this.label127.Size = new System.Drawing.Size(86, 20);
+			this.label127.Size = new System.Drawing.Size(100, 24);
 			this.label127.TabIndex = 0;
 			this.label127.Text = "Channel 4";
 			this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5048,12 +5216,13 @@
 			this.tbM08CustomPara_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08CustomPara_CH1.Depth = 0;
 			this.tbM08CustomPara_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08CustomPara_CH1.Location = new System.Drawing.Point(3, 23);
+			this.tbM08CustomPara_CH1.Location = new System.Drawing.Point(3, 28);
+			this.tbM08CustomPara_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08CustomPara_CH1.MaxLength = 50;
 			this.tbM08CustomPara_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08CustomPara_CH1.Multiline = false;
 			this.tbM08CustomPara_CH1.Name = "tbM08CustomPara_CH1";
-			this.tbM08CustomPara_CH1.Size = new System.Drawing.Size(86, 36);
+			this.tbM08CustomPara_CH1.Size = new System.Drawing.Size(98, 36);
 			this.tbM08CustomPara_CH1.TabIndex = 1;
 			this.tbM08CustomPara_CH1.Text = "";
 			this.tbM08CustomPara_CH1.UseTallSize = false;
@@ -5063,12 +5232,13 @@
 			this.tbM08CustomPara_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08CustomPara_CH2.Depth = 0;
 			this.tbM08CustomPara_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08CustomPara_CH2.Location = new System.Drawing.Point(95, 23);
+			this.tbM08CustomPara_CH2.Location = new System.Drawing.Point(108, 28);
+			this.tbM08CustomPara_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08CustomPara_CH2.MaxLength = 50;
 			this.tbM08CustomPara_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08CustomPara_CH2.Multiline = false;
 			this.tbM08CustomPara_CH2.Name = "tbM08CustomPara_CH2";
-			this.tbM08CustomPara_CH2.Size = new System.Drawing.Size(86, 36);
+			this.tbM08CustomPara_CH2.Size = new System.Drawing.Size(98, 36);
 			this.tbM08CustomPara_CH2.TabIndex = 1;
 			this.tbM08CustomPara_CH2.Text = "";
 			this.tbM08CustomPara_CH2.UseTallSize = false;
@@ -5078,12 +5248,13 @@
 			this.tbM08CustomPara_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08CustomPara_CH3.Depth = 0;
 			this.tbM08CustomPara_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08CustomPara_CH3.Location = new System.Drawing.Point(187, 23);
+			this.tbM08CustomPara_CH3.Location = new System.Drawing.Point(213, 28);
+			this.tbM08CustomPara_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08CustomPara_CH3.MaxLength = 50;
 			this.tbM08CustomPara_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08CustomPara_CH3.Multiline = false;
 			this.tbM08CustomPara_CH3.Name = "tbM08CustomPara_CH3";
-			this.tbM08CustomPara_CH3.Size = new System.Drawing.Size(86, 36);
+			this.tbM08CustomPara_CH3.Size = new System.Drawing.Size(98, 36);
 			this.tbM08CustomPara_CH3.TabIndex = 1;
 			this.tbM08CustomPara_CH3.Text = "";
 			this.tbM08CustomPara_CH3.UseTallSize = false;
@@ -5093,12 +5264,13 @@
 			this.tbM08CustomPara_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08CustomPara_CH4.Depth = 0;
 			this.tbM08CustomPara_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08CustomPara_CH4.Location = new System.Drawing.Point(279, 23);
+			this.tbM08CustomPara_CH4.Location = new System.Drawing.Point(318, 28);
+			this.tbM08CustomPara_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08CustomPara_CH4.MaxLength = 50;
 			this.tbM08CustomPara_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08CustomPara_CH4.Multiline = false;
 			this.tbM08CustomPara_CH4.Name = "tbM08CustomPara_CH4";
-			this.tbM08CustomPara_CH4.Size = new System.Drawing.Size(86, 36);
+			this.tbM08CustomPara_CH4.Size = new System.Drawing.Size(98, 36);
 			this.tbM08CustomPara_CH4.TabIndex = 1;
 			this.tbM08CustomPara_CH4.Text = "";
 			this.tbM08CustomPara_CH4.UseTallSize = false;
@@ -5106,9 +5278,11 @@
 			// groupBox28
 			// 
 			this.groupBox28.Controls.Add(this.textBox8);
-			this.groupBox28.Location = new System.Drawing.Point(6, 247);
+			this.groupBox28.Location = new System.Drawing.Point(7, 309);
+			this.groupBox28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.groupBox28.Name = "groupBox28";
-			this.groupBox28.Size = new System.Drawing.Size(374, 56);
+			this.groupBox28.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.groupBox28.Size = new System.Drawing.Size(427, 70);
 			this.groupBox28.TabIndex = 12;
 			this.groupBox28.TabStop = false;
 			this.groupBox28.Text = "Description";
@@ -5120,12 +5294,13 @@
 			this.textBox8.Depth = 0;
 			this.textBox8.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.textBox8.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.textBox8.Location = new System.Drawing.Point(3, 17);
+			this.textBox8.Location = new System.Drawing.Point(3, 22);
+			this.textBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.textBox8.MaxLength = 50;
 			this.textBox8.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.textBox8.Multiline = false;
 			this.textBox8.Name = "textBox8";
-			this.textBox8.Size = new System.Drawing.Size(368, 36);
+			this.textBox8.Size = new System.Drawing.Size(421, 36);
 			this.textBox8.TabIndex = 0;
 			this.textBox8.Text = "";
 			this.textBox8.UseTallSize = false;
@@ -5133,9 +5308,11 @@
 			// gbM08ParaPannel
 			// 
 			this.gbM08ParaPannel.Controls.Add(this.tableLayoutPanel8);
-			this.gbM08ParaPannel.Location = new System.Drawing.Point(7, 91);
+			this.gbM08ParaPannel.Location = new System.Drawing.Point(8, 114);
+			this.gbM08ParaPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM08ParaPannel.Name = "gbM08ParaPannel";
-			this.gbM08ParaPannel.Size = new System.Drawing.Size(374, 150);
+			this.gbM08ParaPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM08ParaPannel.Size = new System.Drawing.Size(427, 188);
 			this.gbM08ParaPannel.TabIndex = 7;
 			this.gbM08ParaPannel.TabStop = false;
 			this.gbM08ParaPannel.Text = "Default Parameter";
@@ -5162,14 +5339,15 @@
 			this.tableLayoutPanel8.Controls.Add(this.label80, 1, 2);
 			this.tableLayoutPanel8.Controls.Add(this.label81, 2, 2);
 			this.tableLayoutPanel8.Controls.Add(this.label82, 3, 2);
-			this.tableLayoutPanel8.Location = new System.Drawing.Point(9, 20);
+			this.tableLayoutPanel8.Location = new System.Drawing.Point(10, 25);
+			this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tableLayoutPanel8.Name = "tableLayoutPanel8";
 			this.tableLayoutPanel8.RowCount = 4;
 			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
 			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
 			this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-			this.tableLayoutPanel8.Size = new System.Drawing.Size(352, 124);
+			this.tableLayoutPanel8.Size = new System.Drawing.Size(402, 155);
 			this.tableLayoutPanel8.TabIndex = 32;
 			// 
 			// tbM08DefaultPara_Tm_CH2
@@ -5180,13 +5358,14 @@
 			this.tbM08DefaultPara_Tm_CH2.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_Tm_CH2.Depth = 0;
 			this.tbM08DefaultPara_Tm_CH2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_Tm_CH2.Location = new System.Drawing.Point(91, 88);
+			this.tbM08DefaultPara_Tm_CH2.Location = new System.Drawing.Point(103, 112);
+			this.tbM08DefaultPara_Tm_CH2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_Tm_CH2.MaxLength = 50;
 			this.tbM08DefaultPara_Tm_CH2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_Tm_CH2.Multiline = false;
 			this.tbM08DefaultPara_Tm_CH2.Name = "tbM08DefaultPara_Tm_CH2";
 			this.tbM08DefaultPara_Tm_CH2.ReadOnly = true;
-			this.tbM08DefaultPara_Tm_CH2.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_Tm_CH2.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_Tm_CH2.TabIndex = 18;
 			this.tbM08DefaultPara_Tm_CH2.Text = "";
 			this.tbM08DefaultPara_Tm_CH2.UseTallSize = false;
@@ -5199,13 +5378,14 @@
 			this.tbM08DefaultPara_Tm_CH1.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_Tm_CH1.Depth = 0;
 			this.tbM08DefaultPara_Tm_CH1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 88);
+			this.tbM08DefaultPara_Tm_CH1.Location = new System.Drawing.Point(3, 112);
+			this.tbM08DefaultPara_Tm_CH1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_Tm_CH1.MaxLength = 50;
 			this.tbM08DefaultPara_Tm_CH1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_Tm_CH1.Multiline = false;
 			this.tbM08DefaultPara_Tm_CH1.Name = "tbM08DefaultPara_Tm_CH1";
 			this.tbM08DefaultPara_Tm_CH1.ReadOnly = true;
-			this.tbM08DefaultPara_Tm_CH1.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_Tm_CH1.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_Tm_CH1.TabIndex = 19;
 			this.tbM08DefaultPara_Tm_CH1.Text = "";
 			this.tbM08DefaultPara_Tm_CH1.UseTallSize = false;
@@ -5218,13 +5398,14 @@
 			this.tbM08DefaultPara_Tm_CH4.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_Tm_CH4.Depth = 0;
 			this.tbM08DefaultPara_Tm_CH4.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_Tm_CH4.Location = new System.Drawing.Point(267, 88);
+			this.tbM08DefaultPara_Tm_CH4.Location = new System.Drawing.Point(303, 112);
+			this.tbM08DefaultPara_Tm_CH4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_Tm_CH4.MaxLength = 50;
 			this.tbM08DefaultPara_Tm_CH4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_Tm_CH4.Multiline = false;
 			this.tbM08DefaultPara_Tm_CH4.Name = "tbM08DefaultPara_Tm_CH4";
 			this.tbM08DefaultPara_Tm_CH4.ReadOnly = true;
-			this.tbM08DefaultPara_Tm_CH4.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_Tm_CH4.Size = new System.Drawing.Size(96, 36);
 			this.tbM08DefaultPara_Tm_CH4.TabIndex = 20;
 			this.tbM08DefaultPara_Tm_CH4.Text = "";
 			this.tbM08DefaultPara_Tm_CH4.UseTallSize = false;
@@ -5237,13 +5418,14 @@
 			this.tbM08DefaultPara_Tm_CH3.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_Tm_CH3.Depth = 0;
 			this.tbM08DefaultPara_Tm_CH3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_Tm_CH3.Location = new System.Drawing.Point(179, 88);
+			this.tbM08DefaultPara_Tm_CH3.Location = new System.Drawing.Point(203, 112);
+			this.tbM08DefaultPara_Tm_CH3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_Tm_CH3.MaxLength = 50;
 			this.tbM08DefaultPara_Tm_CH3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_Tm_CH3.Multiline = false;
 			this.tbM08DefaultPara_Tm_CH3.Name = "tbM08DefaultPara_Tm_CH3";
 			this.tbM08DefaultPara_Tm_CH3.ReadOnly = true;
-			this.tbM08DefaultPara_Tm_CH3.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_Tm_CH3.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_Tm_CH3.TabIndex = 21;
 			this.tbM08DefaultPara_Tm_CH3.Text = "";
 			this.tbM08DefaultPara_Tm_CH3.UseTallSize = false;
@@ -5257,7 +5439,7 @@
 			this.label29.Location = new System.Drawing.Point(3, 0);
 			this.label29.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label29.Name = "label29";
-			this.label29.Size = new System.Drawing.Size(82, 24);
+			this.label29.Size = new System.Drawing.Size(94, 31);
 			this.label29.TabIndex = 0;
 			this.label29.Text = "a";
 			this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5268,10 +5450,10 @@
 			this.label30.Depth = 0;
 			this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label30.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label30.Location = new System.Drawing.Point(91, 0);
+			this.label30.Location = new System.Drawing.Point(103, 0);
 			this.label30.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label30.Name = "label30";
-			this.label30.Size = new System.Drawing.Size(82, 24);
+			this.label30.Size = new System.Drawing.Size(94, 31);
 			this.label30.TabIndex = 0;
 			this.label30.Text = "b";
 			this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5282,10 +5464,10 @@
 			this.label31.Depth = 0;
 			this.label31.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label31.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label31.Location = new System.Drawing.Point(179, 0);
+			this.label31.Location = new System.Drawing.Point(203, 0);
 			this.label31.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label31.Name = "label31";
-			this.label31.Size = new System.Drawing.Size(82, 24);
+			this.label31.Size = new System.Drawing.Size(94, 31);
 			this.label31.TabIndex = 0;
 			this.label31.Text = "c";
 			this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5296,10 +5478,10 @@
 			this.label32.Depth = 0;
 			this.label32.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label32.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label32.Location = new System.Drawing.Point(267, 0);
+			this.label32.Location = new System.Drawing.Point(303, 0);
 			this.label32.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label32.Name = "label32";
-			this.label32.Size = new System.Drawing.Size(82, 24);
+			this.label32.Size = new System.Drawing.Size(96, 31);
 			this.label32.TabIndex = 0;
 			this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
@@ -5311,12 +5493,13 @@
 			this.tbM08DefaultPara_a.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_a.Depth = 0;
 			this.tbM08DefaultPara_a.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_a.Location = new System.Drawing.Point(3, 27);
+			this.tbM08DefaultPara_a.Location = new System.Drawing.Point(3, 35);
+			this.tbM08DefaultPara_a.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_a.MaxLength = 50;
 			this.tbM08DefaultPara_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_a.Multiline = false;
 			this.tbM08DefaultPara_a.Name = "tbM08DefaultPara_a";
-			this.tbM08DefaultPara_a.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_a.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_a.TabIndex = 1;
 			this.tbM08DefaultPara_a.Text = "";
 			this.tbM08DefaultPara_a.UseTallSize = false;
@@ -5329,12 +5512,13 @@
 			this.tbM08DefaultPara_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_b.Depth = 0;
 			this.tbM08DefaultPara_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_b.Location = new System.Drawing.Point(91, 27);
+			this.tbM08DefaultPara_b.Location = new System.Drawing.Point(103, 35);
+			this.tbM08DefaultPara_b.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_b.MaxLength = 50;
 			this.tbM08DefaultPara_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_b.Multiline = false;
 			this.tbM08DefaultPara_b.Name = "tbM08DefaultPara_b";
-			this.tbM08DefaultPara_b.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_b.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_b.TabIndex = 1;
 			this.tbM08DefaultPara_b.Text = "";
 			this.tbM08DefaultPara_b.UseTallSize = false;
@@ -5347,12 +5531,13 @@
 			this.tbM08DefaultPara_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM08DefaultPara_c.Depth = 0;
 			this.tbM08DefaultPara_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM08DefaultPara_c.Location = new System.Drawing.Point(179, 27);
+			this.tbM08DefaultPara_c.Location = new System.Drawing.Point(203, 35);
+			this.tbM08DefaultPara_c.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM08DefaultPara_c.MaxLength = 50;
 			this.tbM08DefaultPara_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM08DefaultPara_c.Multiline = false;
 			this.tbM08DefaultPara_c.Name = "tbM08DefaultPara_c";
-			this.tbM08DefaultPara_c.Size = new System.Drawing.Size(82, 36);
+			this.tbM08DefaultPara_c.Size = new System.Drawing.Size(94, 36);
 			this.tbM08DefaultPara_c.TabIndex = 1;
 			this.tbM08DefaultPara_c.Text = "";
 			this.tbM08DefaultPara_c.UseTallSize = false;
@@ -5363,10 +5548,10 @@
 			this.label79.Depth = 0;
 			this.label79.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label79.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label79.Location = new System.Drawing.Point(3, 61);
+			this.label79.Location = new System.Drawing.Point(3, 77);
 			this.label79.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label79.Name = "label79";
-			this.label79.Size = new System.Drawing.Size(82, 24);
+			this.label79.Size = new System.Drawing.Size(94, 31);
 			this.label79.TabIndex = 22;
 			this.label79.Text = "Tm_CH1";
 			this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5377,10 +5562,10 @@
 			this.label80.Depth = 0;
 			this.label80.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label80.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label80.Location = new System.Drawing.Point(91, 61);
+			this.label80.Location = new System.Drawing.Point(103, 77);
 			this.label80.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label80.Name = "label80";
-			this.label80.Size = new System.Drawing.Size(82, 24);
+			this.label80.Size = new System.Drawing.Size(94, 31);
 			this.label80.TabIndex = 22;
 			this.label80.Text = "Tm_CH2";
 			this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5391,10 +5576,10 @@
 			this.label81.Depth = 0;
 			this.label81.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label81.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label81.Location = new System.Drawing.Point(179, 61);
+			this.label81.Location = new System.Drawing.Point(203, 77);
 			this.label81.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label81.Name = "label81";
-			this.label81.Size = new System.Drawing.Size(82, 24);
+			this.label81.Size = new System.Drawing.Size(94, 31);
 			this.label81.TabIndex = 22;
 			this.label81.Text = "Tm_CH3";
 			this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5405,10 +5590,10 @@
 			this.label82.Depth = 0;
 			this.label82.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label82.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label82.Location = new System.Drawing.Point(267, 61);
+			this.label82.Location = new System.Drawing.Point(303, 77);
 			this.label82.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label82.Name = "label82";
-			this.label82.Size = new System.Drawing.Size(82, 24);
+			this.label82.Size = new System.Drawing.Size(96, 31);
 			this.label82.TabIndex = 22;
 			this.label82.Text = "Tm_CH4";
 			this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -5423,9 +5608,11 @@
 			this.gbM08CHPannel.Controls.Add(this.cbM08CH6Enable);
 			this.gbM08CHPannel.Controls.Add(this.cbM08CH1Enable);
 			this.gbM08CHPannel.Controls.Add(this.cbM08CH8Enable);
-			this.gbM08CHPannel.Location = new System.Drawing.Point(7, 332);
+			this.gbM08CHPannel.Location = new System.Drawing.Point(8, 415);
+			this.gbM08CHPannel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.gbM08CHPannel.Name = "gbM08CHPannel";
-			this.gbM08CHPannel.Size = new System.Drawing.Size(374, 78);
+			this.gbM08CHPannel.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.gbM08CHPannel.Size = new System.Drawing.Size(427, 98);
 			this.gbM08CHPannel.TabIndex = 6;
 			this.gbM08CHPannel.TabStop = false;
 			this.gbM08CHPannel.Text = "Channel Enable";
@@ -5435,7 +5622,7 @@
 			// 
 			this.cbM08CH4Enable.AutoSize = true;
 			this.cbM08CH4Enable.Depth = 0;
-			this.cbM08CH4Enable.Location = new System.Drawing.Point(281, 24);
+			this.cbM08CH4Enable.Location = new System.Drawing.Point(321, 30);
 			this.cbM08CH4Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH4Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH4Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5450,7 +5637,7 @@
 			// 
 			this.cbM08CH5Enable.AutoSize = true;
 			this.cbM08CH5Enable.Depth = 0;
-			this.cbM08CH5Enable.Location = new System.Drawing.Point(10, 47);
+			this.cbM08CH5Enable.Location = new System.Drawing.Point(11, 59);
 			this.cbM08CH5Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH5Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH5Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5465,7 +5652,7 @@
 			// 
 			this.cbM08CH3Enable.AutoSize = true;
 			this.cbM08CH3Enable.Depth = 0;
-			this.cbM08CH3Enable.Location = new System.Drawing.Point(189, 24);
+			this.cbM08CH3Enable.Location = new System.Drawing.Point(216, 30);
 			this.cbM08CH3Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH3Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH3Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5480,7 +5667,7 @@
 			// 
 			this.cbM08CH7Enable.AutoSize = true;
 			this.cbM08CH7Enable.Depth = 0;
-			this.cbM08CH7Enable.Location = new System.Drawing.Point(189, 47);
+			this.cbM08CH7Enable.Location = new System.Drawing.Point(216, 59);
 			this.cbM08CH7Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH7Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH7Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5495,7 +5682,7 @@
 			// 
 			this.cbM08CH2Enable.AutoSize = true;
 			this.cbM08CH2Enable.Depth = 0;
-			this.cbM08CH2Enable.Location = new System.Drawing.Point(102, 24);
+			this.cbM08CH2Enable.Location = new System.Drawing.Point(117, 30);
 			this.cbM08CH2Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH2Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH2Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5510,7 +5697,7 @@
 			// 
 			this.cbM08CH6Enable.AutoSize = true;
 			this.cbM08CH6Enable.Depth = 0;
-			this.cbM08CH6Enable.Location = new System.Drawing.Point(102, 47);
+			this.cbM08CH6Enable.Location = new System.Drawing.Point(117, 59);
 			this.cbM08CH6Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH6Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH6Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5525,7 +5712,7 @@
 			// 
 			this.cbM08CH1Enable.AutoSize = true;
 			this.cbM08CH1Enable.Depth = 0;
-			this.cbM08CH1Enable.Location = new System.Drawing.Point(10, 24);
+			this.cbM08CH1Enable.Location = new System.Drawing.Point(11, 30);
 			this.cbM08CH1Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH1Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH1Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5540,7 +5727,7 @@
 			// 
 			this.cbM08CH8Enable.AutoSize = true;
 			this.cbM08CH8Enable.Depth = 0;
-			this.cbM08CH8Enable.Location = new System.Drawing.Point(281, 47);
+			this.cbM08CH8Enable.Location = new System.Drawing.Point(321, 59);
 			this.cbM08CH8Enable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbM08CH8Enable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbM08CH8Enable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -5556,10 +5743,11 @@
 			this.tbWinPara.Controls.Add(this.tbLayoutWinPara);
 			this.tbWinPara.Controls.Add(this.btWindowsParaWrite);
 			this.tbWinPara.Controls.Add(this.btWindowsParaRead);
-			this.tbWinPara.Location = new System.Drawing.Point(4, 22);
+			this.tbWinPara.Location = new System.Drawing.Point(4, 25);
+			this.tbWinPara.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbWinPara.Name = "tbWinPara";
-			this.tbWinPara.Padding = new System.Windows.Forms.Padding(3);
-			this.tbWinPara.Size = new System.Drawing.Size(431, 330);
+			this.tbWinPara.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbWinPara.Size = new System.Drawing.Size(494, 416);
 			this.tbWinPara.TabIndex = 9;
 			this.tbWinPara.Text = "Window Para.";
 			// 
@@ -5602,7 +5790,8 @@
 			this.tbLayoutWinPara.Controls.Add(this.tbM7SizY, 1, 7);
 			this.tbLayoutWinPara.Controls.Add(this.tbM8SizX, 2, 7);
 			this.tbLayoutWinPara.Controls.Add(this.tbM8SizY, 3, 7);
-			this.tbLayoutWinPara.Location = new System.Drawing.Point(7, 45);
+			this.tbLayoutWinPara.Location = new System.Drawing.Point(8, 56);
+			this.tbLayoutWinPara.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbLayoutWinPara.Name = "tbLayoutWinPara";
 			this.tbLayoutWinPara.RowCount = 8;
 			this.tbLayoutWinPara.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
@@ -5613,7 +5802,7 @@
 			this.tbLayoutWinPara.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
 			this.tbLayoutWinPara.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
 			this.tbLayoutWinPara.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
-			this.tbLayoutWinPara.Size = new System.Drawing.Size(372, 279);
+			this.tbLayoutWinPara.Size = new System.Drawing.Size(425, 349);
 			this.tbLayoutWinPara.TabIndex = 3;
 			// 
 			// tbM1LocY
@@ -5622,12 +5811,13 @@
 			this.tbM1LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM1LocY.Depth = 0;
 			this.tbM1LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM1LocY.Location = new System.Drawing.Point(96, 3);
+			this.tbM1LocY.Location = new System.Drawing.Point(109, 4);
+			this.tbM1LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM1LocY.MaxLength = 50;
 			this.tbM1LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM1LocY.Multiline = false;
 			this.tbM1LocY.Name = "tbM1LocY";
-			this.tbM1LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM1LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM1LocY.TabIndex = 0;
 			this.tbM1LocY.Text = "";
 			this.tbM1LocY.UseTallSize = false;
@@ -5638,12 +5828,13 @@
 			this.tbM1LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM1LocX.Depth = 0;
 			this.tbM1LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM1LocX.Location = new System.Drawing.Point(3, 3);
+			this.tbM1LocX.Location = new System.Drawing.Point(3, 4);
+			this.tbM1LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM1LocX.MaxLength = 50;
 			this.tbM1LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM1LocX.Multiline = false;
 			this.tbM1LocX.Name = "tbM1LocX";
-			this.tbM1LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM1LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM1LocX.TabIndex = 1;
 			this.tbM1LocX.Text = "";
 			this.tbM1LocX.UseTallSize = false;
@@ -5654,12 +5845,13 @@
 			this.tbM2LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM2LocX.Depth = 0;
 			this.tbM2LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM2LocX.Location = new System.Drawing.Point(189, 3);
+			this.tbM2LocX.Location = new System.Drawing.Point(215, 4);
+			this.tbM2LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM2LocX.MaxLength = 50;
 			this.tbM2LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM2LocX.Multiline = false;
 			this.tbM2LocX.Name = "tbM2LocX";
-			this.tbM2LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM2LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM2LocX.TabIndex = 2;
 			this.tbM2LocX.Text = "";
 			this.tbM2LocX.UseTallSize = false;
@@ -5670,12 +5862,13 @@
 			this.tbM2LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM2LocY.Depth = 0;
 			this.tbM2LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM2LocY.Location = new System.Drawing.Point(282, 3);
+			this.tbM2LocY.Location = new System.Drawing.Point(321, 4);
+			this.tbM2LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM2LocY.MaxLength = 50;
 			this.tbM2LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM2LocY.Multiline = false;
 			this.tbM2LocY.Name = "tbM2LocY";
-			this.tbM2LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM2LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM2LocY.TabIndex = 3;
 			this.tbM2LocY.Text = "";
 			this.tbM2LocY.UseTallSize = false;
@@ -5685,12 +5878,13 @@
 			this.tbM1SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM1SizX.Depth = 0;
 			this.tbM1SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM1SizX.Location = new System.Drawing.Point(3, 37);
+			this.tbM1SizX.Location = new System.Drawing.Point(3, 47);
+			this.tbM1SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM1SizX.MaxLength = 50;
 			this.tbM1SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM1SizX.Multiline = false;
 			this.tbM1SizX.Name = "tbM1SizX";
-			this.tbM1SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM1SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM1SizX.TabIndex = 4;
 			this.tbM1SizX.Text = "";
 			this.tbM1SizX.UseTallSize = false;
@@ -5700,12 +5894,13 @@
 			this.tbM1SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM1SizY.Depth = 0;
 			this.tbM1SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM1SizY.Location = new System.Drawing.Point(96, 37);
+			this.tbM1SizY.Location = new System.Drawing.Point(109, 47);
+			this.tbM1SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM1SizY.MaxLength = 50;
 			this.tbM1SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM1SizY.Multiline = false;
 			this.tbM1SizY.Name = "tbM1SizY";
-			this.tbM1SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM1SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM1SizY.TabIndex = 5;
 			this.tbM1SizY.Text = "";
 			this.tbM1SizY.UseTallSize = false;
@@ -5715,12 +5910,13 @@
 			this.tbM2SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM2SizX.Depth = 0;
 			this.tbM2SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM2SizX.Location = new System.Drawing.Point(189, 37);
+			this.tbM2SizX.Location = new System.Drawing.Point(215, 47);
+			this.tbM2SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM2SizX.MaxLength = 50;
 			this.tbM2SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM2SizX.Multiline = false;
 			this.tbM2SizX.Name = "tbM2SizX";
-			this.tbM2SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM2SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM2SizX.TabIndex = 6;
 			this.tbM2SizX.Text = "";
 			this.tbM2SizX.UseTallSize = false;
@@ -5730,12 +5926,13 @@
 			this.tbM2SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM2SizY.Depth = 0;
 			this.tbM2SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM2SizY.Location = new System.Drawing.Point(282, 37);
+			this.tbM2SizY.Location = new System.Drawing.Point(321, 47);
+			this.tbM2SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM2SizY.MaxLength = 50;
 			this.tbM2SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM2SizY.Multiline = false;
 			this.tbM2SizY.Name = "tbM2SizY";
-			this.tbM2SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM2SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM2SizY.TabIndex = 7;
 			this.tbM2SizY.Text = "";
 			this.tbM2SizY.UseTallSize = false;
@@ -5746,12 +5943,13 @@
 			this.tbM3LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM3LocX.Depth = 0;
 			this.tbM3LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM3LocX.Location = new System.Drawing.Point(3, 71);
+			this.tbM3LocX.Location = new System.Drawing.Point(3, 90);
+			this.tbM3LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM3LocX.MaxLength = 50;
 			this.tbM3LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM3LocX.Multiline = false;
 			this.tbM3LocX.Name = "tbM3LocX";
-			this.tbM3LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM3LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM3LocX.TabIndex = 8;
 			this.tbM3LocX.Text = "";
 			this.tbM3LocX.UseTallSize = false;
@@ -5762,12 +5960,13 @@
 			this.tbM3LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM3LocY.Depth = 0;
 			this.tbM3LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM3LocY.Location = new System.Drawing.Point(96, 71);
+			this.tbM3LocY.Location = new System.Drawing.Point(109, 90);
+			this.tbM3LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM3LocY.MaxLength = 50;
 			this.tbM3LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM3LocY.Multiline = false;
 			this.tbM3LocY.Name = "tbM3LocY";
-			this.tbM3LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM3LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM3LocY.TabIndex = 9;
 			this.tbM3LocY.Text = "";
 			this.tbM3LocY.UseTallSize = false;
@@ -5778,12 +5977,13 @@
 			this.tbM4LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM4LocX.Depth = 0;
 			this.tbM4LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM4LocX.Location = new System.Drawing.Point(189, 71);
+			this.tbM4LocX.Location = new System.Drawing.Point(215, 90);
+			this.tbM4LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM4LocX.MaxLength = 50;
 			this.tbM4LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM4LocX.Multiline = false;
 			this.tbM4LocX.Name = "tbM4LocX";
-			this.tbM4LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM4LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM4LocX.TabIndex = 10;
 			this.tbM4LocX.Text = "";
 			this.tbM4LocX.UseTallSize = false;
@@ -5794,12 +5994,13 @@
 			this.tbM4LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM4LocY.Depth = 0;
 			this.tbM4LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM4LocY.Location = new System.Drawing.Point(282, 71);
+			this.tbM4LocY.Location = new System.Drawing.Point(321, 90);
+			this.tbM4LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM4LocY.MaxLength = 50;
 			this.tbM4LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM4LocY.Multiline = false;
 			this.tbM4LocY.Name = "tbM4LocY";
-			this.tbM4LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM4LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM4LocY.TabIndex = 11;
 			this.tbM4LocY.Text = "";
 			this.tbM4LocY.UseTallSize = false;
@@ -5809,12 +6010,13 @@
 			this.tbM3SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM3SizX.Depth = 0;
 			this.tbM3SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM3SizX.Location = new System.Drawing.Point(3, 105);
+			this.tbM3SizX.Location = new System.Drawing.Point(3, 133);
+			this.tbM3SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM3SizX.MaxLength = 50;
 			this.tbM3SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM3SizX.Multiline = false;
 			this.tbM3SizX.Name = "tbM3SizX";
-			this.tbM3SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM3SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM3SizX.TabIndex = 12;
 			this.tbM3SizX.Text = "";
 			this.tbM3SizX.UseTallSize = false;
@@ -5824,12 +6026,13 @@
 			this.tbM3SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM3SizY.Depth = 0;
 			this.tbM3SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM3SizY.Location = new System.Drawing.Point(96, 105);
+			this.tbM3SizY.Location = new System.Drawing.Point(109, 133);
+			this.tbM3SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM3SizY.MaxLength = 50;
 			this.tbM3SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM3SizY.Multiline = false;
 			this.tbM3SizY.Name = "tbM3SizY";
-			this.tbM3SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM3SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM3SizY.TabIndex = 13;
 			this.tbM3SizY.Text = "";
 			this.tbM3SizY.UseTallSize = false;
@@ -5839,12 +6042,13 @@
 			this.tbM4SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM4SizX.Depth = 0;
 			this.tbM4SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM4SizX.Location = new System.Drawing.Point(189, 105);
+			this.tbM4SizX.Location = new System.Drawing.Point(215, 133);
+			this.tbM4SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM4SizX.MaxLength = 50;
 			this.tbM4SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM4SizX.Multiline = false;
 			this.tbM4SizX.Name = "tbM4SizX";
-			this.tbM4SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM4SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM4SizX.TabIndex = 14;
 			this.tbM4SizX.Text = "";
 			this.tbM4SizX.UseTallSize = false;
@@ -5854,12 +6058,13 @@
 			this.tbM4SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM4SizY.Depth = 0;
 			this.tbM4SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM4SizY.Location = new System.Drawing.Point(282, 105);
+			this.tbM4SizY.Location = new System.Drawing.Point(321, 133);
+			this.tbM4SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM4SizY.MaxLength = 50;
 			this.tbM4SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM4SizY.Multiline = false;
 			this.tbM4SizY.Name = "tbM4SizY";
-			this.tbM4SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM4SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM4SizY.TabIndex = 15;
 			this.tbM4SizY.Text = "";
 			this.tbM4SizY.UseTallSize = false;
@@ -5870,12 +6075,13 @@
 			this.tbM5LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM5LocX.Depth = 0;
 			this.tbM5LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM5LocX.Location = new System.Drawing.Point(3, 139);
+			this.tbM5LocX.Location = new System.Drawing.Point(3, 176);
+			this.tbM5LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM5LocX.MaxLength = 50;
 			this.tbM5LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM5LocX.Multiline = false;
 			this.tbM5LocX.Name = "tbM5LocX";
-			this.tbM5LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM5LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM5LocX.TabIndex = 16;
 			this.tbM5LocX.Text = "";
 			this.tbM5LocX.UseTallSize = false;
@@ -5886,12 +6092,13 @@
 			this.tbM5LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM5LocY.Depth = 0;
 			this.tbM5LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM5LocY.Location = new System.Drawing.Point(96, 139);
+			this.tbM5LocY.Location = new System.Drawing.Point(109, 176);
+			this.tbM5LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM5LocY.MaxLength = 50;
 			this.tbM5LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM5LocY.Multiline = false;
 			this.tbM5LocY.Name = "tbM5LocY";
-			this.tbM5LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM5LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM5LocY.TabIndex = 17;
 			this.tbM5LocY.Text = "";
 			this.tbM5LocY.UseTallSize = false;
@@ -5902,12 +6109,13 @@
 			this.tbM6LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM6LocX.Depth = 0;
 			this.tbM6LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM6LocX.Location = new System.Drawing.Point(189, 139);
+			this.tbM6LocX.Location = new System.Drawing.Point(215, 176);
+			this.tbM6LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM6LocX.MaxLength = 50;
 			this.tbM6LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM6LocX.Multiline = false;
 			this.tbM6LocX.Name = "tbM6LocX";
-			this.tbM6LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM6LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM6LocX.TabIndex = 18;
 			this.tbM6LocX.Text = "";
 			this.tbM6LocX.UseTallSize = false;
@@ -5918,12 +6126,13 @@
 			this.tbM6LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM6LocY.Depth = 0;
 			this.tbM6LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM6LocY.Location = new System.Drawing.Point(282, 139);
+			this.tbM6LocY.Location = new System.Drawing.Point(321, 176);
+			this.tbM6LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM6LocY.MaxLength = 50;
 			this.tbM6LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM6LocY.Multiline = false;
 			this.tbM6LocY.Name = "tbM6LocY";
-			this.tbM6LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM6LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM6LocY.TabIndex = 19;
 			this.tbM6LocY.Text = "";
 			this.tbM6LocY.UseTallSize = false;
@@ -5933,12 +6142,13 @@
 			this.tbM5SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM5SizX.Depth = 0;
 			this.tbM5SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM5SizX.Location = new System.Drawing.Point(3, 173);
+			this.tbM5SizX.Location = new System.Drawing.Point(3, 219);
+			this.tbM5SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM5SizX.MaxLength = 50;
 			this.tbM5SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM5SizX.Multiline = false;
 			this.tbM5SizX.Name = "tbM5SizX";
-			this.tbM5SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM5SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM5SizX.TabIndex = 20;
 			this.tbM5SizX.Text = "";
 			this.tbM5SizX.UseTallSize = false;
@@ -5948,12 +6158,13 @@
 			this.tbM5SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM5SizY.Depth = 0;
 			this.tbM5SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM5SizY.Location = new System.Drawing.Point(96, 173);
+			this.tbM5SizY.Location = new System.Drawing.Point(109, 219);
+			this.tbM5SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM5SizY.MaxLength = 50;
 			this.tbM5SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM5SizY.Multiline = false;
 			this.tbM5SizY.Name = "tbM5SizY";
-			this.tbM5SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM5SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM5SizY.TabIndex = 21;
 			this.tbM5SizY.Text = "";
 			this.tbM5SizY.UseTallSize = false;
@@ -5963,12 +6174,13 @@
 			this.tbM6SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM6SizX.Depth = 0;
 			this.tbM6SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM6SizX.Location = new System.Drawing.Point(189, 173);
+			this.tbM6SizX.Location = new System.Drawing.Point(215, 219);
+			this.tbM6SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM6SizX.MaxLength = 50;
 			this.tbM6SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM6SizX.Multiline = false;
 			this.tbM6SizX.Name = "tbM6SizX";
-			this.tbM6SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM6SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM6SizX.TabIndex = 22;
 			this.tbM6SizX.Text = "";
 			this.tbM6SizX.UseTallSize = false;
@@ -5978,12 +6190,13 @@
 			this.tbM6SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM6SizY.Depth = 0;
 			this.tbM6SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM6SizY.Location = new System.Drawing.Point(282, 173);
+			this.tbM6SizY.Location = new System.Drawing.Point(321, 219);
+			this.tbM6SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM6SizY.MaxLength = 50;
 			this.tbM6SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM6SizY.Multiline = false;
 			this.tbM6SizY.Name = "tbM6SizY";
-			this.tbM6SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM6SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM6SizY.TabIndex = 23;
 			this.tbM6SizY.Text = "";
 			this.tbM6SizY.UseTallSize = false;
@@ -5994,12 +6207,13 @@
 			this.tbM7LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM7LocX.Depth = 0;
 			this.tbM7LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM7LocX.Location = new System.Drawing.Point(3, 207);
+			this.tbM7LocX.Location = new System.Drawing.Point(3, 262);
+			this.tbM7LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM7LocX.MaxLength = 50;
 			this.tbM7LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM7LocX.Multiline = false;
 			this.tbM7LocX.Name = "tbM7LocX";
-			this.tbM7LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM7LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM7LocX.TabIndex = 24;
 			this.tbM7LocX.Text = "";
 			this.tbM7LocX.UseTallSize = false;
@@ -6010,12 +6224,13 @@
 			this.tbM7LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM7LocY.Depth = 0;
 			this.tbM7LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM7LocY.Location = new System.Drawing.Point(96, 207);
+			this.tbM7LocY.Location = new System.Drawing.Point(109, 262);
+			this.tbM7LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM7LocY.MaxLength = 50;
 			this.tbM7LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM7LocY.Multiline = false;
 			this.tbM7LocY.Name = "tbM7LocY";
-			this.tbM7LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM7LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM7LocY.TabIndex = 25;
 			this.tbM7LocY.Text = "";
 			this.tbM7LocY.UseTallSize = false;
@@ -6026,12 +6241,13 @@
 			this.tbM8LocX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM8LocX.Depth = 0;
 			this.tbM8LocX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM8LocX.Location = new System.Drawing.Point(189, 207);
+			this.tbM8LocX.Location = new System.Drawing.Point(215, 262);
+			this.tbM8LocX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM8LocX.MaxLength = 50;
 			this.tbM8LocX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM8LocX.Multiline = false;
 			this.tbM8LocX.Name = "tbM8LocX";
-			this.tbM8LocX.Size = new System.Drawing.Size(87, 36);
+			this.tbM8LocX.Size = new System.Drawing.Size(99, 36);
 			this.tbM8LocX.TabIndex = 26;
 			this.tbM8LocX.Text = "";
 			this.tbM8LocX.UseTallSize = false;
@@ -6042,12 +6258,13 @@
 			this.tbM8LocY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM8LocY.Depth = 0;
 			this.tbM8LocY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM8LocY.Location = new System.Drawing.Point(282, 207);
+			this.tbM8LocY.Location = new System.Drawing.Point(321, 262);
+			this.tbM8LocY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM8LocY.MaxLength = 50;
 			this.tbM8LocY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM8LocY.Multiline = false;
 			this.tbM8LocY.Name = "tbM8LocY";
-			this.tbM8LocY.Size = new System.Drawing.Size(87, 36);
+			this.tbM8LocY.Size = new System.Drawing.Size(99, 36);
 			this.tbM8LocY.TabIndex = 27;
 			this.tbM8LocY.Text = "";
 			this.tbM8LocY.UseTallSize = false;
@@ -6057,12 +6274,13 @@
 			this.tbM7SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM7SizX.Depth = 0;
 			this.tbM7SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM7SizX.Location = new System.Drawing.Point(3, 241);
+			this.tbM7SizX.Location = new System.Drawing.Point(3, 305);
+			this.tbM7SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM7SizX.MaxLength = 50;
 			this.tbM7SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM7SizX.Multiline = false;
 			this.tbM7SizX.Name = "tbM7SizX";
-			this.tbM7SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM7SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM7SizX.TabIndex = 28;
 			this.tbM7SizX.Text = "";
 			this.tbM7SizX.UseTallSize = false;
@@ -6072,12 +6290,13 @@
 			this.tbM7SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM7SizY.Depth = 0;
 			this.tbM7SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM7SizY.Location = new System.Drawing.Point(96, 241);
+			this.tbM7SizY.Location = new System.Drawing.Point(109, 305);
+			this.tbM7SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM7SizY.MaxLength = 50;
 			this.tbM7SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM7SizY.Multiline = false;
 			this.tbM7SizY.Name = "tbM7SizY";
-			this.tbM7SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM7SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM7SizY.TabIndex = 29;
 			this.tbM7SizY.Text = "";
 			this.tbM7SizY.UseTallSize = false;
@@ -6087,12 +6306,13 @@
 			this.tbM8SizX.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM8SizX.Depth = 0;
 			this.tbM8SizX.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM8SizX.Location = new System.Drawing.Point(189, 241);
+			this.tbM8SizX.Location = new System.Drawing.Point(215, 305);
+			this.tbM8SizX.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM8SizX.MaxLength = 50;
 			this.tbM8SizX.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM8SizX.Multiline = false;
 			this.tbM8SizX.Name = "tbM8SizX";
-			this.tbM8SizX.Size = new System.Drawing.Size(87, 36);
+			this.tbM8SizX.Size = new System.Drawing.Size(99, 36);
 			this.tbM8SizX.TabIndex = 30;
 			this.tbM8SizX.Text = "";
 			this.tbM8SizX.UseTallSize = false;
@@ -6102,12 +6322,13 @@
 			this.tbM8SizY.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbM8SizY.Depth = 0;
 			this.tbM8SizY.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbM8SizY.Location = new System.Drawing.Point(282, 241);
+			this.tbM8SizY.Location = new System.Drawing.Point(321, 305);
+			this.tbM8SizY.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.tbM8SizY.MaxLength = 50;
 			this.tbM8SizY.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbM8SizY.Multiline = false;
 			this.tbM8SizY.Name = "tbM8SizY";
-			this.tbM8SizY.Size = new System.Drawing.Size(87, 36);
+			this.tbM8SizY.Size = new System.Drawing.Size(99, 36);
 			this.tbM8SizY.TabIndex = 31;
 			this.tbM8SizY.Text = "";
 			this.tbM8SizY.UseTallSize = false;
@@ -6119,8 +6340,8 @@
 			this.btWindowsParaWrite.DrawShadows = true;
 			this.btWindowsParaWrite.HighEmphasis = true;
 			this.btWindowsParaWrite.Icon = null;
-			this.btWindowsParaWrite.Location = new System.Drawing.Point(70, 7);
-			this.btWindowsParaWrite.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btWindowsParaWrite.Location = new System.Drawing.Point(80, 9);
+			this.btWindowsParaWrite.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btWindowsParaWrite.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btWindowsParaWrite.Name = "btWindowsParaWrite";
 			this.btWindowsParaWrite.Size = new System.Drawing.Size(56, 36);
@@ -6139,8 +6360,8 @@
 			this.btWindowsParaRead.DrawShadows = true;
 			this.btWindowsParaRead.HighEmphasis = true;
 			this.btWindowsParaRead.Icon = null;
-			this.btWindowsParaRead.Location = new System.Drawing.Point(10, 7);
-			this.btWindowsParaRead.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btWindowsParaRead.Location = new System.Drawing.Point(11, 9);
+			this.btWindowsParaRead.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btWindowsParaRead.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btWindowsParaRead.Name = "btWindowsParaRead";
 			this.btWindowsParaRead.Size = new System.Drawing.Size(55, 36);
@@ -6158,7 +6379,7 @@
 			this.cbLockSetup.Checked = true;
 			this.cbLockSetup.CheckState = System.Windows.Forms.CheckState.Checked;
 			this.cbLockSetup.Depth = 0;
-			this.cbLockSetup.Location = new System.Drawing.Point(9, 442);
+			this.cbLockSetup.Location = new System.Drawing.Point(10, 552);
 			this.cbLockSetup.Margin = new System.Windows.Forms.Padding(0);
 			this.cbLockSetup.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbLockSetup.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
@@ -6178,8 +6399,8 @@
 			this.btConfirm.DrawShadows = true;
 			this.btConfirm.HighEmphasis = true;
 			this.btConfirm.Icon = null;
-			this.btConfirm.Location = new System.Drawing.Point(439, 443);
-			this.btConfirm.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btConfirm.Location = new System.Drawing.Point(513, 554);
+			this.btConfirm.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btConfirm.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btConfirm.Name = "btConfirm";
 			this.btConfirm.Size = new System.Drawing.Size(75, 36);
@@ -6199,8 +6420,8 @@
 			this.btCancel.DrawShadows = true;
 			this.btCancel.HighEmphasis = true;
 			this.btCancel.Icon = null;
-			this.btCancel.Location = new System.Drawing.Point(526, 443);
-			this.btCancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btCancel.Location = new System.Drawing.Point(611, 554);
+			this.btCancel.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btCancel.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btCancel.Name = "btCancel";
 			this.btCancel.Size = new System.Drawing.Size(67, 36);
@@ -6219,8 +6440,8 @@
 			this.btLoad.DrawShadows = true;
 			this.btLoad.HighEmphasis = true;
 			this.btLoad.Icon = null;
-			this.btLoad.Location = new System.Drawing.Point(148, 443);
-			this.btLoad.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btLoad.Location = new System.Drawing.Point(169, 554);
+			this.btLoad.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btLoad.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btLoad.Name = "btLoad";
 			this.btLoad.Size = new System.Drawing.Size(54, 36);
@@ -6239,8 +6460,8 @@
 			this.btSave.DrawShadows = true;
 			this.btSave.HighEmphasis = true;
 			this.btSave.Icon = null;
-			this.btSave.Location = new System.Drawing.Point(206, 443);
-			this.btSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btSave.Location = new System.Drawing.Point(235, 554);
+			this.btSave.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
 			this.btSave.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSave.Name = "btSave";
 			this.btSave.Size = new System.Drawing.Size(53, 36);
@@ -6254,9 +6475,9 @@
 			// 
 			// frmSetup
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(605, 528);
+			this.ClientSize = new System.Drawing.Size(691, 660);
 			this.Controls.Add(this.btCancel);
 			this.Controls.Add(this.btConfirm);
 			this.Controls.Add(this.btSave);
@@ -6265,10 +6486,11 @@
 			this.Controls.Add(this.tbModule);
 			this.Controls.Add(this.gbSetUpModule);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "frmSetup";
-			this.Padding = new System.Windows.Forms.Padding(3, 64, 3, 3);
+			this.Padding = new System.Windows.Forms.Padding(3, 80, 3, 4);
 			this.Text = "frmSetup";
 			this.Load += new System.EventHandler(this.frmSetup_Load);
 			this.gbSetUpModule.ResumeLayout(false);

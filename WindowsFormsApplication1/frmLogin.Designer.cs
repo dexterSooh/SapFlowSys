@@ -45,7 +45,7 @@
 			this.btnOK.DrawShadows = true;
 			this.btnOK.HighEmphasis = true;
 			this.btnOK.Icon = null;
-			this.btnOK.Location = new System.Drawing.Point(207, 207);
+			this.btnOK.Location = new System.Drawing.Point(237, 259);
 			this.btnOK.Margin = new System.Windows.Forms.Padding(2);
 			this.btnOK.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btnOK.Name = "btnOK";
@@ -60,13 +60,14 @@
 			// 
 			// btnCancel
 			// 
+			this.btnCancel.AutoSize = false;
 			this.btnCancel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.btnCancel.Depth = 0;
 			this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.btnCancel.DrawShadows = true;
 			this.btnCancel.HighEmphasis = true;
 			this.btnCancel.Icon = null;
-			this.btnCancel.Location = new System.Drawing.Point(120, 207);
+			this.btnCancel.Location = new System.Drawing.Point(145, 259);
 			this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
 			this.btnCancel.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btnCancel.Name = "btnCancel";
@@ -84,7 +85,7 @@
 			this.label3.AutoSize = true;
 			this.label3.Depth = 0;
 			this.label3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label3.Location = new System.Drawing.Point(132, 158);
+			this.label3.Location = new System.Drawing.Point(151, 198);
 			this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label3.Name = "label3";
@@ -97,7 +98,7 @@
 			this.label2.AutoSize = true;
 			this.label2.Depth = 0;
 			this.label2.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label2.Location = new System.Drawing.Point(138, 115);
+			this.label2.Location = new System.Drawing.Point(158, 144);
 			this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label2.Name = "label2";
@@ -110,7 +111,7 @@
 			this.label1.AutoSize = true;
 			this.label1.Depth = 0;
 			this.label1.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label1.Location = new System.Drawing.Point(165, 73);
+			this.label1.Location = new System.Drawing.Point(189, 91);
 			this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label1.Name = "label1";
@@ -123,14 +124,14 @@
 			this.txbPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txbPassword.Depth = 0;
 			this.txbPassword.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.txbPassword.Location = new System.Drawing.Point(161, 151);
+			this.txbPassword.Location = new System.Drawing.Point(184, 189);
 			this.txbPassword.Margin = new System.Windows.Forms.Padding(2);
 			this.txbPassword.MaxLength = 50;
 			this.txbPassword.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.txbPassword.Multiline = false;
 			this.txbPassword.Name = "txbPassword";
 			this.txbPassword.Password = true;
-			this.txbPassword.Size = new System.Drawing.Size(107, 36);
+			this.txbPassword.Size = new System.Drawing.Size(122, 36);
 			this.txbPassword.TabIndex = 1;
 			this.txbPassword.Text = "";
 			this.txbPassword.UseTallSize = false;
@@ -141,7 +142,7 @@
 			this.txbID.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.txbID.Depth = 0;
 			this.txbID.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.txbID.Location = new System.Drawing.Point(161, 105);
+			this.txbID.Location = new System.Drawing.Point(184, 131);
 			this.txbID.Margin = new System.Windows.Forms.Padding(2);
 			this.txbID.MaxLength = 50;
 			this.txbID.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
@@ -149,16 +150,16 @@
 			this.txbID.Name = "txbID";
 			this.txbID.Password = true;
 			this.txbID.RightToLeft = System.Windows.Forms.RightToLeft.No;
-			this.txbID.Size = new System.Drawing.Size(107, 36);
+			this.txbID.Size = new System.Drawing.Size(122, 36);
 			this.txbID.TabIndex = 0;
 			this.txbID.Text = "";
 			this.txbID.UseTallSize = false;
 			// 
 			// frmLogin
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(393, 255);
+			this.ClientSize = new System.Drawing.Size(449, 319);
 			this.Controls.Add(this.btnOK);
 			this.Controls.Add(this.btnCancel);
 			this.Controls.Add(this.txbPassword);
@@ -166,9 +167,11 @@
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
+			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "frmLogin";
+			this.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.ShowIcon = false;
 			this.ShowInTaskbar = false;
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
