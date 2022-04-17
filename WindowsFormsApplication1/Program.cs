@@ -19,7 +19,14 @@ namespace SapflowApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SF_Test());
+			try
+			{
+				Application.Run(new SF_Test());
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show(ex.Message);
+			}
         }
     }
 }

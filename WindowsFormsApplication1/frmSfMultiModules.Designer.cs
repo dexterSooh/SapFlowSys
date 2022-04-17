@@ -68,20 +68,19 @@
 			// tableLayoutPanel1
 			// 
 			this.tableLayoutPanel1.ColumnCount = 4;
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 295F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 342F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 2, 0);
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 0, 0);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-			this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 80);
-			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel1.Location = new System.Drawing.Point(2, 64);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 1;
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(1266, 62);
+			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56F));
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(1107, 50);
 			this.tableLayoutPanel1.TabIndex = 0;
 			// 
 			// flowLayoutPanel1
@@ -95,10 +94,9 @@
 			this.flowLayoutPanel1.Controls.Add(this.lbStartDate);
 			this.flowLayoutPanel1.Controls.Add(this.label2);
 			this.flowLayoutPanel1.Controls.Add(this.lbEndDate);
-			this.flowLayoutPanel1.Location = new System.Drawing.Point(298, 4);
-			this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.flowLayoutPanel1.Location = new System.Drawing.Point(345, 3);
 			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-			this.flowLayoutPanel1.Size = new System.Drawing.Size(507, 52);
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(377, 42);
 			this.flowLayoutPanel1.TabIndex = 0;
 			// 
 			// btTitle
@@ -112,8 +110,8 @@
 			this.btTitle.ForeColor = System.Drawing.Color.DarkRed;
 			this.btTitle.HighEmphasis = true;
 			this.btTitle.Icon = null;
-			this.btTitle.Location = new System.Drawing.Point(5, 8);
-			this.btTitle.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btTitle.Location = new System.Drawing.Point(4, 6);
+			this.btTitle.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btTitle.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btTitle.Name = "btTitle";
 			this.btTitle.Size = new System.Drawing.Size(30, 36);
@@ -136,8 +134,8 @@
 			this.btDate.ForeColor = System.Drawing.Color.DarkRed;
 			this.btDate.HighEmphasis = true;
 			this.btDate.Icon = null;
-			this.btDate.Location = new System.Drawing.Point(45, 8);
-			this.btDate.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btDate.Location = new System.Drawing.Point(42, 6);
+			this.btDate.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btDate.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btDate.Name = "btDate";
 			this.btDate.Size = new System.Drawing.Size(55, 36);
@@ -160,8 +158,8 @@
 			this.btSF.ForeColor = System.Drawing.Color.DarkRed;
 			this.btSF.HighEmphasis = true;
 			this.btSF.Icon = null;
-			this.btSF.Location = new System.Drawing.Point(110, 8);
-			this.btSF.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btSF.Location = new System.Drawing.Point(105, 6);
+			this.btSF.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btSF.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSF.Name = "btSF";
 			this.btSF.Size = new System.Drawing.Size(38, 36);
@@ -184,8 +182,8 @@
 			this.btRT.ForeColor = System.Drawing.Color.DarkRed;
 			this.btRT.HighEmphasis = true;
 			this.btRT.Icon = null;
-			this.btRT.Location = new System.Drawing.Point(158, 8);
-			this.btRT.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btRT.Location = new System.Drawing.Point(151, 6);
+			this.btRT.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btRT.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btRT.Name = "btRT";
 			this.btRT.Size = new System.Drawing.Size(39, 36);
@@ -208,8 +206,8 @@
 			this.btY1.ForeColor = System.Drawing.Color.DarkRed;
 			this.btY1.HighEmphasis = true;
 			this.btY1.Icon = null;
-			this.btY1.Location = new System.Drawing.Point(207, 8);
-			this.btY1.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btY1.Location = new System.Drawing.Point(198, 6);
+			this.btY1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btY1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btY1.Name = "btY1";
 			this.btY1.Size = new System.Drawing.Size(38, 36);
@@ -232,8 +230,8 @@
 			this.btY2.ForeColor = System.Drawing.Color.DarkRed;
 			this.btY2.HighEmphasis = true;
 			this.btY2.Icon = null;
-			this.btY2.Location = new System.Drawing.Point(255, 8);
-			this.btY2.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btY2.Location = new System.Drawing.Point(244, 6);
+			this.btY2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btY2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btY2.Name = "btY2";
 			this.btY2.Size = new System.Drawing.Size(38, 36);
@@ -250,7 +248,7 @@
 			this.lbStartDate.AutoSize = true;
 			this.lbStartDate.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.lbStartDate.ForeColor = System.Drawing.Color.DarkGreen;
-			this.lbStartDate.Location = new System.Drawing.Point(301, 0);
+			this.lbStartDate.Location = new System.Drawing.Point(289, 0);
 			this.lbStartDate.Name = "lbStartDate";
 			this.lbStartDate.Size = new System.Drawing.Size(40, 13);
 			this.lbStartDate.TabIndex = 1;
@@ -262,7 +260,7 @@
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.label2.ForeColor = System.Drawing.Color.DarkGreen;
-			this.label2.Location = new System.Drawing.Point(347, 0);
+			this.label2.Location = new System.Drawing.Point(335, 0);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(19, 16);
 			this.label2.TabIndex = 1;
@@ -274,7 +272,7 @@
 			this.lbEndDate.AutoSize = true;
 			this.lbEndDate.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.lbEndDate.ForeColor = System.Drawing.Color.DarkGreen;
-			this.lbEndDate.Location = new System.Drawing.Point(372, 0);
+			this.lbEndDate.Location = new System.Drawing.Point(3, 48);
 			this.lbEndDate.Name = "lbEndDate";
 			this.lbEndDate.Size = new System.Drawing.Size(34, 13);
 			this.lbEndDate.TabIndex = 1;
@@ -291,10 +289,9 @@
 			this.flowLayoutPanel2.Controls.Add(this.btColorView);
 			this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-			this.flowLayoutPanel2.Location = new System.Drawing.Point(832, 4);
-			this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(728, 3);
 			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-			this.flowLayoutPanel2.Size = new System.Drawing.Size(394, 62);
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(344, 50);
 			this.flowLayoutPanel2.TabIndex = 1;
 			// 
 			// btReflesh
@@ -306,8 +303,8 @@
 			this.btReflesh.ForeColor = System.Drawing.Color.DarkRed;
 			this.btReflesh.HighEmphasis = true;
 			this.btReflesh.Icon = null;
-			this.btReflesh.Location = new System.Drawing.Point(310, 8);
-			this.btReflesh.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btReflesh.Location = new System.Drawing.Point(261, 6);
+			this.btReflesh.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btReflesh.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btReflesh.Name = "btReflesh";
 			this.btReflesh.Size = new System.Drawing.Size(79, 36);
@@ -322,8 +319,7 @@
 			// nudHeight
 			// 
 			this.nudHeight.ForeColor = System.Drawing.Color.DarkRed;
-			this.nudHeight.Location = new System.Drawing.Point(256, 4);
-			this.nudHeight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.nudHeight.Location = new System.Drawing.Point(214, 3);
 			this.nudHeight.Maximum = new decimal(new int[] {
             16,
             0,
@@ -335,7 +331,7 @@
             0,
             0});
 			this.nudHeight.Name = "nudHeight";
-			this.nudHeight.Size = new System.Drawing.Size(46, 25);
+			this.nudHeight.Size = new System.Drawing.Size(40, 21);
 			this.nudHeight.TabIndex = 1;
 			this.nudHeight.Value = new decimal(new int[] {
             4,
@@ -348,17 +344,16 @@
 			// 
 			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(234, 18);
+			this.label1.Location = new System.Drawing.Point(196, 18);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(16, 15);
+			this.label1.Size = new System.Drawing.Size(12, 12);
 			this.label1.TabIndex = 3;
 			this.label1.Text = "x";
 			// 
 			// nudWidth
 			// 
 			this.nudWidth.ForeColor = System.Drawing.Color.DarkRed;
-			this.nudWidth.Location = new System.Drawing.Point(182, 4);
-			this.nudWidth.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.nudWidth.Location = new System.Drawing.Point(150, 3);
 			this.nudWidth.Maximum = new decimal(new int[] {
             25,
             0,
@@ -370,7 +365,7 @@
             0,
             0});
 			this.nudWidth.Name = "nudWidth";
-			this.nudWidth.Size = new System.Drawing.Size(46, 25);
+			this.nudWidth.Size = new System.Drawing.Size(40, 21);
 			this.nudWidth.TabIndex = 0;
 			this.nudWidth.Value = new decimal(new int[] {
             4,
@@ -390,8 +385,8 @@
 			this.btMaskView.ForeColor = System.Drawing.Color.DarkRed;
 			this.btMaskView.HighEmphasis = true;
 			this.btMaskView.Icon = null;
-			this.btMaskView.Location = new System.Drawing.Point(117, 8);
-			this.btMaskView.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btMaskView.Location = new System.Drawing.Point(86, 6);
+			this.btMaskView.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btMaskView.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btMaskView.Name = "btMaskView";
 			this.btMaskView.Size = new System.Drawing.Size(57, 36);
@@ -414,8 +409,8 @@
 			this.btColorView.ForeColor = System.Drawing.Color.DarkRed;
 			this.btColorView.HighEmphasis = true;
 			this.btColorView.Icon = null;
-			this.btColorView.Location = new System.Drawing.Point(50, 8);
-			this.btColorView.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btColorView.Location = new System.Drawing.Point(21, 6);
+			this.btColorView.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btColorView.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btColorView.Name = "btColorView";
 			this.btColorView.Size = new System.Drawing.Size(57, 36);
@@ -436,15 +431,14 @@
 			this.flowLayoutPanel3.Controls.Add(this.btScaleNext);
 			this.flowLayoutPanel3.Controls.Add(this.btScalePrevious);
 			this.flowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-			this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 4);
-			this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-			this.flowLayoutPanel3.Size = new System.Drawing.Size(288, 52);
+			this.flowLayoutPanel3.Size = new System.Drawing.Size(336, 42);
 			this.flowLayoutPanel3.TabIndex = 2;
 			// 
 			// cbScale
 			// 
-			this.cbScale.AutoResize = false;
+			this.cbScale.AutoResize = true;
 			this.cbScale.BackColor = System.Drawing.SystemColors.Control;
 			this.cbScale.Depth = 0;
 			this.cbScale.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -457,12 +451,11 @@
 			this.cbScale.FormattingEnabled = true;
 			this.cbScale.IntegralHeight = false;
 			this.cbScale.ItemHeight = 29;
-			this.cbScale.Location = new System.Drawing.Point(208, 4);
-			this.cbScale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.cbScale.Location = new System.Drawing.Point(212, 3);
 			this.cbScale.MaxDropDownItems = 4;
 			this.cbScale.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.cbScale.Name = "cbScale";
-			this.cbScale.Size = new System.Drawing.Size(77, 35);
+			this.cbScale.Size = new System.Drawing.Size(121, 35);
 			this.cbScale.StartIndex = 0;
 			this.cbScale.TabIndex = 0;
 			this.cbScale.UseTallSize = false;
@@ -478,8 +471,8 @@
 			this.btScaleFull.ForeColor = System.Drawing.Color.DarkRed;
 			this.btScaleFull.HighEmphasis = true;
 			this.btScaleFull.Icon = null;
-			this.btScaleFull.Location = new System.Drawing.Point(171, 8);
-			this.btScaleFull.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btScaleFull.Location = new System.Drawing.Point(176, 6);
+			this.btScaleFull.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btScaleFull.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScaleFull.Name = "btScaleFull";
 			this.btScaleFull.Size = new System.Drawing.Size(29, 36);
@@ -501,8 +494,8 @@
 			this.btScale2d.ForeColor = System.Drawing.Color.DarkRed;
 			this.btScale2d.HighEmphasis = true;
 			this.btScale2d.Icon = null;
-			this.btScale2d.Location = new System.Drawing.Point(131, 8);
-			this.btScale2d.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btScale2d.Location = new System.Drawing.Point(138, 6);
+			this.btScale2d.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btScale2d.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScale2d.Name = "btScale2d";
 			this.btScale2d.Size = new System.Drawing.Size(30, 36);
@@ -524,8 +517,8 @@
 			this.btScale1d.ForeColor = System.Drawing.Color.DarkRed;
 			this.btScale1d.HighEmphasis = true;
 			this.btScale1d.Icon = null;
-			this.btScale1d.Location = new System.Drawing.Point(91, 8);
-			this.btScale1d.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btScale1d.Location = new System.Drawing.Point(100, 6);
+			this.btScale1d.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btScale1d.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScale1d.Name = "btScale1d";
 			this.btScale1d.Size = new System.Drawing.Size(30, 36);
@@ -548,8 +541,8 @@
 			this.btScaleNext.ForeColor = System.Drawing.Color.DarkGreen;
 			this.btScaleNext.HighEmphasis = true;
 			this.btScaleNext.Icon = null;
-			this.btScaleNext.Location = new System.Drawing.Point(44, 8);
-			this.btScaleNext.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btScaleNext.Location = new System.Drawing.Point(55, 6);
+			this.btScaleNext.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btScaleNext.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScaleNext.Name = "btScaleNext";
 			this.btScaleNext.Size = new System.Drawing.Size(37, 36);
@@ -572,8 +565,8 @@
 			this.btScalePrevious.ForeColor = System.Drawing.Color.DarkGreen;
 			this.btScalePrevious.HighEmphasis = true;
 			this.btScalePrevious.Icon = null;
-			this.btScalePrevious.Location = new System.Drawing.Point(247, 60);
-			this.btScalePrevious.Margin = new System.Windows.Forms.Padding(5, 8, 5, 8);
+			this.btScalePrevious.Location = new System.Drawing.Point(11, 6);
+			this.btScalePrevious.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btScalePrevious.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScalePrevious.Name = "btScalePrevious";
 			this.btScalePrevious.Size = new System.Drawing.Size(36, 36);
@@ -589,10 +582,9 @@
 			// 
 			this.panel1.AutoScroll = true;
 			this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.panel1.Location = new System.Drawing.Point(2, 142);
-			this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.panel1.Location = new System.Drawing.Point(2, 114);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(1266, 432);
+			this.panel1.Size = new System.Drawing.Size(1107, 345);
 			this.panel1.TabIndex = 2;
 			this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
 			// 
@@ -604,17 +596,16 @@
 			// 
 			// frmSfMultiModules
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Ivory;
-			this.ClientSize = new System.Drawing.Size(1270, 576);
+			this.ClientSize = new System.Drawing.Size(1111, 461);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.IsMdiContainer = true;
-			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "frmSfMultiModules";
-			this.Padding = new System.Windows.Forms.Padding(2, 80, 2, 2);
+			this.Padding = new System.Windows.Forms.Padding(2, 64, 2, 2);
 			this.Text = "Real Multi Modules";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSfMultiModules_FormClosing);
 			this.Load += new System.EventHandler(this.SfMultiModules_Load);

@@ -90,17 +90,16 @@
 			// 
 			this.tableLayoutPanel12.ColumnCount = 2;
 			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 141F));
+			this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
 			this.tableLayoutPanel12.Controls.Add(this.tableLayoutRight, 1, 0);
 			this.tableLayoutPanel12.Controls.Add(this.tableLayoutPanel16, 0, 0);
 			this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 50);
-			this.tableLayoutPanel12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 40);
 			this.tableLayoutPanel12.Name = "tableLayoutPanel12";
 			this.tableLayoutPanel12.RowCount = 1;
 			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 573F));
-			this.tableLayoutPanel12.Size = new System.Drawing.Size(1009, 573);
+			this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 458F));
+			this.tableLayoutPanel12.Size = new System.Drawing.Size(881, 459);
 			this.tableLayoutPanel12.TabIndex = 2;
 			// 
 			// tableLayoutRight
@@ -121,8 +120,7 @@
 			this.tableLayoutRight.Controls.Add(this.dtpMaxTime, 0, 5);
 			this.tableLayoutRight.Controls.Add(this.dtpMinTime, 0, 7);
 			this.tableLayoutRight.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutRight.Location = new System.Drawing.Point(871, 4);
-			this.tableLayoutRight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutRight.Location = new System.Drawing.Point(761, 3);
 			this.tableLayoutRight.Name = "tableLayoutRight";
 			this.tableLayoutRight.RowCount = 13;
 			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -135,10 +133,10 @@
 			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
 			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
 			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 52F));
-			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
-			this.tableLayoutRight.Size = new System.Drawing.Size(135, 565);
+			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+			this.tableLayoutRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+			this.tableLayoutRight.Size = new System.Drawing.Size(117, 453);
 			this.tableLayoutRight.TabIndex = 0;
 			// 
 			// tableLayoutPanel13
@@ -149,12 +147,11 @@
 			this.tableLayoutPanel13.Controls.Add(this.btDataExport, 0, 0);
 			this.tableLayoutPanel13.Controls.Add(this.btSetup, 1, 0);
 			this.tableLayoutPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 516);
-			this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel13.Location = new System.Drawing.Point(3, 415);
 			this.tableLayoutPanel13.Name = "tableLayoutPanel13";
 			this.tableLayoutPanel13.RowCount = 1;
 			this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-			this.tableLayoutPanel13.Size = new System.Drawing.Size(129, 45);
+			this.tableLayoutPanel13.Size = new System.Drawing.Size(111, 35);
 			this.tableLayoutPanel13.TabIndex = 6;
 			// 
 			// btDataExport
@@ -167,11 +164,10 @@
 			this.btDataExport.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btDataExport.HighEmphasis = true;
 			this.btDataExport.Icon = null;
-			this.btDataExport.Location = new System.Drawing.Point(3, 4);
-			this.btDataExport.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btDataExport.Location = new System.Drawing.Point(3, 3);
 			this.btDataExport.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btDataExport.Name = "btDataExport";
-			this.btDataExport.Size = new System.Drawing.Size(58, 37);
+			this.btDataExport.Size = new System.Drawing.Size(49, 29);
 			this.btDataExport.TabIndex = 0;
 			this.btDataExport.Text = "Export";
 			this.btDataExport.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -191,11 +187,10 @@
 			this.btSetup.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btSetup.HighEmphasis = true;
 			this.btSetup.Icon = null;
-			this.btSetup.Location = new System.Drawing.Point(67, 4);
-			this.btSetup.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btSetup.Location = new System.Drawing.Point(58, 3);
 			this.btSetup.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSetup.Name = "btSetup";
-			this.btSetup.Size = new System.Drawing.Size(59, 37);
+			this.btSetup.Size = new System.Drawing.Size(50, 29);
 			this.btSetup.TabIndex = 1;
 			this.btSetup.Text = "Setup";
 			this.btSetup.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -215,7 +210,7 @@
 			this.lbStartTime.Location = new System.Drawing.Point(3, 0);
 			this.lbStartTime.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbStartTime.Name = "lbStartTime";
-			this.lbStartTime.Size = new System.Drawing.Size(129, 41);
+			this.lbStartTime.Size = new System.Drawing.Size(111, 33);
 			this.lbStartTime.TabIndex = 0;
 			this.lbStartTime.Text = "Start Time";
 			this.lbStartTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -228,10 +223,10 @@
 			this.label53.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label53.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.label53.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label53.Location = new System.Drawing.Point(3, 328);
+			this.label53.Location = new System.Drawing.Point(3, 264);
 			this.label53.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(129, 41);
+			this.label53.Size = new System.Drawing.Size(111, 33);
 			this.label53.TabIndex = 0;
 			this.label53.Text = "EVENT(J)";
 			this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -244,12 +239,11 @@
 			this.tableLayoutPanel15.Controls.Add(this.btLoadParameter, 0, 0);
 			this.tableLayoutPanel15.Controls.Add(this.btSaveParameter, 1, 0);
 			this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 414);
-			this.tableLayoutPanel15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 333);
 			this.tableLayoutPanel15.Name = "tableLayoutPanel15";
 			this.tableLayoutPanel15.RowCount = 1;
 			this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-			this.tableLayoutPanel15.Size = new System.Drawing.Size(129, 42);
+			this.tableLayoutPanel15.Size = new System.Drawing.Size(111, 34);
 			this.tableLayoutPanel15.TabIndex = 2;
 			// 
 			// btLoadParameter
@@ -262,11 +256,10 @@
 			this.btLoadParameter.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btLoadParameter.HighEmphasis = true;
 			this.btLoadParameter.Icon = null;
-			this.btLoadParameter.Location = new System.Drawing.Point(3, 4);
-			this.btLoadParameter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btLoadParameter.Location = new System.Drawing.Point(3, 3);
 			this.btLoadParameter.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btLoadParameter.Name = "btLoadParameter";
-			this.btLoadParameter.Size = new System.Drawing.Size(58, 34);
+			this.btLoadParameter.Size = new System.Drawing.Size(49, 28);
 			this.btLoadParameter.TabIndex = 0;
 			this.btLoadParameter.Text = "Load";
 			this.btLoadParameter.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -285,11 +278,10 @@
 			this.btSaveParameter.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btSaveParameter.HighEmphasis = true;
 			this.btSaveParameter.Icon = null;
-			this.btSaveParameter.Location = new System.Drawing.Point(67, 4);
-			this.btSaveParameter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btSaveParameter.Location = new System.Drawing.Point(58, 3);
 			this.btSaveParameter.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSaveParameter.Name = "btSaveParameter";
-			this.btSaveParameter.Size = new System.Drawing.Size(59, 34);
+			this.btSaveParameter.Size = new System.Drawing.Size(50, 28);
 			this.btSaveParameter.TabIndex = 1;
 			this.btSaveParameter.Text = "Save";
 			this.btSaveParameter.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -305,10 +297,10 @@
 			this.lbEndTime.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbEndTime.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.lbEndTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.lbEndTime.Location = new System.Drawing.Point(3, 82);
+			this.lbEndTime.Location = new System.Drawing.Point(3, 66);
 			this.lbEndTime.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbEndTime.Name = "lbEndTime";
-			this.lbEndTime.Size = new System.Drawing.Size(129, 41);
+			this.lbEndTime.Size = new System.Drawing.Size(111, 33);
 			this.lbEndTime.TabIndex = 0;
 			this.lbEndTime.Text = "End Time";
 			this.lbEndTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -321,10 +313,10 @@
 			this.lbMaxTime.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbMaxTime.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.lbMaxTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.lbMaxTime.Location = new System.Drawing.Point(3, 164);
+			this.lbMaxTime.Location = new System.Drawing.Point(3, 132);
 			this.lbMaxTime.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbMaxTime.Name = "lbMaxTime";
-			this.lbMaxTime.Size = new System.Drawing.Size(129, 41);
+			this.lbMaxTime.Size = new System.Drawing.Size(111, 33);
 			this.lbMaxTime.TabIndex = 0;
 			this.lbMaxTime.Text = "Max. Time";
 			this.lbMaxTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -337,10 +329,10 @@
 			this.lbMinTime.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbMinTime.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
 			this.lbMinTime.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.lbMinTime.Location = new System.Drawing.Point(3, 246);
+			this.lbMinTime.Location = new System.Drawing.Point(3, 198);
 			this.lbMinTime.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbMinTime.Name = "lbMinTime";
-			this.lbMinTime.Size = new System.Drawing.Size(129, 41);
+			this.lbMinTime.Size = new System.Drawing.Size(111, 33);
 			this.lbMinTime.TabIndex = 0;
 			this.lbMinTime.Text = "Min. Time";
 			this.lbMinTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -352,13 +344,12 @@
 			this.tbEventJoule.Depth = 0;
 			this.tbEventJoule.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tbEventJoule.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-			this.tbEventJoule.Location = new System.Drawing.Point(3, 373);
-			this.tbEventJoule.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tbEventJoule.Location = new System.Drawing.Point(3, 300);
 			this.tbEventJoule.MaxLength = 50;
 			this.tbEventJoule.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbEventJoule.Multiline = false;
 			this.tbEventJoule.Name = "tbEventJoule";
-			this.tbEventJoule.Size = new System.Drawing.Size(129, 36);
+			this.tbEventJoule.Size = new System.Drawing.Size(111, 36);
 			this.tbEventJoule.TabIndex = 5;
 			this.tbEventJoule.Text = "0";
 			this.tbEventJoule.UseTallSize = false;
@@ -372,12 +363,11 @@
 			this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
 			this.tableLayoutPanel14.Controls.Add(this.btStartValveControl, 0, 0);
 			this.tableLayoutPanel14.Controls.Add(this.btStopValveControl, 1, 0);
-			this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 464);
-			this.tableLayoutPanel14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 373);
 			this.tableLayoutPanel14.Name = "tableLayoutPanel14";
 			this.tableLayoutPanel14.RowCount = 1;
 			this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-			this.tableLayoutPanel14.Size = new System.Drawing.Size(127, 44);
+			this.tableLayoutPanel14.Size = new System.Drawing.Size(111, 35);
 			this.tableLayoutPanel14.TabIndex = 2;
 			// 
 			// btStartValveControl
@@ -390,11 +380,10 @@
 			this.btStartValveControl.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btStartValveControl.HighEmphasis = true;
 			this.btStartValveControl.Icon = null;
-			this.btStartValveControl.Location = new System.Drawing.Point(3, 4);
-			this.btStartValveControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btStartValveControl.Location = new System.Drawing.Point(3, 3);
 			this.btStartValveControl.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btStartValveControl.Name = "btStartValveControl";
-			this.btStartValveControl.Size = new System.Drawing.Size(57, 36);
+			this.btStartValveControl.Size = new System.Drawing.Size(49, 29);
 			this.btStartValveControl.TabIndex = 0;
 			this.btStartValveControl.Text = "Start";
 			this.btStartValveControl.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -414,11 +403,10 @@
 			this.btStopValveControl.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btStopValveControl.HighEmphasis = true;
 			this.btStopValveControl.Icon = null;
-			this.btStopValveControl.Location = new System.Drawing.Point(66, 4);
-			this.btStopValveControl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btStopValveControl.Location = new System.Drawing.Point(58, 3);
 			this.btStopValveControl.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btStopValveControl.Name = "btStopValveControl";
-			this.btStopValveControl.Size = new System.Drawing.Size(58, 36);
+			this.btStopValveControl.Size = new System.Drawing.Size(50, 29);
 			this.btStopValveControl.TabIndex = 1;
 			this.btStopValveControl.Text = "Stop";
 			this.btStopValveControl.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -435,11 +423,10 @@
 			this.dtpEndTime.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
 			this.dtpEndTime.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.dtpEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpEndTime.Location = new System.Drawing.Point(33, 130);
-			this.dtpEndTime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.dtpEndTime.Location = new System.Drawing.Point(28, 102);
 			this.dtpEndTime.Name = "dtpEndTime";
 			this.dtpEndTime.ShowUpDown = true;
-			this.dtpEndTime.Size = new System.Drawing.Size(69, 26);
+			this.dtpEndTime.Size = new System.Drawing.Size(61, 26);
 			this.dtpEndTime.TabIndex = 7;
 			this.dtpEndTime.Value = new System.DateTime(2017, 9, 4, 0, 0, 0, 0);
 			this.dtpEndTime.ValueChanged += new System.EventHandler(this.dtpEndTime_ValueChanged);
@@ -451,11 +438,10 @@
 			this.dtpStartTime.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
 			this.dtpStartTime.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.dtpStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpStartTime.Location = new System.Drawing.Point(33, 48);
-			this.dtpStartTime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.dtpStartTime.Location = new System.Drawing.Point(28, 36);
 			this.dtpStartTime.Name = "dtpStartTime";
 			this.dtpStartTime.ShowUpDown = true;
-			this.dtpStartTime.Size = new System.Drawing.Size(69, 26);
+			this.dtpStartTime.Size = new System.Drawing.Size(61, 26);
 			this.dtpStartTime.TabIndex = 7;
 			this.dtpStartTime.Value = new System.DateTime(2017, 9, 4, 0, 0, 0, 0);
 			this.dtpStartTime.ValueChanged += new System.EventHandler(this.dtpStartTime_ValueChanged);
@@ -467,11 +453,10 @@
 			this.dtpMaxTime.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
 			this.dtpMaxTime.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.dtpMaxTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpMaxTime.Location = new System.Drawing.Point(33, 212);
-			this.dtpMaxTime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.dtpMaxTime.Location = new System.Drawing.Point(28, 168);
 			this.dtpMaxTime.Name = "dtpMaxTime";
 			this.dtpMaxTime.ShowUpDown = true;
-			this.dtpMaxTime.Size = new System.Drawing.Size(69, 26);
+			this.dtpMaxTime.Size = new System.Drawing.Size(61, 26);
 			this.dtpMaxTime.TabIndex = 7;
 			this.dtpMaxTime.Value = new System.DateTime(2017, 9, 4, 0, 0, 0, 0);
 			this.dtpMaxTime.ValueChanged += new System.EventHandler(this.dtpMaxTime_ValueChanged);
@@ -483,11 +468,10 @@
 			this.dtpMinTime.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
 			this.dtpMinTime.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.dtpMinTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-			this.dtpMinTime.Location = new System.Drawing.Point(33, 294);
-			this.dtpMinTime.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.dtpMinTime.Location = new System.Drawing.Point(28, 234);
 			this.dtpMinTime.Name = "dtpMinTime";
 			this.dtpMinTime.ShowUpDown = true;
-			this.dtpMinTime.Size = new System.Drawing.Size(69, 26);
+			this.dtpMinTime.Size = new System.Drawing.Size(61, 26);
 			this.dtpMinTime.TabIndex = 7;
 			this.dtpMinTime.Value = new System.DateTime(2017, 9, 4, 0, 0, 0, 0);
 			this.dtpMinTime.ValueChanged += new System.EventHandler(this.dtpMinTime_ValueChanged);
@@ -499,13 +483,12 @@
 			this.tableLayoutPanel16.Controls.Add(this.chart1, 0, 0);
 			this.tableLayoutPanel16.Controls.Add(this.splitContainer1, 0, 1);
 			this.tableLayoutPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 4);
-			this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel16.Location = new System.Drawing.Point(3, 3);
 			this.tableLayoutPanel16.Name = "tableLayoutPanel16";
 			this.tableLayoutPanel16.RowCount = 2;
 			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92F));
-			this.tableLayoutPanel16.Size = new System.Drawing.Size(862, 565);
+			this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+			this.tableLayoutPanel16.Size = new System.Drawing.Size(752, 453);
 			this.tableLayoutPanel16.TabIndex = 3;
 			// 
 			// chart1
@@ -574,8 +557,7 @@
 			this.chart1.ChartAreas.Add(chartArea1);
 			this.chart1.ChartAreas.Add(chartArea2);
 			this.chart1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.chart1.Location = new System.Drawing.Point(3, 4);
-			this.chart1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.chart1.Location = new System.Drawing.Point(3, 3);
 			this.chart1.Name = "chart1";
 			series1.ChartArea = "ChartArea2";
 			series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
@@ -603,7 +585,7 @@
 			this.chart1.Series.Add(series2);
 			this.chart1.Series.Add(series3);
 			this.chart1.Series.Add(series4);
-			this.chart1.Size = new System.Drawing.Size(856, 465);
+			this.chart1.Size = new System.Drawing.Size(746, 373);
 			this.chart1.TabIndex = 1;
 			this.chart1.Text = "chart1";
 			this.chart1.AxisViewChanged += new System.EventHandler<System.Windows.Forms.DataVisualization.Charting.ViewEventArgs>(this.chart1_AxisViewChanged_1);
@@ -611,8 +593,7 @@
 			// splitContainer1
 			// 
 			this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.splitContainer1.Location = new System.Drawing.Point(3, 477);
-			this.splitContainer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.splitContainer1.Location = new System.Drawing.Point(3, 382);
 			this.splitContainer1.Name = "splitContainer1";
 			// 
 			// splitContainer1.Panel1
@@ -622,31 +603,28 @@
 			// splitContainer1.Panel2
 			// 
 			this.splitContainer1.Panel2.Controls.Add(this.listBoxRight);
-			this.splitContainer1.Size = new System.Drawing.Size(856, 84);
-			this.splitContainer1.SplitterDistance = 296;
-			this.splitContainer1.SplitterWidth = 5;
+			this.splitContainer1.Size = new System.Drawing.Size(746, 68);
+			this.splitContainer1.SplitterDistance = 257;
 			this.splitContainer1.TabIndex = 2;
 			// 
 			// listBoxLeft
 			// 
 			this.listBoxLeft.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.listBoxLeft.FormattingEnabled = true;
-			this.listBoxLeft.ItemHeight = 15;
+			this.listBoxLeft.ItemHeight = 12;
 			this.listBoxLeft.Location = new System.Drawing.Point(0, 0);
-			this.listBoxLeft.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.listBoxLeft.Name = "listBoxLeft";
-			this.listBoxLeft.Size = new System.Drawing.Size(296, 84);
+			this.listBoxLeft.Size = new System.Drawing.Size(257, 68);
 			this.listBoxLeft.TabIndex = 0;
 			// 
 			// listBoxRight
 			// 
 			this.listBoxRight.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.listBoxRight.FormattingEnabled = true;
-			this.listBoxRight.ItemHeight = 15;
+			this.listBoxRight.ItemHeight = 12;
 			this.listBoxRight.Location = new System.Drawing.Point(0, 0);
-			this.listBoxRight.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.listBoxRight.Name = "listBoxRight";
-			this.listBoxRight.Size = new System.Drawing.Size(555, 84);
+			this.listBoxRight.Size = new System.Drawing.Size(485, 68);
 			this.listBoxRight.TabIndex = 0;
 			// 
 			// tableLayoutPanel1
@@ -656,13 +634,12 @@
 			this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel12, 0, 1);
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 0);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 80);
-			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 64);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 2;
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(1015, 627);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(887, 502);
 			this.tableLayoutPanel1.TabIndex = 0;
 			// 
 			// flowLayoutPanel1
@@ -675,10 +652,9 @@
 			this.flowLayoutPanel1.Controls.Add(this.btScalePrevious);
 			this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
 			this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-			this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 4);
-			this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 3);
 			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-			this.flowLayoutPanel1.Size = new System.Drawing.Size(289, 38);
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(253, 31);
 			this.flowLayoutPanel1.TabIndex = 11;
 			// 
 			// cbScale
@@ -695,12 +671,11 @@
 			this.cbScale.FormattingEnabled = true;
 			this.cbScale.IntegralHeight = false;
 			this.cbScale.ItemHeight = 29;
-			this.cbScale.Location = new System.Drawing.Point(209, 4);
-			this.cbScale.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.cbScale.Location = new System.Drawing.Point(182, 3);
 			this.cbScale.MaxDropDownItems = 4;
 			this.cbScale.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.cbScale.Name = "cbScale";
-			this.cbScale.Size = new System.Drawing.Size(77, 35);
+			this.cbScale.Size = new System.Drawing.Size(68, 35);
 			this.cbScale.StartIndex = 0;
 			this.cbScale.TabIndex = 3;
 			this.cbScale.UseTallSize = false;
@@ -716,11 +691,10 @@
 			this.btScaleFull.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btScaleFull.HighEmphasis = true;
 			this.btScaleFull.Icon = null;
-			this.btScaleFull.Location = new System.Drawing.Point(176, 4);
-			this.btScaleFull.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btScaleFull.Location = new System.Drawing.Point(152, 3);
 			this.btScaleFull.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScaleFull.Name = "btScaleFull";
-			this.btScaleFull.Size = new System.Drawing.Size(27, 25);
+			this.btScaleFull.Size = new System.Drawing.Size(24, 20);
 			this.btScaleFull.TabIndex = 9;
 			this.btScaleFull.Text = "F";
 			this.btScaleFull.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -739,11 +713,10 @@
 			this.btScale3d.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btScale3d.HighEmphasis = true;
 			this.btScale3d.Icon = null;
-			this.btScale3d.Location = new System.Drawing.Point(143, 4);
-			this.btScale3d.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btScale3d.Location = new System.Drawing.Point(122, 3);
 			this.btScale3d.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScale3d.Name = "btScale3d";
-			this.btScale3d.Size = new System.Drawing.Size(27, 25);
+			this.btScale3d.Size = new System.Drawing.Size(24, 20);
 			this.btScale3d.TabIndex = 10;
 			this.btScale3d.Text = "3";
 			this.btScale3d.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -762,11 +735,10 @@
 			this.btScale1d.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btScale1d.HighEmphasis = true;
 			this.btScale1d.Icon = null;
-			this.btScale1d.Location = new System.Drawing.Point(110, 4);
-			this.btScale1d.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btScale1d.Location = new System.Drawing.Point(92, 3);
 			this.btScale1d.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScale1d.Name = "btScale1d";
-			this.btScale1d.Size = new System.Drawing.Size(27, 25);
+			this.btScale1d.Size = new System.Drawing.Size(24, 20);
 			this.btScale1d.TabIndex = 11;
 			this.btScale1d.Text = "1";
 			this.btScale1d.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -787,11 +759,10 @@
 			this.btScaleNext.ForeColor = System.Drawing.Color.DarkGreen;
 			this.btScaleNext.HighEmphasis = true;
 			this.btScaleNext.Icon = null;
-			this.btScaleNext.Location = new System.Drawing.Point(67, 4);
-			this.btScaleNext.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btScaleNext.Location = new System.Drawing.Point(54, 3);
 			this.btScaleNext.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScaleNext.Name = "btScaleNext";
-			this.btScaleNext.Size = new System.Drawing.Size(37, 25);
+			this.btScaleNext.Size = new System.Drawing.Size(32, 20);
 			this.btScaleNext.TabIndex = 12;
 			this.btScaleNext.Text = ">>";
 			this.btScaleNext.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -812,11 +783,10 @@
 			this.btScalePrevious.ForeColor = System.Drawing.Color.DarkGreen;
 			this.btScalePrevious.HighEmphasis = true;
 			this.btScalePrevious.Icon = null;
-			this.btScalePrevious.Location = new System.Drawing.Point(24, 4);
-			this.btScalePrevious.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.btScalePrevious.Location = new System.Drawing.Point(16, 3);
 			this.btScalePrevious.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btScalePrevious.Name = "btScalePrevious";
-			this.btScalePrevious.Size = new System.Drawing.Size(37, 25);
+			this.btScalePrevious.Size = new System.Drawing.Size(32, 20);
 			this.btScalePrevious.TabIndex = 13;
 			this.btScalePrevious.Text = "<<";
 			this.btScalePrevious.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -833,15 +803,14 @@
 			// 
 			// frmValveControl
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Ivory;
-			this.ClientSize = new System.Drawing.Size(1021, 711);
+			this.ClientSize = new System.Drawing.Size(893, 569);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "frmValveControl";
-			this.Padding = new System.Windows.Forms.Padding(3, 80, 3, 4);
+			this.Padding = new System.Windows.Forms.Padding(3, 64, 3, 3);
 			this.Text = "Valve Control";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmValveControl_FormClosing);
 			this.Load += new System.EventHandler(this.frmValveControl_Load);

@@ -2217,7 +2217,7 @@ namespace SapflowApplication
         {
             try
             {
-                if (listBox1.Items.Count > 3000)
+                if (listBox1.Items.Count > 1000)
                 {
                     listBox1.Items.RemoveAt(0);
                 }
@@ -3274,7 +3274,7 @@ namespace SapflowApplication
 
         private void OutputFileInit()
         {
-            string outputPath = Application.StartupPath + "\\log\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
+            string outputPath = "C:\\log\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -3294,7 +3294,7 @@ namespace SapflowApplication
 
         private void OutputValveFileInit()
         {
-            string outputPath = Application.StartupPath + "\\log\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
+            string outputPath = "C:\\log\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -6935,7 +6935,7 @@ namespace SapflowApplication
             OpenFileDialog open = new OpenFileDialog();
 
             open.Filter = "*.log|*.*";
-            open.InitialDirectory = Application.StartupPath + "\\log\\";
+            open.InitialDirectory = "C:\\log\\";
             open.Title = "Select Log file";
 
             if (open.ShowDialog() != DialogResult.OK)
@@ -7741,7 +7741,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -7949,7 +7949,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -8195,7 +8195,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -8415,7 +8415,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log_SF\\";
+            string outputPath = "C:\\log_SF\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -8653,7 +8653,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log_daily\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
+            string outputPath = "C:\\log_daily\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -9389,7 +9389,7 @@ namespace SapflowApplication
             int currentHour, currentDay, currentMonth, currentYear, lastestDay, lastestMonth, lastestYear;
             float[,] currentTm = new float[SFModuleLength, SFChannelLength];
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -9611,7 +9611,7 @@ namespace SapflowApplication
 
             updateDisplayBox("Tm Auto Calculation...");
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -10382,7 +10382,7 @@ namespace SapflowApplication
 
             StringBuilder savedata = new StringBuilder();
 
-            string outputPath = Application.StartupPath + "\\log\\";
+            string outputPath = "C:\\log\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
@@ -10563,7 +10563,7 @@ namespace SapflowApplication
             OpenFileDialog open = new OpenFileDialog();
 
             open.Filter = "*.log|*.*";
-            open.InitialDirectory = Application.StartupPath + "\\log\\";
+            open.InitialDirectory = "C:\\log\\";
             open.Title = "Select Log file";
 
             if (open.ShowDialog() != DialogResult.OK)
@@ -11372,7 +11372,7 @@ namespace SapflowApplication
 
             if (mModuleArray.Count == 0) return;
 
-            string outputPath = Application.StartupPath + "\\log_SF\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
+            string outputPath = "C:\\log_SF\\" + System.DateTime.Now.ToString("yy-MM-dd") + "\\";
             System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(outputPath);
             if (di.Exists == false)
             {
