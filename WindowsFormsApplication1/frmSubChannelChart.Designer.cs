@@ -60,12 +60,12 @@
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 0, 1);
 			this.tableLayoutPanel1.Controls.Add(this.chart1, 0, 0);
 			this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 64);
+			this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 2;
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(512, 217);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(506, 275);
 			this.tableLayoutPanel1.TabIndex = 17;
 			// 
 			// flowLayoutPanel1
@@ -82,9 +82,9 @@
 			this.flowLayoutPanel1.Controls.Add(this.lbVPD);
 			this.flowLayoutPanel1.Controls.Add(this.lbVPDValue);
 			this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 196);
+			this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 254);
 			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-			this.flowLayoutPanel1.Size = new System.Drawing.Size(506, 18);
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(500, 18);
 			this.flowLayoutPanel1.TabIndex = 0;
 			// 
 			// lbDPosition
@@ -286,7 +286,7 @@
 			series2.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
 			this.chart1.Series.Add(series1);
 			this.chart1.Series.Add(series2);
-			this.chart1.Size = new System.Drawing.Size(506, 187);
+			this.chart1.Size = new System.Drawing.Size(500, 245);
 			this.chart1.TabIndex = 16;
 			this.chart1.Text = "chart1";
 			title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -311,7 +311,6 @@
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "frmSubChannelChart";
-			this.Padding = new System.Windows.Forms.Padding(0, 64, 0, 0);
 			this.ShowIcon = false;
 			this.Text = "frmValveControl";
 			this.Load += new System.EventHandler(this.frmSubChannelChart_Load);

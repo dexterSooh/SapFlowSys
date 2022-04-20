@@ -70,8 +70,8 @@
 			this.tableLayoutPanel1.ColumnCount = 4;
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 342F));
 			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
-			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 32F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 337F));
+			this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 10F));
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 1, 0);
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 2, 0);
 			this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 0, 0);
@@ -96,7 +96,7 @@
 			this.flowLayoutPanel1.Controls.Add(this.lbEndDate);
 			this.flowLayoutPanel1.Location = new System.Drawing.Point(345, 3);
 			this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-			this.flowLayoutPanel1.Size = new System.Drawing.Size(377, 42);
+			this.flowLayoutPanel1.Size = new System.Drawing.Size(412, 42);
 			this.flowLayoutPanel1.TabIndex = 0;
 			// 
 			// btTitle
@@ -272,7 +272,7 @@
 			this.lbEndDate.AutoSize = true;
 			this.lbEndDate.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.lbEndDate.ForeColor = System.Drawing.Color.DarkGreen;
-			this.lbEndDate.Location = new System.Drawing.Point(3, 48);
+			this.lbEndDate.Location = new System.Drawing.Point(360, 0);
 			this.lbEndDate.Name = "lbEndDate";
 			this.lbEndDate.Size = new System.Drawing.Size(34, 13);
 			this.lbEndDate.TabIndex = 1;
@@ -289,9 +289,9 @@
 			this.flowLayoutPanel2.Controls.Add(this.btColorView);
 			this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-			this.flowLayoutPanel2.Location = new System.Drawing.Point(728, 3);
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(763, 3);
 			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-			this.flowLayoutPanel2.Size = new System.Drawing.Size(344, 50);
+			this.flowLayoutPanel2.Size = new System.Drawing.Size(331, 50);
 			this.flowLayoutPanel2.TabIndex = 1;
 			// 
 			// btReflesh
@@ -303,7 +303,7 @@
 			this.btReflesh.ForeColor = System.Drawing.Color.DarkRed;
 			this.btReflesh.HighEmphasis = true;
 			this.btReflesh.Icon = null;
-			this.btReflesh.Location = new System.Drawing.Point(261, 6);
+			this.btReflesh.Location = new System.Drawing.Point(248, 6);
 			this.btReflesh.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btReflesh.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btReflesh.Name = "btReflesh";
@@ -319,7 +319,7 @@
 			// nudHeight
 			// 
 			this.nudHeight.ForeColor = System.Drawing.Color.DarkRed;
-			this.nudHeight.Location = new System.Drawing.Point(214, 3);
+			this.nudHeight.Location = new System.Drawing.Point(201, 3);
 			this.nudHeight.Maximum = new decimal(new int[] {
             16,
             0,
@@ -344,7 +344,7 @@
 			// 
 			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(196, 18);
+			this.label1.Location = new System.Drawing.Point(183, 18);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(12, 12);
 			this.label1.TabIndex = 3;
@@ -353,7 +353,7 @@
 			// nudWidth
 			// 
 			this.nudWidth.ForeColor = System.Drawing.Color.DarkRed;
-			this.nudWidth.Location = new System.Drawing.Point(150, 3);
+			this.nudWidth.Location = new System.Drawing.Point(137, 3);
 			this.nudWidth.Maximum = new decimal(new int[] {
             25,
             0,
@@ -385,7 +385,7 @@
 			this.btMaskView.ForeColor = System.Drawing.Color.DarkRed;
 			this.btMaskView.HighEmphasis = true;
 			this.btMaskView.Icon = null;
-			this.btMaskView.Location = new System.Drawing.Point(86, 6);
+			this.btMaskView.Location = new System.Drawing.Point(73, 6);
 			this.btMaskView.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btMaskView.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btMaskView.Name = "btMaskView";
@@ -409,7 +409,7 @@
 			this.btColorView.ForeColor = System.Drawing.Color.DarkRed;
 			this.btColorView.HighEmphasis = true;
 			this.btColorView.Icon = null;
-			this.btColorView.Location = new System.Drawing.Point(21, 6);
+			this.btColorView.Location = new System.Drawing.Point(8, 6);
 			this.btColorView.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btColorView.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btColorView.Name = "btColorView";

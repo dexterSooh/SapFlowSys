@@ -12,7 +12,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 namespace SapflowApplication
 {
-    public partial class frmSubChannelChart : MaterialForm
+    public partial class frmSubChannelChart : Form
     {
         private frmSfModule parentForm;
         private int formID;

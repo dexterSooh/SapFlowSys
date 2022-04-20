@@ -116,7 +116,7 @@
 			this.tabValveControl.Controls.Add(this.dataGridView1);
 			this.tabValveControl.Location = new System.Drawing.Point(4, 22);
 			this.tabValveControl.Name = "tabValveControl";
-			this.tabValveControl.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tabValveControl.Padding = new System.Windows.Forms.Padding(3);
 			this.tabValveControl.Size = new System.Drawing.Size(935, 253);
 			this.tabValveControl.TabIndex = 1;
 			this.tabValveControl.Text = "Valve Control";
@@ -144,8 +144,8 @@
 			// 
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-			this.tabPage1.Size = new System.Drawing.Size(936, 252);
+			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+			this.tabPage1.Size = new System.Drawing.Size(935, 253);
 			this.tabPage1.TabIndex = 2;
 			this.tabPage1.Text = "Reseved";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -205,7 +205,8 @@
 			this.btLoad.DrawShadows = true;
 			this.btLoad.HighEmphasis = true;
 			this.btLoad.Icon = null;
-			this.btLoad.Location = new System.Drawing.Point(3, 3);
+			this.btLoad.Location = new System.Drawing.Point(4, 6);
+			this.btLoad.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btLoad.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btLoad.Name = "btLoad";
 			this.btLoad.Size = new System.Drawing.Size(75, 23);
@@ -225,7 +226,8 @@
 			this.btSave.DrawShadows = true;
 			this.btSave.HighEmphasis = true;
 			this.btSave.Icon = null;
-			this.btSave.Location = new System.Drawing.Point(84, 3);
+			this.btSave.Location = new System.Drawing.Point(87, 6);
+			this.btSave.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btSave.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSave.Name = "btSave";
 			this.btSave.Size = new System.Drawing.Size(75, 23);
@@ -270,7 +272,8 @@
 			this.btCancel.DrawShadows = true;
 			this.btCancel.HighEmphasis = true;
 			this.btCancel.Icon = null;
-			this.btCancel.Location = new System.Drawing.Point(86, 3);
+			this.btCancel.Location = new System.Drawing.Point(85, 6);
+			this.btCancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btCancel.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btCancel.Name = "btCancel";
 			this.btCancel.Size = new System.Drawing.Size(75, 23);
@@ -290,7 +293,8 @@
 			this.btConfirm.DrawShadows = true;
 			this.btConfirm.HighEmphasis = true;
 			this.btConfirm.Icon = null;
-			this.btConfirm.Location = new System.Drawing.Point(5, 3);
+			this.btConfirm.Location = new System.Drawing.Point(85, 41);
+			this.btConfirm.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btConfirm.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btConfirm.Name = "btConfirm";
 			this.btConfirm.Size = new System.Drawing.Size(75, 23);
@@ -650,10 +654,11 @@
 			this.btDefault.DrawShadows = true;
 			this.btDefault.HighEmphasis = true;
 			this.btDefault.Icon = null;
-			this.btDefault.Location = new System.Drawing.Point(849, 33);
+			this.btDefault.Location = new System.Drawing.Point(850, 36);
+			this.btDefault.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btDefault.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btDefault.Name = "btDefault";
-			this.btDefault.Size = new System.Drawing.Size(91, 24);
+			this.btDefault.Size = new System.Drawing.Size(89, 18);
 			this.btDefault.TabIndex = 0;
 			this.btDefault.Text = "Set";
 			this.btDefault.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;

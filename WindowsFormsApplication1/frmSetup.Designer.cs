@@ -1296,7 +1296,7 @@
 			this.tbM02.Controls.Add(this.gbM02CHPannel);
 			this.tbM02.Location = new System.Drawing.Point(4, 22);
 			this.tbM02.Name = "tbM02";
-			this.tbM02.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM02.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM02.Size = new System.Drawing.Size(431, 330);
 			this.tbM02.TabIndex = 1;
 			this.tbM02.Text = "Module02";
@@ -1907,7 +1907,7 @@
 			this.tbM03.Controls.Add(this.gbM03CHPannel);
 			this.tbM03.Location = new System.Drawing.Point(4, 22);
 			this.tbM03.Name = "tbM03";
-			this.tbM03.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM03.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM03.Size = new System.Drawing.Size(431, 330);
 			this.tbM03.TabIndex = 2;
 			this.tbM03.Text = "Module03";
@@ -2504,7 +2504,7 @@
 			this.tbM04.Controls.Add(this.gbM04CHPannel);
 			this.tbM04.Location = new System.Drawing.Point(4, 22);
 			this.tbM04.Name = "tbM04";
-			this.tbM04.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM04.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM04.Size = new System.Drawing.Size(431, 330);
 			this.tbM04.TabIndex = 3;
 			this.tbM04.Text = "Module04";
@@ -3115,7 +3115,7 @@
 			this.tbM05.Controls.Add(this.gbM05CHPannel);
 			this.tbM05.Location = new System.Drawing.Point(4, 22);
 			this.tbM05.Name = "tbM05";
-			this.tbM05.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM05.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM05.Size = new System.Drawing.Size(431, 330);
 			this.tbM05.TabIndex = 4;
 			this.tbM05.Text = "Module05";
@@ -3726,7 +3726,7 @@
 			this.tbM06.Controls.Add(this.gbM06CHPannel);
 			this.tbM06.Location = new System.Drawing.Point(4, 22);
 			this.tbM06.Name = "tbM06";
-			this.tbM06.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM06.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM06.Size = new System.Drawing.Size(431, 330);
 			this.tbM06.TabIndex = 5;
 			this.tbM06.Text = "Module06";
@@ -4337,7 +4337,7 @@
 			this.tbM07.Controls.Add(this.gbM07CHPannel);
 			this.tbM07.Location = new System.Drawing.Point(4, 22);
 			this.tbM07.Name = "tbM07";
-			this.tbM07.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM07.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM07.Size = new System.Drawing.Size(431, 330);
 			this.tbM07.TabIndex = 6;
 			this.tbM07.Text = "Module07";
@@ -4948,7 +4948,7 @@
 			this.tbM08.Controls.Add(this.gbM08CHPannel);
 			this.tbM08.Location = new System.Drawing.Point(4, 22);
 			this.tbM08.Name = "tbM08";
-			this.tbM08.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbM08.Padding = new System.Windows.Forms.Padding(3);
 			this.tbM08.Size = new System.Drawing.Size(431, 330);
 			this.tbM08.TabIndex = 7;
 			this.tbM08.Text = "Module08";
@@ -5558,7 +5558,7 @@
 			this.tbWinPara.Controls.Add(this.btWindowsParaRead);
 			this.tbWinPara.Location = new System.Drawing.Point(4, 22);
 			this.tbWinPara.Name = "tbWinPara";
-			this.tbWinPara.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+			this.tbWinPara.Padding = new System.Windows.Forms.Padding(3);
 			this.tbWinPara.Size = new System.Drawing.Size(431, 330);
 			this.tbWinPara.TabIndex = 9;
 			this.tbWinPara.Text = "Window Para.";
