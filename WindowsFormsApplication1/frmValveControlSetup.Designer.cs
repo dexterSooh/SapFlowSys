@@ -310,8 +310,8 @@
 			// 
 			this.tableLayoutPanel4.ColumnCount = 10;
 			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
-			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.6649F));
+			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8.271474F));
 			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
 			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
 			this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
@@ -673,10 +673,10 @@
 			this.lbenabl.Depth = 0;
 			this.lbenabl.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbenabl.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.lbenabl.Location = new System.Drawing.Point(191, 0);
+			this.lbenabl.Location = new System.Drawing.Point(207, 0);
 			this.lbenabl.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbenabl.Name = "lbenabl";
-			this.lbenabl.Size = new System.Drawing.Size(88, 30);
+			this.lbenabl.Size = new System.Drawing.Size(72, 30);
 			this.lbenabl.TabIndex = 0;
 			this.lbenabl.Text = "Enable";
 			this.lbenabl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -687,13 +687,13 @@
 			this.cbEnableFlag.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableFlag.Depth = 0;
 			this.cbEnableFlag.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableFlag.Location = new System.Drawing.Point(188, 30);
+			this.cbEnableFlag.Location = new System.Drawing.Point(204, 30);
 			this.cbEnableFlag.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableFlag.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableFlag.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableFlag.Name = "cbEnableFlag";
 			this.cbEnableFlag.Ripple = true;
-			this.cbEnableFlag.Size = new System.Drawing.Size(94, 30);
+			this.cbEnableFlag.Size = new System.Drawing.Size(78, 30);
 			this.cbEnableFlag.TabIndex = 3;
 			this.cbEnableFlag.UseVisualStyleBackColor = true;
 			// 
@@ -746,7 +746,7 @@
 			this.label1.Location = new System.Drawing.Point(97, 0);
 			this.label1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(88, 30);
+			this.label1.Size = new System.Drawing.Size(104, 30);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Channel";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -771,7 +771,7 @@
 			this.cbChannelNumber.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.cbChannelNumber.Name = "cbChannelNumber";
 			this.cbChannelNumber.RightToLeft = System.Windows.Forms.RightToLeft.No;
-			this.cbChannelNumber.Size = new System.Drawing.Size(88, 35);
+			this.cbChannelNumber.Size = new System.Drawing.Size(104, 35);
 			this.cbChannelNumber.StartIndex = 0;
 			this.cbChannelNumber.TabIndex = 2;
 			this.cbChannelNumber.UseTallSize = false;
@@ -783,13 +783,13 @@
 			this.cbEnableEnable.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableEnable.Depth = 0;
 			this.cbEnableEnable.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableEnable.Location = new System.Drawing.Point(188, 60);
+			this.cbEnableEnable.Location = new System.Drawing.Point(204, 60);
 			this.cbEnableEnable.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableEnable.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableEnable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableEnable.Name = "cbEnableEnable";
 			this.cbEnableEnable.Ripple = true;
-			this.cbEnableEnable.Size = new System.Drawing.Size(94, 32);
+			this.cbEnableEnable.Size = new System.Drawing.Size(78, 32);
 			this.cbEnableEnable.TabIndex = 8;
 			this.cbEnableEnable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableEnable.UseVisualStyleBackColor = true;
@@ -803,7 +803,7 @@
 			this.label4.Location = new System.Drawing.Point(97, 60);
 			this.label4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(88, 32);
+			this.label4.Size = new System.Drawing.Size(104, 32);
 			this.label4.TabIndex = 9;
 			this.label4.Text = "Selected Set:";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
