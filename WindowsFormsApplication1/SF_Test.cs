@@ -1873,7 +1873,8 @@ namespace SapflowApplication
                 m_frmRestarting.Close();
             }
 
-            this.mainTabControl.TabPages.RemoveByKey("tabPage2");
+            this.mainTabControl.TabPages.RemoveByKey("tabPage4");
+            this.mainTabControl.TabPages.RemoveByKey("tabPage5");
         }
 
         private void initSFProgStatus()
