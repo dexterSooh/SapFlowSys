@@ -46,6 +46,7 @@
 			this.lbenabl = new ReaLTaiizor.Controls.MaterialLabel();
 			this.cbEnableFlag = new ReaLTaiizor.Controls.MaterialCheckBox();
 			this.btDefault = new ReaLTaiizor.Controls.MaterialButton();
+			this.btNew = new ReaLTaiizor.Controls.MaterialButton();
 			this.tbpGraphSetup = new System.Windows.Forms.TabPage();
 			this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
 			this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
@@ -102,7 +103,7 @@
 			this.tabControl1.Location = new System.Drawing.Point(3, 3);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(757, 335);
+			this.tabControl1.Size = new System.Drawing.Size(873, 335);
 			this.tabControl1.TabIndex = 0;
 			// 
 			// tbpMultiSetup
@@ -111,7 +112,7 @@
 			this.tbpMultiSetup.Location = new System.Drawing.Point(4, 22);
 			this.tbpMultiSetup.Name = "tbpMultiSetup";
 			this.tbpMultiSetup.Padding = new System.Windows.Forms.Padding(3);
-			this.tbpMultiSetup.Size = new System.Drawing.Size(749, 309);
+			this.tbpMultiSetup.Size = new System.Drawing.Size(865, 309);
 			this.tbpMultiSetup.TabIndex = 0;
 			this.tbpMultiSetup.Text = "Module Setup";
 			this.tbpMultiSetup.UseVisualStyleBackColor = true;
@@ -128,7 +129,7 @@
 			this.tableLayoutPanel4.RowCount = 2;
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-			this.tableLayoutPanel4.Size = new System.Drawing.Size(743, 303);
+			this.tableLayoutPanel4.Size = new System.Drawing.Size(859, 303);
 			this.tableLayoutPanel4.TabIndex = 1;
 			// 
 			// dataGridView1
@@ -144,26 +145,28 @@
 			this.dataGridView1.Location = new System.Drawing.Point(3, 3);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.RowHeadersVisible = false;
+			this.dataGridView1.RowHeadersWidth = 72;
 			this.dataGridView1.RowTemplate.Height = 23;
 			this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.dataGridView1.Size = new System.Drawing.Size(737, 257);
+			this.dataGridView1.Size = new System.Drawing.Size(853, 257);
 			this.dataGridView1.TabIndex = 3;
 			// 
 			// tableLayoutPanel3
 			// 
-			this.tableLayoutPanel3.ColumnCount = 12;
+			this.tableLayoutPanel3.ColumnCount = 13;
 			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 55F));
 			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 35F));
 			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 73F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 33F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 44F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 67F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
-			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 136F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 99F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 74F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
+			this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
 			this.tableLayoutPanel3.Controls.Add(this.btDefaultAll, 11, 0);
 			this.tableLayoutPanel3.Controls.Add(this.label3, 4, 0);
 			this.tableLayoutPanel3.Controls.Add(this.label4, 6, 0);
@@ -176,12 +179,13 @@
 			this.tableLayoutPanel3.Controls.Add(this.lbenabl, 0, 0);
 			this.tableLayoutPanel3.Controls.Add(this.cbEnableFlag, 1, 0);
 			this.tableLayoutPanel3.Controls.Add(this.btDefault, 10, 0);
+			this.tableLayoutPanel3.Controls.Add(this.btNew, 12, 0);
 			this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 266);
 			this.tableLayoutPanel3.Name = "tableLayoutPanel3";
 			this.tableLayoutPanel3.RowCount = 1;
 			this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel3.Size = new System.Drawing.Size(737, 34);
+			this.tableLayoutPanel3.Size = new System.Drawing.Size(853, 34);
 			this.tableLayoutPanel3.TabIndex = 2;
 			// 
 			// btDefaultAll
@@ -192,11 +196,11 @@
 			this.btDefaultAll.DrawShadows = true;
 			this.btDefaultAll.HighEmphasis = true;
 			this.btDefaultAll.Icon = null;
-			this.btDefaultAll.Location = new System.Drawing.Point(609, 6);
+			this.btDefaultAll.Location = new System.Drawing.Point(687, 6);
 			this.btDefaultAll.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btDefaultAll.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btDefaultAll.Name = "btDefaultAll";
-			this.btDefaultAll.Size = new System.Drawing.Size(127, 21);
+			this.btDefaultAll.Size = new System.Drawing.Size(81, 21);
 			this.btDefaultAll.TabIndex = 0;
 			this.btDefaultAll.Text = "Set All";
 			this.btDefaultAll.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
@@ -211,10 +215,10 @@
 			this.label3.Depth = 0;
 			this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label3.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label3.Location = new System.Drawing.Point(193, 0);
+			this.label3.Location = new System.Drawing.Point(207, 0);
 			this.label3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(27, 34);
+			this.label3.Size = new System.Drawing.Size(31, 34);
 			this.label3.TabIndex = 0;
 			this.label3.Text = "b:";
 			this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -225,10 +229,10 @@
 			this.label4.Depth = 0;
 			this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label4.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label4.Location = new System.Drawing.Point(305, 0);
+			this.label4.Location = new System.Drawing.Point(343, 0);
 			this.label4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(38, 34);
+			this.label4.Size = new System.Drawing.Size(20, 34);
 			this.label4.TabIndex = 0;
 			this.label4.Text = "c:";
 			this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -253,10 +257,10 @@
 			this.label5.Depth = 0;
 			this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label5.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label5.Location = new System.Drawing.Point(416, 0);
+			this.label5.Location = new System.Drawing.Point(467, 0);
 			this.label5.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(34, 34);
+			this.label5.Size = new System.Drawing.Size(36, 34);
 			this.label5.TabIndex = 0;
 			this.label5.Text = "Tm:";
 			this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -271,7 +275,7 @@
 			this.tbDefault_a.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbDefault_a.Multiline = false;
 			this.tbDefault_a.Name = "tbDefault_a";
-			this.tbDefault_a.Size = new System.Drawing.Size(67, 36);
+			this.tbDefault_a.Size = new System.Drawing.Size(81, 36);
 			this.tbDefault_a.TabIndex = 1;
 			this.tbDefault_a.Text = "";
 			this.tbDefault_a.UseTallSize = false;
@@ -281,12 +285,12 @@
 			this.tbDefault_b.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbDefault_b.Depth = 0;
 			this.tbDefault_b.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbDefault_b.Location = new System.Drawing.Point(226, 3);
+			this.tbDefault_b.Location = new System.Drawing.Point(244, 3);
 			this.tbDefault_b.MaxLength = 50;
 			this.tbDefault_b.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbDefault_b.Multiline = false;
 			this.tbDefault_b.Name = "tbDefault_b";
-			this.tbDefault_b.Size = new System.Drawing.Size(73, 36);
+			this.tbDefault_b.Size = new System.Drawing.Size(93, 36);
 			this.tbDefault_b.TabIndex = 1;
 			this.tbDefault_b.Text = "";
 			this.tbDefault_b.UseTallSize = false;
@@ -296,12 +300,12 @@
 			this.tbDefault_c.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbDefault_c.Depth = 0;
 			this.tbDefault_c.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbDefault_c.Location = new System.Drawing.Point(349, 3);
+			this.tbDefault_c.Location = new System.Drawing.Point(369, 3);
 			this.tbDefault_c.MaxLength = 50;
 			this.tbDefault_c.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbDefault_c.Multiline = false;
 			this.tbDefault_c.Name = "tbDefault_c";
-			this.tbDefault_c.Size = new System.Drawing.Size(61, 36);
+			this.tbDefault_c.Size = new System.Drawing.Size(92, 36);
 			this.tbDefault_c.TabIndex = 1;
 			this.tbDefault_c.Text = "";
 			this.tbDefault_c.UseTallSize = false;
@@ -311,12 +315,12 @@
 			this.tbDefault_Tm.BorderStyle = System.Windows.Forms.BorderStyle.None;
 			this.tbDefault_Tm.Depth = 0;
 			this.tbDefault_Tm.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbDefault_Tm.Location = new System.Drawing.Point(456, 3);
+			this.tbDefault_Tm.Location = new System.Drawing.Point(509, 3);
 			this.tbDefault_Tm.MaxLength = 50;
 			this.tbDefault_Tm.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbDefault_Tm.Multiline = false;
 			this.tbDefault_Tm.Name = "tbDefault_Tm";
-			this.tbDefault_Tm.Size = new System.Drawing.Size(74, 36);
+			this.tbDefault_Tm.Size = new System.Drawing.Size(97, 36);
 			this.tbDefault_Tm.TabIndex = 1;
 			this.tbDefault_Tm.Text = "";
 			this.tbDefault_Tm.UseTallSize = false;
@@ -359,7 +363,7 @@
 			this.btDefault.DrawShadows = true;
 			this.btDefault.HighEmphasis = true;
 			this.btDefault.Icon = null;
-			this.btDefault.Location = new System.Drawing.Point(541, 6);
+			this.btDefault.Location = new System.Drawing.Point(613, 6);
 			this.btDefault.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btDefault.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btDefault.Name = "btDefault";
@@ -372,6 +376,27 @@
 			this.btDefault.UseVisualStyleBackColor = true;
 			this.btDefault.Click += new System.EventHandler(this.btDefault_Click);
 			// 
+			// btNew
+			// 
+			this.btNew.AutoSize = false;
+			this.btNew.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.btNew.Depth = 0;
+			this.btNew.DrawShadows = true;
+			this.btNew.HighEmphasis = true;
+			this.btNew.Icon = null;
+			this.btNew.Location = new System.Drawing.Point(779, 6);
+			this.btNew.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.btNew.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
+			this.btNew.Name = "btNew";
+			this.btNew.Size = new System.Drawing.Size(64, 21);
+			this.btNew.TabIndex = 4;
+			this.btNew.Text = "New";
+			this.btNew.TextState = ReaLTaiizor.Controls.MaterialButton.TextStateType.Normal;
+			this.btNew.Type = ReaLTaiizor.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.btNew.UseAccentColor = false;
+			this.btNew.UseVisualStyleBackColor = true;
+			this.btNew.Click += new System.EventHandler(this.btNew_Click);
+			// 
 			// tbpGraphSetup
 			// 
 			this.tbpGraphSetup.Controls.Add(this.tableLayoutPanel5);
@@ -379,7 +404,7 @@
 			this.tbpGraphSetup.Location = new System.Drawing.Point(4, 22);
 			this.tbpGraphSetup.Name = "tbpGraphSetup";
 			this.tbpGraphSetup.Padding = new System.Windows.Forms.Padding(3);
-			this.tbpGraphSetup.Size = new System.Drawing.Size(749, 309);
+			this.tbpGraphSetup.Size = new System.Drawing.Size(785, 309);
 			this.tbpGraphSetup.TabIndex = 1;
 			this.tbpGraphSetup.Text = "Graph Setup";
 			this.tbpGraphSetup.UseVisualStyleBackColor = true;
@@ -395,7 +420,7 @@
 			this.tableLayoutPanel5.RowCount = 2;
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 96F));
-			this.tableLayoutPanel5.Size = new System.Drawing.Size(743, 303);
+			this.tableLayoutPanel5.Size = new System.Drawing.Size(779, 303);
 			this.tableLayoutPanel5.TabIndex = 2;
 			// 
 			// tableLayoutPanel6
@@ -407,7 +432,7 @@
 			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.06044F));
 			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.06044F));
 			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 169F));
+			this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178F));
 			this.tableLayoutPanel6.Controls.Add(this.label1, 0, 0);
 			this.tableLayoutPanel6.Controls.Add(this.label8, 1, 0);
 			this.tableLayoutPanel6.Controls.Add(this.label9, 2, 0);
@@ -444,7 +469,7 @@
 			this.label1.Location = new System.Drawing.Point(3, 0);
 			this.label1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(93, 24);
+			this.label1.Size = new System.Drawing.Size(92, 24);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Enable";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -455,10 +480,10 @@
 			this.label8.Depth = 0;
 			this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label8.Location = new System.Drawing.Point(102, 0);
+			this.label8.Location = new System.Drawing.Point(101, 0);
 			this.label8.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(92, 24);
+			this.label8.Size = new System.Drawing.Size(90, 24);
 			this.label8.TabIndex = 0;
 			this.label8.Text = "SF Min.";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -469,10 +494,10 @@
 			this.label9.Depth = 0;
 			this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label9.Location = new System.Drawing.Point(200, 0);
+			this.label9.Location = new System.Drawing.Point(197, 0);
 			this.label9.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(93, 24);
+			this.label9.Size = new System.Drawing.Size(92, 24);
 			this.label9.TabIndex = 0;
 			this.label9.Text = "SF Max.";
 			this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -483,10 +508,10 @@
 			this.label10.Depth = 0;
 			this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label10.Location = new System.Drawing.Point(299, 0);
+			this.label10.Location = new System.Drawing.Point(295, 0);
 			this.label10.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(93, 24);
+			this.label10.Size = new System.Drawing.Size(92, 24);
 			this.label10.TabIndex = 0;
 			this.label10.Text = "RTemp Min.";
 			this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -497,10 +522,10 @@
 			this.label11.Depth = 0;
 			this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label11.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label11.Location = new System.Drawing.Point(398, 0);
+			this.label11.Location = new System.Drawing.Point(393, 0);
 			this.label11.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(93, 24);
+			this.label11.Size = new System.Drawing.Size(92, 24);
 			this.label11.TabIndex = 0;
 			this.label11.Text = "RTemp Max.";
 			this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -517,7 +542,7 @@
 			this.cbGraphEnable.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbGraphEnable.Name = "cbGraphEnable";
 			this.cbGraphEnable.Ripple = true;
-			this.cbGraphEnable.Size = new System.Drawing.Size(99, 31);
+			this.cbGraphEnable.Size = new System.Drawing.Size(98, 31);
 			this.cbGraphEnable.TabIndex = 3;
 			this.cbGraphEnable.UseVisualStyleBackColor = true;
 			// 
@@ -527,7 +552,7 @@
 			this.label13.Depth = 0;
 			this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.label13.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.label13.Location = new System.Drawing.Point(497, 0);
+			this.label13.Location = new System.Drawing.Point(491, 0);
 			this.label13.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(64, 24);
@@ -540,12 +565,12 @@
 			this.tbSFMin.Depth = 0;
 			this.tbSFMin.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tbSFMin.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbSFMin.Location = new System.Drawing.Point(102, 27);
+			this.tbSFMin.Location = new System.Drawing.Point(101, 27);
 			this.tbSFMin.MaxLength = 50;
 			this.tbSFMin.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbSFMin.Multiline = false;
 			this.tbSFMin.Name = "tbSFMin";
-			this.tbSFMin.Size = new System.Drawing.Size(92, 36);
+			this.tbSFMin.Size = new System.Drawing.Size(90, 36);
 			this.tbSFMin.TabIndex = 4;
 			this.tbSFMin.Text = "";
 			this.tbSFMin.UseTallSize = false;
@@ -556,12 +581,12 @@
 			this.tbSFMax.Depth = 0;
 			this.tbSFMax.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tbSFMax.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbSFMax.Location = new System.Drawing.Point(200, 27);
+			this.tbSFMax.Location = new System.Drawing.Point(197, 27);
 			this.tbSFMax.MaxLength = 50;
 			this.tbSFMax.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbSFMax.Multiline = false;
 			this.tbSFMax.Name = "tbSFMax";
-			this.tbSFMax.Size = new System.Drawing.Size(93, 36);
+			this.tbSFMax.Size = new System.Drawing.Size(92, 36);
 			this.tbSFMax.TabIndex = 4;
 			this.tbSFMax.Text = "";
 			this.tbSFMax.UseTallSize = false;
@@ -572,12 +597,12 @@
 			this.tbRTempMin.Depth = 0;
 			this.tbRTempMin.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tbRTempMin.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbRTempMin.Location = new System.Drawing.Point(299, 27);
+			this.tbRTempMin.Location = new System.Drawing.Point(295, 27);
 			this.tbRTempMin.MaxLength = 50;
 			this.tbRTempMin.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbRTempMin.Multiline = false;
 			this.tbRTempMin.Name = "tbRTempMin";
-			this.tbRTempMin.Size = new System.Drawing.Size(93, 36);
+			this.tbRTempMin.Size = new System.Drawing.Size(92, 36);
 			this.tbRTempMin.TabIndex = 4;
 			this.tbRTempMin.Text = "";
 			this.tbRTempMin.UseTallSize = false;
@@ -588,12 +613,12 @@
 			this.tbRTempMax.Depth = 0;
 			this.tbRTempMax.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tbRTempMax.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-			this.tbRTempMax.Location = new System.Drawing.Point(398, 27);
+			this.tbRTempMax.Location = new System.Drawing.Point(393, 27);
 			this.tbRTempMax.MaxLength = 50;
 			this.tbRTempMax.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
 			this.tbRTempMax.Multiline = false;
 			this.tbRTempMax.Name = "tbRTempMax";
-			this.tbRTempMax.Size = new System.Drawing.Size(93, 36);
+			this.tbRTempMax.Size = new System.Drawing.Size(92, 36);
 			this.tbRTempMax.TabIndex = 4;
 			this.tbRTempMax.Text = "";
 			this.tbRTempMax.UseTallSize = false;
@@ -604,13 +629,13 @@
 			this.cbEnableSFMin.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableSFMin.Depth = 0;
 			this.cbEnableSFMin.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableSFMin.Location = new System.Drawing.Point(99, 55);
+			this.cbEnableSFMin.Location = new System.Drawing.Point(98, 55);
 			this.cbEnableSFMin.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableSFMin.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableSFMin.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableSFMin.Name = "cbEnableSFMin";
 			this.cbEnableSFMin.Ripple = true;
-			this.cbEnableSFMin.Size = new System.Drawing.Size(98, 35);
+			this.cbEnableSFMin.Size = new System.Drawing.Size(96, 35);
 			this.cbEnableSFMin.TabIndex = 5;
 			this.cbEnableSFMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableSFMin.UseVisualStyleBackColor = true;
@@ -621,13 +646,13 @@
 			this.cbEnableSFMax.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableSFMax.Depth = 0;
 			this.cbEnableSFMax.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableSFMax.Location = new System.Drawing.Point(197, 55);
+			this.cbEnableSFMax.Location = new System.Drawing.Point(194, 55);
 			this.cbEnableSFMax.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableSFMax.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableSFMax.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableSFMax.Name = "cbEnableSFMax";
 			this.cbEnableSFMax.Ripple = true;
-			this.cbEnableSFMax.Size = new System.Drawing.Size(99, 35);
+			this.cbEnableSFMax.Size = new System.Drawing.Size(98, 35);
 			this.cbEnableSFMax.TabIndex = 5;
 			this.cbEnableSFMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableSFMax.UseVisualStyleBackColor = true;
@@ -638,13 +663,13 @@
 			this.cbEnableRTempMin.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableRTempMin.Depth = 0;
 			this.cbEnableRTempMin.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableRTempMin.Location = new System.Drawing.Point(296, 55);
+			this.cbEnableRTempMin.Location = new System.Drawing.Point(292, 55);
 			this.cbEnableRTempMin.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableRTempMin.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableRTempMin.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableRTempMin.Name = "cbEnableRTempMin";
 			this.cbEnableRTempMin.Ripple = true;
-			this.cbEnableRTempMin.Size = new System.Drawing.Size(99, 35);
+			this.cbEnableRTempMin.Size = new System.Drawing.Size(98, 35);
 			this.cbEnableRTempMin.TabIndex = 5;
 			this.cbEnableRTempMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableRTempMin.UseVisualStyleBackColor = true;
@@ -655,13 +680,13 @@
 			this.cbEnableRTempMax.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableRTempMax.Depth = 0;
 			this.cbEnableRTempMax.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.cbEnableRTempMax.Location = new System.Drawing.Point(395, 55);
+			this.cbEnableRTempMax.Location = new System.Drawing.Point(390, 55);
 			this.cbEnableRTempMax.Margin = new System.Windows.Forms.Padding(0);
 			this.cbEnableRTempMax.MouseLocation = new System.Drawing.Point(-1, -1);
 			this.cbEnableRTempMax.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.cbEnableRTempMax.Name = "cbEnableRTempMax";
 			this.cbEnableRTempMax.Ripple = true;
-			this.cbEnableRTempMax.Size = new System.Drawing.Size(99, 35);
+			this.cbEnableRTempMax.Size = new System.Drawing.Size(98, 35);
 			this.cbEnableRTempMax.TabIndex = 5;
 			this.cbEnableRTempMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.cbEnableRTempMax.UseVisualStyleBackColor = true;
@@ -674,7 +699,7 @@
 			this.btSetGraph.DrawShadows = true;
 			this.btSetGraph.HighEmphasis = true;
 			this.btSetGraph.Icon = null;
-			this.btSetGraph.Location = new System.Drawing.Point(498, 30);
+			this.btSetGraph.Location = new System.Drawing.Point(492, 30);
 			this.btSetGraph.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btSetGraph.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSetGraph.Name = "btSetGraph";
@@ -695,7 +720,7 @@
 			this.btSetGraphAll.DrawShadows = true;
 			this.btSetGraphAll.HighEmphasis = true;
 			this.btSetGraphAll.Icon = null;
-			this.btSetGraphAll.Location = new System.Drawing.Point(568, 30);
+			this.btSetGraphAll.Location = new System.Drawing.Point(562, 30);
 			this.btSetGraphAll.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btSetGraphAll.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btSetGraphAll.Name = "btSetGraphAll";
@@ -717,7 +742,7 @@
 			this.btResetLocation.Font = new System.Drawing.Font("굴림", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
 			this.btResetLocation.HighEmphasis = true;
 			this.btResetLocation.Icon = null;
-			this.btResetLocation.Location = new System.Drawing.Point(568, 61);
+			this.btResetLocation.Location = new System.Drawing.Point(562, 61);
 			this.btResetLocation.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
 			this.btResetLocation.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.btResetLocation.Name = "btResetLocation";
@@ -743,9 +768,10 @@
 			this.dataGridView2.Location = new System.Drawing.Point(3, 3);
 			this.dataGridView2.Name = "dataGridView2";
 			this.dataGridView2.RowHeadersVisible = false;
+			this.dataGridView2.RowHeadersWidth = 72;
 			this.dataGridView2.RowTemplate.Height = 23;
 			this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-			this.dataGridView2.Size = new System.Drawing.Size(743, 303);
+			this.dataGridView2.Size = new System.Drawing.Size(779, 303);
 			this.dataGridView2.TabIndex = 1;
 			// 
 			// tableLayoutPanel1
@@ -761,7 +787,7 @@
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(763, 399);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(879, 399);
 			this.tableLayoutPanel1.TabIndex = 1;
 			// 
 			// tableLayoutPanel2
@@ -780,7 +806,7 @@
 			this.tableLayoutPanel2.Name = "tableLayoutPanel2";
 			this.tableLayoutPanel2.RowCount = 1;
 			this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel2.Size = new System.Drawing.Size(757, 52);
+			this.tableLayoutPanel2.Size = new System.Drawing.Size(873, 52);
 			this.tableLayoutPanel2.TabIndex = 1;
 			// 
 			// cbLockSetup
@@ -881,7 +907,7 @@
 			this.lbResultText.Location = new System.Drawing.Point(376, 0);
 			this.lbResultText.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.HOVER;
 			this.lbResultText.Name = "lbResultText";
-			this.lbResultText.Size = new System.Drawing.Size(208, 52);
+			this.lbResultText.Size = new System.Drawing.Size(324, 52);
 			this.lbResultText.TabIndex = 2;
 			this.lbResultText.Text = "Ready";
 			this.lbResultText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -892,7 +918,7 @@
 			this.flowLayoutPanel2.Controls.Add(this.btConfirm);
 			this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-			this.flowLayoutPanel2.Location = new System.Drawing.Point(590, 3);
+			this.flowLayoutPanel2.Location = new System.Drawing.Point(706, 3);
 			this.flowLayoutPanel2.Name = "flowLayoutPanel2";
 			this.flowLayoutPanel2.Size = new System.Drawing.Size(164, 46);
 			this.flowLayoutPanel2.TabIndex = 2;
@@ -942,7 +968,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(769, 466);
+			this.ClientSize = new System.Drawing.Size(885, 466);
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "frmSetupMulti";
@@ -1023,5 +1049,6 @@
 		private ReaLTaiizor.Controls.MaterialButton btSetGraph;
 		private ReaLTaiizor.Controls.MaterialButton btSetGraphAll;
 		private ReaLTaiizor.Controls.MaterialButton btResetLocation;
+		private ReaLTaiizor.Controls.MaterialButton btNew;
 	}
 }
